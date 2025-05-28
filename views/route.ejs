@@ -1,0 +1,230 @@
+<% layout("/layouts/boilerplate.ejs")%>
+<style>
+     #options{
+        position: absolute;
+        top: 1rem;
+        right: 1rem;
+        z-index: 2;
+    }
+    .optionsDiv{
+        background-color: white;
+        width: 0.2rem;
+        height: 0.2rem;
+        border-radius: 50%;
+        margin-bottom: 0.2rem;
+    }
+    .image-div{
+        background-color: #D9EAFD;
+    }
+    #add-to-cart-btn,#add-to-wishlist-btn{
+        background-color: #9AA6B2;
+        border-radius: 0.5rem;
+        margin-right: 1rem;
+        padding: 10px;
+    }
+    #add-to-wishlist-btn:hover{
+        background-color: white;
+    }
+    #add-to-cart-btn:hover{
+        background-color: white;
+    }
+    #button-div{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .fa-solid{
+        color: #2d2d2d;
+        font-size: 1.5rem;
+    }
+    .fa-heart:active{
+        color: red;
+    }
+    .card{
+        box-shadow: 0px 2px 1.5px 0px #9AA6B2;
+        border-radius: 1rem; 
+        background-color: #F8FAFC; 
+    }
+    .card:hover{
+        border: 1px solid #9AA6B2;
+    }
+    #imageelement{
+        width: 200px;
+        height: 200px;
+    }
+    #flexDiv{
+        display: flex;
+        overflow-x: auto;
+        scroll-behavior: smooth;
+    }
+    .anchorTags{
+        color: black;
+        text-decoration: none;
+    }
+    .productCards{
+        margin-right: 0.5rem;
+        
+    }
+    
+</style>
+<body>
+    <% let mrp = details.price;
+        let discount = details.discount;
+        let discountprice = mrp*discount/100;
+        let price = mrp - discountprice;
+        let roundprice = price.toFixed(2);
+    %>
+    <div class="card mb-3" style="max-width: 100%;">
+        <div class="row g-0">
+          <div class="col-md-4 image-div">
+            <img src="<%=details.image%>" class="img-fluid rounded-start" alt="Loading Image">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+                <p class="card-text"><%=details.brand%></p>
+              <h5 class="card-title"><%=details.title%></h5>
+              <p class="card-text"><%=details.description%></p>
+              <p class="card-text"><b>₹<%=roundprice%></b>&nbsp;M.R.P :<S><%= details.price%></S>&nbsp;(<%= details.discount%>% off)</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              <div id="button-div">
+                <form action="/<%=details.category%>/cart/<%=details._id%>?_method=POST" method="post">
+                    <button id="add-to-cart-btn"><i class="fa-solid fa-cart-shopping"></i> Add to Cart</button>
+              </form>
+              <form action="/<%=details.category%>/wishlist/<%=details.id%>?_method=POST" method="post">
+                <button id="add-to-wishlist-btn"><i class="fa-solid fa-heart"></i> Add to WishList</button>
+              </form>
+              
+              </div>
+              <hr>
+              <div>
+                <h4>Product Details:</h4>
+                <%for(let key in details.productDetails){%>
+                    <li><strong><%=key%>:</strong><%if(Array.isArray(details.productDetails)){%>
+                        <%=details.productDetails[key].join(",")%>
+                    <%}else{%>
+                        <%=details.productDetails[key]%>
+                    <%}%></li>
+                <%}%>
+            </div>
+            </div>
+          </div>
+        </div>
+        <div>
+            <h4>Additional information:</h4>
+            <p><%=details.additionalInformation%></p>
+        </div>
+        <hr>
+        <div>
+            <h4>About this product:</h4>
+            <p><%=details.aboutThisItem%></p>
+        </div>
+        
+        
+    </div>
+      <hr>
+      <div>
+        <h4>Related Products</h4>
+        
+            <div id="flexDiv">
+                <%for(let data of relatedProducts){%>
+                    <%if(details._id != data._id){%>
+                        <a href="/<%=data.category%>/<%=data._id%>" class="anchorTags"><div class="card productCards" id="card" style="width: 18rem;">
+                            <img src="<%= data.image%>" class="card-img-top" id="imageelement" alt="loading Image...">
+                            <div class="card-body">
+                                <b><p class="card-text"><%= data.brand%></p></b>
+                                <p class="card-text"><%= data.title%></p>
+                                <% let mrp = data.price;
+                                let discount = data.discount;
+                                let discountprice = mrp*discount/100;
+                                let price = mrp - discountprice;
+                                let roundprice = price.toFixed(2);
+                                %>
+                                <p class="card-text"><b>₹<%=roundprice%></b>&nbsp;M.R.P :<S><%= data.price%></S>&nbsp;(<%= data.discount%>% off)</p>
+                            </div>
+                          </div></a>
+                    <%}%>
+                <% }%>
+            </div> 
+      </div>
+      <div>
+        <%if(currUser){%>
+            <h3>Leave a comment</h3>
+            <form action="/<%=details.category%>/<%= details._id %>/review" method="post" class="needs-validation" novalidate>
+                <div class="mb-3 mt-3">
+                <!-- <div>
+                    <label>Rating</label>
+                    <input type="range" min="1" max="5" class="form-range form-label" name="rating">
+                </div> -->
+                <div>
+                    <h4>Rating</h4>
+                    
+                    <fieldset class="starability-coinFlip">
+                        <input type="radio" id="no-rate" class="input-no-rate" name="rating" value="0" checked aria-label="No rating." />
+                        <input type="radio" id="first-rate1" name="rating" value="1" />
+                        <label for="first-rate1" title="Terrible">1 star</label>
+                        <input type="radio" id="first-rate2" name="rating" value="2" />
+                        <label for="first-rate2" title="Not good">2 stars</label>
+                        <input type="radio" id="first-rate3" name="rating" value="3" />
+                        <label for="first-rate3" title="Average">3 stars</label>
+                        <input type="radio" id="first-rate4" name="rating" value="4" />
+                        <label for="first-rate4" title="Very good">4 stars</label>
+                        <input type="radio" id="first-rate5" name="rating" value="5" />
+                        <label for="first-rate5" title="Amazing">5 stars</label>
+                    </fieldset>
+                </div>
+                <div>
+                    <label>Comments</label><br>
+                    <textarea name="comment" rows="3" cols="100" required class="form-control" value="Mark"></textarea>
+                    <div class="invalid-feedback">Please enter the comments</div><br/>
+                </div>
+            </div>
+            <div>
+                <button  class="btn btn-dark">submit</button>
+            </div>
+
+        </form>
+        <%}%>
+      </div>
+      <div>
+            <h3>All reviews</h3>
+            <% if(details.review==0){%>
+                <p>No reviews yet.</p>
+            <%}%>
+            <%for(let review of details.review){%>
+                <div class="card text-white bg-dark col-5 mb-1 d-inline-block">
+                    <div class="card-body" id="card-body">
+                        <P>@<%=review.user.username%></P>
+                        <h5 class="card-title"><% for(let num = 1;num<=review.rating;num++){%>
+                            
+                            <span class="ratingStar">★</span>
+                        <% } %>
+                        </h5>
+                        <p class="card-text"><%= review.comment %></p>
+                        <!-- <form action="/<%=details.category%>/<%=details._id%>/review/<%=review._id%>?_method=DELETE" method="post">
+                            <button>Delete</button>
+                        </form> -->
+                        <% if(currUser && currUser._id.equals(review.user._id)){%>
+                            
+                            <div class="btn-group" id="options">
+                                <button class="btn btn-secondary btn-lg dropdown-toggle" id="options-btn" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <div >
+                                        <div class="optionsDiv"></div>
+                                        <div class="optionsDiv"></div>
+                                        <div class="optionsDiv"></div>
+            
+                                    </div>
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <form action="/<%=details.category%>/<%= details._id %>/review/:<%= review.id %>?_method=DELETE" method="post" class="mb-1">
+                                        <li><a class="dropdown-item"><button>delete</button></a></li>
+                                    </form>
+                                </ul>
+                              </div>
+                            <!-- <button class="btn btn-light">Delete</button> -->
+                        
+                        <% }%>
+                    </div>
+                </div>
+            <%}%>
+      </div>
+      
+</body>

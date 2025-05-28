@@ -1,0 +1,194 @@
+<% layout("/layouts/boilerplate.ejs")%>
+<style>
+    body{
+        background: white;
+    }
+    
+    .card{
+        box-shadow: 0px 2px 1.5px 0px #9AA6B2;
+        border-radius: 1rem; 
+        background-color: #F8FAFC; 
+    }
+    .card:hover{
+        border: 1px solid #9AA6B2;
+    }
+    
+    #mainDiv{
+        display: flex;
+        flex-direction: row;
+        margin-top: 0.2rem;
+    }
+    #card #whishlistbutton{
+        position: absolute;
+        background-color: #3d4a5e;
+        top: 0.5rem;
+        right: 0.5rem;
+        border-radius: 50%;
+        border: solid black;
+        color: white;
+    }
+    #imageelement{
+        width: 300px;
+        height: 300px;
+        object-fit: contain;
+    }
+    #imageelement:hover{
+        filter: drop-shadow(0.5rem 0.5rem 2rem #d9eafd31);
+    }
+    #sideDiv{
+        width: 300px;
+        height: 100%;
+        background-color: #D9EAFD;
+        margin-right: 0.2rem;
+    }
+    .anchorTags{
+        color: black;
+        text-decoration: none;
+    }
+    #GridDiv{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        row-gap: 1rem;
+        column-gap: 1rem;
+    }
+    #AtC-btn,#Af-btn{
+        background-color: #9AA6B2;
+        border-radius: 0.5rem;
+    }
+    #hearticon{
+        font-size: 1rem;
+    }
+    #carticon{
+        font-size: 1rem;
+    }
+
+    @media screen and (max-width: 1200px ){
+        #GridDiv{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+    }
+    @media screen and (max-width: 768px){
+        #GridDiv{
+            display: grid;
+            grid-template-columns: 1fr;
+        }
+    }
+
+    
+</style>
+
+<body>
+    <%if(!listing){%>
+        <p>No Items.</p>
+    <%}%>
+    <%
+        let lowprice = side[0].price;
+        let highprice = side[0].price;
+        let category = side[0].category;
+        // console.log(lowprice," .. ",highprice);
+        %>
+    
+    <div id="mainDiv">
+        
+        <div id="sideDiv">
+            <h4>Filters</h4>
+            <form action="/monitors/filters">
+                <label>Price:</label><br>
+                <p><span id="lowprice2"></span><b> - </b><span id="highprice2"></span></p>
+                <span id="lowprice"></span><input id="pricerange" name="price" type="range" step="5" oninput="changing(this.value)" onchange="change(this.value)"><span id="highprice"></span>
+                <hr>
+                <P>Brands:</P>
+                <% 
+                    let brands = []; 
+                    for(let data of side) { 
+                        let mrp = data.price;
+                        let discount = data.discount;
+                        let discountprice = mrp*discount/100;
+                        let price = mrp - discountprice;
+                        let roundprice = price.toFixed(2);
+                        if(lowprice>data.price)lowprice=price;
+                        if(highprice<data.price)highprice=price;
+                        if (!brands.includes(data.brand)){
+                            brands.push(data.brand);
+                        }
+                    }
+                %>
+
+                <% for(let brand of brands) { %>
+                    
+                    <input type="checkbox" id="filte_brand" name="brand" value="<%=brand%>">
+                    <label for="filte_brand"><%= brand %></label><br>
+                <% } %>
+                <hr>
+                <p>Discount:</p>
+                <a class="anchorTags" href="/<%=category%>/filters?discount=5">5% Off & more</a><br>
+                <a class="anchorTags" href="/<%=category%>/filters?discount=10">10% Off & more</a><br>
+                <a class="anchorTags" href="/<%=category%>/filters?discount=20">20% Off & more</a><br>
+                <a class="anchorTags" href="/<%=category%>/filters?discount=25">25% Off & more</a><br>
+                <a class="anchorTags" href="/<%=category%>/filters?discount=50">50% Off & more</a><br><br>
+                <button id="Af-btn">Apply filters</button>
+            </form>
+            
+        </div>
+        
+            <div id="GridDiv">
+                <%for(let data of listing){%>
+
+                    <a href="/<%=category%>/<%=data._id%>" class="anchorTags"><div class="card" id="card" style="width: 18rem;">
+                        <form action="/<%=data.category%>/wishlist/<%=data.id%>?_method=post" method="post">
+                            <button id="whishlistbutton"><i id="hearticon" class="fa-solid fa-heart"></i></button>
+                        </form>
+                        <img src="<%= data.image%>" class="card-img-top" id="imageelement" alt="loading Image...">
+                        <div class="card-body">
+                            <b><p class="card-text"><%= data.brand%></p></b>
+                            <p class="card-text"><%= data.title%></p>
+                            <% let mrp = data.price;
+                            let discount = data.discount;
+                            let discountprice = mrp*discount/100;
+                            let price = mrp - discountprice;
+                            let roundprice = price.toFixed(2);
+                            %>
+                            <p class="card-text"><b>₹<%=roundprice%></b>&nbsp;M.R.P :<S><%= data.price%></S>&nbsp;(<%= data.discount%>% off)</p>
+                            
+                            <form action="/<%=data.category%>/cart/<%=data._id%>?_method=POST" method="post">
+                                <button id="AtC-btn"><i id="carticon" class="fa-solid fa-cart-shopping"></i>Add to cart</button>
+                            </form>
+                        </div>
+                      </div></a>
+            
+                <% }%>
+            </div>
+    </div>
+
+    <script>
+        let lowestprice = Number("<%= lowprice.toFixed(2) %>");
+        let highestprice =Number(" <%= highprice.toFixed(2) %>");
+        let pricerange = document.getElementById('pricerange');
+        document.getElementById('lowprice').textContent="₹"+lowestprice+"/-";
+        document.getElementById("highprice").textContent="₹"+highestprice+"/-";
+        document.getElementById("lowprice2").textContent="₹"+lowestprice+"/-";
+        let change_price = document.getElementById("highprice2");
+        change_price.textContent="₹"+highestprice+"/-";
+        pricerange.min=lowestprice;
+        pricerange.max=highestprice;
+        // pricerange.value=highestprice;
+        function change(value){
+            
+            window.location.href="/<%=category%>/filters?price="+value;
+        }
+        function changing(value){
+            change_price.textContent="₹"+value+"/-";
+        }
+        const urlParams = new URLSearchParams(window.location.search);
+        const saved_price = urlParams.get("price");
+        
+        console.log(saved_price);
+        if(saved_price){
+            change_price.textContent="₹"+saved_price+"/-";
+            pricerange.value = saved_price;
+            console.log(saved_price);
+        }
+    </script>
+</body>
+

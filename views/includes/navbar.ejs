@@ -1,0 +1,208 @@
+
+<style>
+  nav{
+    background-color: #BCCCDC !important;
+  }
+  .Userdropdown{
+    background: white;
+    color: black;
+    border: 2px solid black;
+    border-radius: 2rem;
+  }
+  .btn-group{
+    border: 1px solid black;
+    border-radius: 0.5rem;
+  }
+  .nav-link{
+    color: black;
+  }
+  .fa-solid{
+    font-size: 1.5rem;
+}
+
+#suggestions {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    display: none; /* Initially hidden */
+    z-index: 1000; /* Ensures it stays above other elements */
+}
+
+.suggestion-item {
+    padding: 10px;
+    cursor: pointer;
+    border-bottom: 1px solid #eee;
+}
+
+.suggestion-item:hover {
+    background-color: #f5f5f5;
+}
+#searchInput{
+  transition: all 0.4s;
+}
+.searchToggle{
+  display: block;
+}
+@media screen and (max-width: 768px){
+  #navbarSupportedContent{
+    position: absolute;
+    background-color: white;
+    top: 100px;
+    left: 1rem;
+    width: 300px;
+    z-index: 100;
+    border: 2px solid black;
+    border-radius: 1rem;
+    padding: 2px;
+  }
+  #searchDiv{
+    display: none;
+    position: absolute;
+    width: 100%;
+    background-color: #BCCCDC;
+    top: 120px;
+    left: 0;
+  }
+}
+</style>
+<nav class="navbar navbar-expand-lg navbar-light ">
+    <div class="container-fluid" >
+      <a class="navbar-brand" href="/E-commerce/homepage/allcategories/monitors/keyboards/controllers/mouse/graphiccards"><i class="fa-solid fa-cart-shopping ms-auto"></i><span style="-webkit-text-stroke-color: #050505; -webkit-text-stroke: 2px; -webkit-text-fill-color: transparent; font-family: Merienda, cursive;">E</span>-commerce</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="/E-commerce/homepage/allcategories/monitors/keyboards/controllers/mouse/graphiccards">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/E-commerce/homepage/allcategories/monitors/keyboards/controllers/mouse/graphiccards/about">About</a>
+          </li>
+        </ul>
+      </div>
+      <div class="d-flex justify-content-start">
+          <div class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="margin-left: 0px;">
+                category
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="/monitors">Monitor</a></li>
+                <li><a class="dropdown-item" href="/mouse">Mouse</a></li>
+                <li><a class="dropdown-item" href="/keyboards">Keyboard</a></li>
+                <li><a class="dropdown-item" href="/controllers">Controller</a></li>
+                <li><a class="dropdown-item" href="/graphics cards">Graphic Card</a></li>
+                <li><a class="dropdown-item" href="/headphones">headphones</a></li>
+                <li><hr class="dropdown-divider"></li>
+                
+              </ul>
+          </div>
+          
+          <!-- <li class="nav-item">
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+          </li> -->
+        
+        <form class="d-flex" id="searchform"   method="get">
+          <div id="searchDiv">
+            <input class="form-control me-2" id="searchInput" type="search" placeholder="search for brand, product and category" aria-label="Search" name="search">
+          </div>
+          <button class="btn btn-outline-success" id="searchButton" type="submit" style="margin: 2px;"><i class="fa-solid fa-magnifying-glass"></i></button>
+          <div id="suggestions" class="dropdown"></div>
+        </form>
+        <div class="btn-group" role="group">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="fa-solid fa-user"></i>
+            <%if(!currUser){%> 
+              Guest
+            <%}%>
+            <%if(currUser){%>
+              <%=currUser.username%>
+            <%}%>
+          </a>
+          <ul class="dropdown-menu dropdown-menu-lg-end" aria-labelledby="btnGroupDrop1" style="background-color: #BCCCDC;">
+            <% if(!currUser) { %>
+              <li><a class="nav-link dropdown-item" aria-current="page" href="/E-commerce/authentication/signup"><i class="fa-solid fa-user-plus"></i> signUp</a></li>
+              <li><a class="nav-link dropdown-item" href="/E-commerce/authentication/login"><b><i class="fa-solid fa-right-to-bracket"></i> </b> LogIn</a></li>
+            <% } %>
+            <% if(currUser) {%>
+              <li><a class="nav-link" href="/E-commerce/authentication/logout"><b><i class="fa-solid fa-right-from-bracket"></i> </b> Logout</a></li>
+              <li><a class="nav-link dropdown-item" href="/E-commerce/user/wishlist"><b><i class="fa-solid fa-heart"></i> </b> Wishlist</a></li>
+              <li><a class="nav-link dropdown-item" href="/E-commerce/user/Shoppingcart"><b><i class="fa-solid fa-cart-shopping"></i></b>  cart</a></li>
+              <li><a class="nav-link dropdown-item" href="/E-commerce/user/orders"><b><i class="fa-solid fa-truck-fast"></i> </b> orders</a></li>
+              <% } %>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <script>
+    let windowLength = window.innerWidth;
+  window.addEventListener("resize",()=>{
+    windowLength = window.innerWidth;
+  });
+    let searchform = document.getElementById('formsearch');
+document.getElementById("searchInput").addEventListener("input", async function () {
+    const query = this.value;
+    const suggestionBox = document.getElementById("suggestions");
+
+    if (query.length < 2) {
+        suggestionBox.style.display = "none"; // Hide dropdown if input is short
+        return;
+    }
+
+    const response = await fetch(`/E-commerce/homepage/allcategories/monitors/keyboards/controllers/mouse/graphiccards/autocomplete?q=${query}`);
+    let suggestions = await response.json();
+    suggestions = [...new Set(suggestions)];
+
+    // Prevent repeated updates before clearing existing ones
+
+
+
+    if (suggestions.length > 0) {
+        suggestionBox.innerHTML = suggestions.map(s => `<div class="suggestion-item">${s}</div>`).join("");
+        suggestionBox.style.display = "block"; // Show dropdown
+    } else {
+        suggestionBox.style.display = "none"; // Hide if no matches
+    }
+});
+
+// Handle suggestion selection
+document.getElementById("suggestions").addEventListener("click", function (event) {
+    if (event.target.classList.contains("suggestion-item")) {
+        document.getElementById("searchInput").value = event.target.textContent;
+        this.style.display = "none"; // Hide dropdown after selection
+    }
+});
+try{
+  document.getElementById('searchButton').addEventListener("click", () => {
+    let searchValue = document.getElementById('searchInput').value.trim(); // Removes extra spaces
+
+    if (searchValue) { // Ensures input isn't empty
+      document.getElementById("searchform").action = `/E-commerce/homepage/allcategories/monitors/keyboards/controllers/mouse/graphiccards/search?q=${encodeURIComponent(searchValue)}`;
+    }else if(searchValue.length == 0 && windowLength<=768){
+      event.preventDefault();
+      document.getElementById("searchform").action="none";
+      if(document.getElementById('searchDiv').style.display!="block"){
+        document.getElementById('searchDiv').style.display="block";
+      }else{
+        document.getElementById('searchDiv').style.display = "none";
+      }
+
+    }  
+    else {
+        alert(`please enter product name or category`); // Prevents blank search
+    }
+});
+}catch(err){
+  console.log(err);
+}
+document.getElementById("searchInput").addEventListener("click",()=>{
+  if(window.innerWidth>600){
+    document.getElementById("searchInput").style.width=500+"px";
+  }
+});
+
+</script>

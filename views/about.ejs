@@ -1,0 +1,102 @@
+<%layout("/layouts/boilerplate.ejs")%>
+<style>
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.fade-in.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+.counter-section {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: #3498db;
+}
+
+.counter {
+  font-size: 40px;
+  font-weight: bold;
+  animation: scaleUp 1s infinite alternate;
+}
+
+@keyframes scaleUp {
+  0% { transform: scale(1); }
+  100% { transform: scale(1.1); }
+}
+.heading{
+    color: #9AA6B2;
+}
+</style>
+<div>
+    <div class="fade-in">
+        <h3 class="heading">Our Mission</h3>
+        <p>At <b>E-commerce</b>, we are dedicated to providing high-quality <b>PC components</b> for gamers, creators, and professionals. Whether you're assembling a high-performance gaming rig or a workstation for demanding tasks, <b>we aim to deliver the best products at competitive prices</b>.
+        </p>
+    </div>
+<div class="fade-in">
+    <h3 class="heading">Our Story</h3>
+    <p>Born from a passion for <b>high-performance computing</b>, we started <b>E-commerce</b> to help enthusiasts and professionals access top-tier components without overpaying. We understand the <b>importance of powerful hardware</b>, so we handpick our inventory to ensure top performance, reliability, and value.
+    </p>
+</div>
+<div>
+    <h3 class="heading">What Makes Us Different ?</h3>
+    <ul></ul>
+    <li><i class="fa-solid fa-check"></i><b> Expert Picks & Recommendations - </b>We guide users to the right components for their needs.</li>
+    <li><i class="fa-solid fa-check"></i><b> Competitive Pricing - </b>We offer the best deals on GPUs, Monitors, Keyboards, headphones, and more.</li>
+    <li><i class="fa-solid fa-check"></i><b> Genuine & Tested Products - </b>Every item is sourced from trusted manufacturers and tested for quality.</li>
+    <li><i class="fa-solid fa-check"></i><b> Custom PC Build Assistance - </b> Need help choosing compatible parts? Our experts are here to assist!.</li>
+</div>
+<div>
+    <h3 class="heading">Customer Satisfaction & Support</h3>
+    <p>We believe in great service beyond sales. Our platform ensures:</p>
+    <li><b>Secure transactions</b> with trusted payment gateways.    </li>
+    <li><b>Fast shipping</b> across major locations. </li>
+    <li><b>Live support</b> to assist with queries and recommendations.  </li>
+</div>
+<div class="counter-section">
+    <h3 class="heading">Products Sold</h3>
+    <div id="counter" class="counter">0</div>
+  </div>
+<div>
+    <h3 class="heading">Contact Us</h3>
+    <p><i class="fa-solid fa-location-dot"></i><b> Location:</b> L.B.Nagar, Hyderabad, Telangana.</p>
+    <p><i class="fa-solid fa-phone"></i><b> Phone:</b> 8500886052.</p>
+    <p><i class="fa-solid fa-envelope"></i><b> Email:</b> vaddevignesh123@gmail.com</p>
+</div>
+</div>
+<script>
+    function animateCounter(id, start, end, duration) {
+  let obj = document.getElementById(id);
+  let range = end - start;
+  let current = start;
+  let increment = range / (duration / 50);
+
+  let timer = setInterval(() => {
+    current += increment;
+    obj.textContent = Math.floor(current);
+    if (current >= end) {
+      clearInterval(timer);
+      obj.textContent = end;
+    }
+  }, 50);
+}
+
+animateCounter("counter", 0, 5000, 3000); // Counts from 0 to 5000 in 3 seconds
+document.addEventListener("DOMContentLoaded", function () {
+  const elements = document.querySelectorAll(".fade-in");
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add("visible");
+      }
+    });
+  });
+
+  elements.forEach((el) => observer.observe(el));
+});
+</script>

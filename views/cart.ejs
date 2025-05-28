@@ -1,0 +1,126 @@
+<%layout("/layouts/boilerplate.ejs")%>
+<style>
+    #cartpage{
+        display: flex;
+        flex-direction: row;
+    }
+    #sub-btn,#add-btn{
+        cursor: pointer;
+    }
+    #quantityDiv{
+        border: 2px solid black;
+        border-radius: 1rem;
+        padding: 0.3rem;
+        padding-right: 0;
+        margin-right: 0;
+        width: 100px;
+        display: flex;
+        flex-direction: row;
+    }
+    .fa-trash{
+    font-size: 1rem;
+}
+#cartDiv{
+    width: 80%;
+    
+}
+#deletebtn,#proceed-btn{
+    background-color: #9AA6B2;
+    border-radius: 0.5rem;
+    margin: 1rem;
+    margin-left: 0;
+    padding: 5px;
+}
+</style>
+<%
+let subtotal = 0;
+%>
+<h1>Shopping Cart</h1>
+<hr>
+<%if(data==''){%>
+    <h5>No items in Cart</h5>
+<%}%>
+<div id="cartpage">
+<div id="cartDiv">
+<form id="mainform" >
+<%for(let cart of data){%>
+    <div class="card mb-3" style="max-width: 90%;margin-right: 0;border: 0.5px solid black;border-radius: 1.5rem;box-shadow: 0 0.5rem 0.5rem 0;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="<%=cart.image%>" class="img-fluid rounded-start" style="filter: drop-shadow(1px 1px 20px #9AA6B2);" alt="Loading image...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title"><%=cart.title%></h5>
+              <p class="card-text"><%=cart.description%></p>
+              <% let mrp = cart.price;
+                let discount = cart.discount;
+                let discountprice = mrp*discount/100;
+                let price = mrp - discountprice;
+                let roundprice = parseFloat(price.toFixed(2));
+                subtotal+= roundprice;
+              %>
+                <p class="card-text"><b>₹<%=roundprice%></b>&nbsp;M.R.P :<S><%= cart.price%></S>&nbsp;(<%= cart.discount%>% off)</p>
+                <div id="quantityDiv">
+                    <div id="sub-btn" style="margin-right: 1.2rem;margin-left: 5px;" onclick="totalprice(Number(document.getElementById('quantity-input').value),'<%=roundprice%>')"><b>-</b></div><input type="number" style="border: none;width: 30px;margin-right: 1rem;" class="col-md-3" value="1" name="productquantity" id="quantity-input" onchange="totalprice(this.value,'<%=roundprice%>')"><div id="add-btn" onclick="totalprice(Number(document.getElementById('quantity-input').value),'<%=roundprice%>')"><b>+</b></div>
+                    
+
+                </div>
+            </form>
+                <form id="secondform" action="/<%=cart.category%>/cart/<%=cart._id%>/delete?_method=DELETE" method="post">
+                    <button id="deletebtn" class="col-md-2"><i class="fa-solid fa-trash"></i>  Delete</button>
+                </form>
+            </div>
+          </div>
+        </div>
+    </div>
+<%}%>
+<hr>
+<%if(data==''){%><%}else{%>
+    <h5 id="subtotalamount1"><b>Subtotal(<%=data.length%> items): ₹<%=Number(subtotal)%>/-</b></h5>
+    </div>
+        <div>
+            <h4 id="subtotalamount2"><b>Subtotal(<%=data.length%> items): ₹<%=Number(subtotal)%>/-</b></h4>
+            <button type="submit" id="proceed-btn"><i class="fa-solid fa-bag-shopping"></i> Proceed to Buy</button>
+
+        </div>
+    <%}%>
+
+</div>
+<script>
+let addBtn = document.getElementById('add-btn');
+let subBtn = document.getElementById('sub-btn');
+let quantityInput = document.getElementById('quantity-input');
+let proceedbtn = document.getElementById('proceed-btn');
+let form = document.getElementById("mainform");
+let secondform = document.getElementById("secondform");
+let deletebtn = document.getElementById("deletebtn");
+
+function totalprice(value,roundprice){
+    let totalamount = Number("<%=subtotal%>") ;
+    let items = Number("<%=data.length%>") + Number(value) -1;
+    let total = value * roundprice;
+    totalamount = totalamount - roundprice;
+    totalamount = totalamount + total;
+    quantityInput.value=value;
+    document.getElementById('subtotalamount1').innerHTML = `<b>Subtotal(${items} items): ₹${parseFloat(totalamount.toFixed(2))}/-</b>`;
+    document.getElementById('subtotalamount2').innerHTML = `<b>Subtotal(${items} items): ₹${parseFloat(totalamount.toFixed(2))}/-</b>`;
+
+    
+}
+subBtn.addEventListener('click',()=>{
+    if(quantityInput.value>1){
+        quantityInput.value--;
+    }
+});
+addBtn.addEventListener('click',()=>{
+    quantityInput.value++;
+});
+proceedbtn.addEventListener("click",()=>{
+    form.method="POST";
+    form.action="/E-commerce/user/buy/step-1";
+    form.submit();
+    // window.location.href="/E-commerce/user/buy/step-1";
+})
+
+</script>

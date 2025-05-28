@@ -1,0 +1,113 @@
+<%layout("/layouts/boilerplate.ejs")%>
+<style>
+body{
+        background: white;
+    }
+    
+    .card{
+        box-shadow: 0px 2px 1.5px 0px #9AA6B2;
+        border-radius: 1rem; 
+        background-color: #F8FAFC; 
+        width: 18rem;
+    }
+    .card:hover{
+        border: 1px solid #9AA6B2;
+    }
+    
+    #mainDiv{
+        display: flex;
+        flex-direction: row;
+        margin-top: 0.2rem;
+    }
+    #card #whishlistbutton{
+        position: absolute;
+        background-color: #3d4a5e;
+        top: 0.5rem;
+        right: 0.5rem;
+        border-radius: 50%;
+        border: solid black;
+        color: white;
+    }
+    #imageelement{
+        width: 300px;
+        height: 300px;
+        object-fit: contain;
+    }
+    #imageelement:hover{
+        filter: drop-shadow(0.5rem 0.5rem 2rem #d9eafd31);
+    }
+    #sideDiv{
+        width: 300px;
+        height: 100%;
+        background-color: #D9EAFD;
+        margin-right: 0.2rem;
+    }
+    .anchorTags{
+        color: black;
+        text-decoration: none;
+    }
+    #GridDiv{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        row-gap: 1rem;
+        column-gap: 1rem;
+    }
+    #AtC-btn,#Af-btn{
+        background-color: #9AA6B2;
+        border-radius: 0.5rem;
+    }
+    #hearticon{
+        font-size: 1rem;
+    }
+    #carticon{
+        font-size: 1rem;
+    }
+    @media screen and (max-width: 768px) {
+        #bodyDiv{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        #GridDiv{
+            display: grid;
+            grid-template-columns: 1fr;
+        }
+        .card{
+            width: 100%;
+        }
+        
+        
+    }
+
+</style>
+<div id="bodyDiv">
+    <%if(listing==''){%>
+        <img style="width: 50%; position: absolute;left: 25%;" src="https://img.freepik.com/premium-vector/no-data-found-illustration-sites-banner-design-vector-illustration_620585-1690.jpg?w=740">
+    <%}%>
+    <div id="GridDiv">
+        <%for(let data of listing){%>
+            <a href="/<%=data.category%>/<%=data._id%>" class="anchorTags"><div class="card" id="card" >
+                <form action="/<%=data.category%>/wishlist/<%=data.id%>?_method=post" method="post">
+                    <button id="whishlistbutton"><i id="hearticon" class="fa-solid fa-heart"></i></button>
+                </form>
+                <img src="<%= data.image%>" class="card-img-top" id="imageelement" alt="loading Image...">
+                <div class="card-body">
+                    <b><p class="card-text"><%= data.brand%></p></b>
+                    <p class="card-text"><%= data.title%></p>
+                    <% let mrp = data.price;
+                    let discount = data.discount;
+                    let discountprice = mrp*discount/100;
+                    let price = mrp - discountprice;
+                    let roundprice = price.toFixed(2);
+                    %>
+                    <p class="card-text"><b>₹<%=roundprice%></b>&nbsp;M.R.P :<S><%= data.price%></S>&nbsp;(<%= data.discount%>% off)</p>
+                    
+                    <form action="/<%=data.category%>/cart/<%=data._id%>?_method=POST" method="post">
+                        <button id="AtC-btn"><i id="carticon" class="fa-solid fa-cart-shopping"></i>Add to cart</button>
+                    </form>
+                </div>
+              </div></a>
+    
+        <% }%>
+    </div>
+</div>

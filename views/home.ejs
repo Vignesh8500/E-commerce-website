@@ -1,0 +1,304 @@
+<%layout("/layouts/boilerplate.ejs")%>
+<style>
+  .card {
+  border: 1px solid black;
+  border-radius: 1rem;
+  width: 3rem;
+  margin: 1rem;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(20px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.card.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+#secondblock{
+  
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #d9eafd31;
+  backdrop-filter: blur(0.5rem);
+  margin-top: 700px;
+}
+  #secondblock-1{
+    
+    width: 70%;
+    
+    display: flex;
+    flex-direction: column;
+    z-index: 2;
+    
+    
+}
+
+#carticon{
+  font-size: 4rem;
+}
+.card-text{
+  color: black;
+  text-decoration: none;
+}
+.card-text :hover{
+  color: black;
+}
+.anchortags{
+  text-decoration: none;
+}
+#loader {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  z-index: 5;
+  transform: translate(-50%, -50%);
+  font-size: 24px;
+  font-weight: bold;
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  
+}
+/* responsive */
+@media screen and (max-width: 768px) {
+  #container{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 4;
+    left: 0;
+  }
+  #title{
+    z-index: 5;
+    color: white;
+    text-shadow: 2px 2px 2px #3d4a5e;
+  }
+  .card{
+    width: 1rem;
+  }
+  #categorySection{
+    display: grid;
+    grid-template-columns: 2;
+    
+  }
+}
+
+
+</style>
+
+<body>
+  <div id="loader" class="loader">
+    <div id="progress">0%</div>
+  </div>
+    
+    <header>
+      
+        <h1 id="title"><span style="-webkit-text-stroke-color: #3d4a5e; -webkit-text-stroke: 2px;-webkit-text-fill-color: transparent; font-family: Merienda, cursive;">E</span>-commerce<br>Website<i style="-webkit-text-stroke-color: #3d4a5e; -webkit-text-stroke: 2px;-webkit-text-fill-color: transparent;" id="carticon" class="fa-solid fa-cart-shopping"></i></h1>
+        
+        <div class="BackgroundDiv" id="container" style="background-color: transparent;"></div>
+    </header>
+    
+<div id="secondblock" >
+    <div id="secondblock-1">
+        <h2>Categories</h2>
+      <div id="categorySection">
+          <div><a href="/keyboards" class="anchortags"><div class="card categoryDivs" style="width: 18rem;">
+            <img src="https://png.pngtree.com/png-clipart/20230807/original/pngtree-computer-keyboard-outline-object-keypad-design-vector-picture-image_10050789.png" class="card-img-top" alt="..." style="object-fit: contain;">
+            <div class="card-body">
+              <p class="card-text">Keyboard</p>
+            </div>
+          </div></a></div>
+          <div><a href="/monitors" class="anchortags"><div class="card categoryDivs" style="width: 18rem;">
+            <img src="https://png.pngtree.com/png-clipart/20231014/original/pngtree-drawing-monitor-view-picture-image_13157198.png" class="card-img-top" alt="..." style="object-fit: contain;">
+            <div class="card-body">
+              <p class="card-text">Monitors</p>
+            </div>
+          </div></a></div>
+          <div><a href="/mouse" class="anchortags"><div class="card categoryDivs" style="width: 18rem;">
+            <img src="https://cdn0.iconfinder.com/data/icons/computer-peripherals-outline/48/Computers_Peripherals_Artboard_7-512.png" class="card-img-top" alt="..." style="object-fit: contain;">
+            <div class="card-body">
+              <p class="card-text">Mouse</p>
+            </div>
+          </div></a></div>
+          <div><a href="/graphics cards" class="anchortags"><div class="card categoryDivs" style="width: 18rem;">
+            <img src="https://png.pngtree.com/png-clipart/20230807/original/pngtree-gpu-card-outline-vector-connector-cryptocurrency-mining-video-graphics-card-vector-picture-image_10119574.png" class="card-img-top" alt="..." style="object-fit: contain;">
+            <div class="card-body">
+              <p class="card-text">Graphic cards</p>
+            </div>
+          </div></a></div>
+          <div><a href="/controllers" class="anchortags"><div class="card categoryDivs" style="width: 18rem;">
+            <img src="https://png.pngtree.com/png-clipart/20231020/original/pngtree-quadcopter-remote-controller-in-outline-style-png-illustration-png-image_13375300.png" class="card-img-top" alt="..." style="object-fit: contain;">
+            <div class="card-body">
+              <p class="card-text">controllers</p>
+            </div>
+          </div></a></div>
+          <div><a href="/headphones" class="anchortags"><div class="card categoryDivs" style="width: 18rem;">
+            <img src="https://png.pngtree.com/png-clipart/20230602/original/pngtree-headphones-coloring-sheet-printable-png-image_9176674.png" class="card-img-top" alt="..." style="object-fit: contain;">
+            <div class="card-body">
+              <p class="card-text">Headphones</p>
+            </div>
+          
+      </div>
+    </div>
+    <!-- <div id="secondblock-2">
+    </div> -->
+</div>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+  const cards = document.querySelectorAll(".card");
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add("visible");
+      }
+    });
+  }, { threshold: 0.2 });
+
+  cards.forEach((card) => observer.observe(card));
+});
+    </script>
+    <script type="importmap">
+        {
+            "imports": {
+                "three": "https://unpkg.com/three/build/three.module.js",
+                "three/addons/": "https://unpkg.com/three/examples/jsm/",
+                "control": "https://threejs.org/examples/jsm/controls/OrbitControls.js",
+                "GLTF": "https://threejs.org/examples/jsm/loaders/GLTFLoader.js",
+                "RGBE": "https://threejs.org/examples/jsm/loaders/RGBELoader.js"
+            }
+        }
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dat-gui/0.7.7/dat.gui.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js"></script>
+    <script type="module">
+        import * as THREE from "three";
+import { OrbitControls } from "control";
+import { GLTFLoader } from 'GLTF';
+
+const scene = new THREE.Scene();
+const container= document.getElementById("container");
+const camera = new THREE.PerspectiveCamera(45,container.clientWidth/container.clientHeight,1,50);
+const renderer = new THREE.WebGLRenderer({ alpha: true });
+renderer.setClearColor(0x000000, 0);
+
+const loadingManager = new THREE.LoadingManager();
+// const gui = new dat.GUI();
+// const controls = new OrbitControls(camera,renderer.domElement);
+loadingManager.onStart= function(url,item,total){
+    console.log(`started loading: ${url}`);
+}
+
+//robot
+let mixer = null;
+let model = null;
+let scrollvalue;
+const loader = document.getElementById('loader');
+const robot =new GLTFLoader(loadingManager);
+loadingManager.onProgress = function(url,loaded,total){
+    const percentageLoaded = Math.round((loaded/total)*100);
+    document.getElementById('progress').innerHTML=percentageLoaded+"%";
+}
+loadingManager.onLoad=function(){
+    document.getElementById('loader').style.display = 'none';
+}
+
+robot.load('/models/spartan_armour_mkv_-_halo_reach/scene.gltf',function(gltf){
+    model = gltf.scene;
+    console.log("model is loaded successfully");
+    
+    
+    if(gltf.animations.length > 0){
+      mixer = new THREE.AnimationMixer(model);
+      const clips = gltf.animations;
+      const clip = THREE.AnimationClip.findByName(clips,"Take 001");
+      const action = mixer.clipAction(clip);
+      scene.add(model);
+      action.play();
+      model.traverse((child) => {
+        if (child.isMesh) {
+        child.castShadow = true;
+    }
+      });
+    }else{
+      console.log("no animations found");
+    }
+  
+});
+
+//clock
+const clock = new THREE.Clock();
+
+renderer.setSize(container.clientWidth,container.clientHeight);
+container.appendChild(renderer.domElement);
+renderer.shadowMap.enabled = true;
+renderer.shadowMap.type=THREE.PCFSoftShadowMap;
+//lights
+const ambientLight = new THREE.AmbientLight(0xffffff);
+scene.add(ambientLight);
+ambientLight.position.set(-5,5,5);
+const dirLight = new THREE.DirectionalLight(0xffffff,5);
+dirLight.position.set(4.7,12.70,18.0);
+dirLight.castShadow= true;
+dirLight.shadow.mapSize.width = 1024;
+dirLight.shadow.mapSize.height = 1024;
+dirLight.shadow.camera.near = 0.5;
+dirLight.shadow.camera.far = 50;
+dirLight.shadow.camera.left = -10;
+dirLight.shadow.camera.right = 10;
+dirLight.shadow.camera.top = 10;
+dirLight.shadow.camera.bottom = -10;
+//scene.add(new THREE.CameraHelper(dirLight.shadow.camera));
+scene.add(dirLight);
+//shadow helper
+const shadowHelper = new THREE.ShadowMaterial({ opacity: 0.5 });
+const shadowPlane = new THREE.Mesh(new THREE.PlaneGeometry(50, 50), shadowHelper);
+shadowPlane.receiveShadow = true;
+shadowPlane.rotateX(-Math.PI/2);
+shadowPlane.position.y=-2.1;
+scene.add(shadowPlane);
+
+
+scene.background = null;
+
+//plane
+
+const planeGeometry = new THREE.PlaneGeometry(50,50);
+const plane = new THREE.Mesh(planeGeometry,new THREE.MeshStandardMaterial({side: THREE.DoubleSide , color: 0xF8FAFC}));
+plane.rotateX(-Math.PI/2);
+plane.position.y=-2.1;
+plane.recieveShadow=true;
+scene.add(plane);
+
+//animation function
+function animate(time){
+    requestAnimationFrame(animate);
+    if(mixer!=null){
+      mixer.update(clock.getDelta());
+    }else{
+      console.log("mixer is not initalized");
+    }
+   
+    renderer.render(scene,camera);
+}
+//model position
+//camera position
+camera.position.z=3.5;
+camera.position.y=2.2;
+//resize window
+
+window.addEventListener("scroll",()=>{
+  let scrollvalue = window.scrollY;
+  camera.position.z= 3.5 + scrollvalue*0.001;
+  model.rotation.y = scrollvalue*0.001;
+  
+})
+animate();
+    </script>
+</body>
+</html>

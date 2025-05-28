@@ -1,0 +1,62 @@
+<% layout("/layouts/boilerplate.ejs")%>
+<style>
+  body{
+    color: white;
+    background-image: url('https://wallpapercave.com/wp/wp3537545.jpg');
+    justify-content: center;
+    
+  }
+  #body{
+    height: 100%;
+    
+    
+  }
+  .formblock{
+    backdrop-filter: blur(1rem);
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%,20%);
+    padding: 0;
+    height: 500px;
+    border: 2px solid rgb(163, 163, 163);
+    display: flex;
+    flex-direction: column;
+    border-radius: 2rem;
+    text-align: center;
+    align-items: center;
+    
+  }
+</style>
+<div id="body">
+  <div>
+    <form class="row g-3 needs-validation" action="/E-commerce/authentication/login" method="post" novalidate>
+        <div class="col-6 offset-3 formblock">
+          <h4>LogIn to E-commerce</h4>
+            <div class="col-md-4" style="display: flex;flex-wrap: wrap;">
+                <label for="validationCustomUsername" class="form-label">Username</label>
+                <div class="input-group has-validation">
+                  <span class="input-group-text" id="inputGroupPrepend" style="border-radius: 1rem 0rem 0rem 1rem;border: 1px solid black;">@</span>
+                  <input type="text" class="form-control" name="username" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required style="width: 8rem; border-radius: 0rem 1rem 1rem 0rem;border: 1px solid black;">
+                  <div class="invalid-feedback">
+                    Please enter username.
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6" style="display: flex;flex-wrap: wrap;">
+                <label for="validationCustom03" class="form-label">password</label>
+                <input type="password" class="form-control" id="validationCustom03" name="password" required style="border-radius: 1rem;border: 1px solid black;">
+                <div class="invalid-feedback">
+                  Please enter password
+                </div>
+              </div>
+              <P>New Customer?<a href="/E-commerce/authentication/signup">signup</a></P>
+              <div class="col-12">
+                <button class="btn btn-primary" type="submit" style="margin-top: 1rem;">Login</button>
+              </div>
+            </form>
+            
+        </div>
+        
+</div>

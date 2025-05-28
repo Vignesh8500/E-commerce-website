@@ -1,0 +1,205 @@
+<%layout("/layouts/boilerplate.ejs")%>
+<style>
+    .newaddressform{
+        display: none;
+        background-color: white;
+        border: 2px solid black;
+        border-radius: 2rem;
+        padding: 2rem;
+        width: 80%;
+        position: absolute;
+        top: 5rem;
+        left: 10%;
+        z-index: 5;
+
+    }
+    .newaddressform2{
+        display: block;
+    }
+    #newaddressformchild1{
+        display: flex;
+        flex-wrap: wrap;
+        margin: auto;
+    }
+    #newaddresslink{
+        cursor: pointer;
+        color: blue;
+        margin-bottom: 2rem;
+
+    }
+    #addressdiv,#paymentdiv,#shippingdiv{
+        width: 100%;
+        background-color: rgb(245, 245, 245);
+        margin-bottom: 1rem;
+        padding: 1rem;
+    }
+    #delivery-btn{
+      background-color: #9AA6B2;
+    border-radius: 0.5rem;
+    margin: 1rem;
+    margin-left: 0;
+    padding: 5px;
+    }
+</style>
+<div id="maindiv">
+        <div id="addressdiv">
+        <form action="/E-commerce/user/buy/step-2/paymentmethod" method="post">
+                <h4>Select Delivery Address</h4>
+                <hr>
+                <h6>Delivery Addresses</h6>
+                <%if(user.address==''){%>
+                    <p>No address added</p>
+                <%}else{%>
+                    <%for(let i = 0;i<user.address.length;i++){%>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="address" id="flexRadioDefault1" value="<%=i%>" required checked>
+                            <label class="form-check-label" for="flexRadioDefault1">
+                            <%=user.address[i].fullname%>,<br>
+                            <%=user.address[i].flat%>,<br>
+                            <%=user.address[i].village%>,<br>
+                            <%=user.address[i].city%>,<br>
+                            <%=user.address[i].state , user.address[i].pincode%>,<br>
+                            mobile no: <%=user.address[i].mobile%><br>
+                            </label>
+                        </div>
+                        
+                    <%}%>
+                <%}%>
+                
+                <a id="newaddresslink" onclick="addnewdeliveryaddress()">Add new delivery address</a><br>
+                <%if(user.address!=''){%>
+                    <button type="submit" id="delivery-btn">Delivery to this address</button>
+                <%}%>
+        </form>
+    </div>
+        
+            
+    <div id="paymentdiv">
+        <h4>Payment Method</h4>
+    </div>
+    <div id="shippingdiv">
+        <h4>Review items and shipping</h4>
+    </div>
+    <div id="newaddressform" class="newaddressform">
+        <div id="newaddressformchild1" class="mb-auto">
+            <h4>Add an address</h4>
+            <button onclick="closeform()">x</button>
+        </div>
+        <hr>
+        <div id="addressform">
+            <h6>Add new delivery address</h6>
+            <form class="row g-3 needs-validation" action="/E-commerce/user/buy/step-1/addAddress" method="post" novalidate>
+                <div class="col-md-4">
+                  <label for="validationCustom01" class="form-label">Fullname(first and last)</label>
+                  <input type="text" class="form-control" id="validationCustom01" name="fullname" required>
+                  <div class="valid-feedback">
+                    Looks good!
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <label for="validationCustomUsername" class="form-label">Mobile number</label>
+                  <div class="input-group has-validation">
+                    <input type="number" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" name="mobile" required>
+                    <div class="invalid-feedback">
+                      Please enter your mobile number.
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                    <label for="validationCustom03" class="form-label">Pincode</label>
+                    <input type="number" class="form-control picodedetails" id="validationCustom03" placeholder=" 6 digit [0-9] Pin code" name="pincode" onblur="getLocationByPincode(this.value)" required>
+                    <div class="invalid-feedback">
+                      Please provide your city pincode.
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <label for="validationCustom03" class="form-label">Flat, House no., Building, Company, Apartment</label>
+                    <input type="text" class="form-control" id="validationCustom03" name="flat" required>
+                    <div class="invalid-feedback">
+                      Please provide a valid details.
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <label for="validationCustom03" class="form-label">Area, Street, Sector, Village</label>
+                    <input type="text" class="form-control villagedetails" id="validationCustom03" name="village" required>
+                    <div class="invalid-feedback">
+                      Please provide a valid details.
+                    </div>
+                  </div>
+                <div class="col-md-6">
+                  <label for="validationCustom03" class="form-label">Town/City</label>
+                  <input type="text" class="form-control citydetails" id="validationCustom03" id="city" name="city" required>
+                  <div class="invalid-feedback">
+                    Please provide a valid city.
+                  </div>
+                </div>
+                <div class="col-md-6">
+                    <label for="validationCustom03" class="form-label">State</label>
+                    <input type="text" class="form-control statedetails" id="validationCustom03" name="state" required>
+                    <div class="invalid-feedback">
+                      Please enter your state.
+                    </div>
+                </div>
+                
+                <div class="col-12">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                    <label class="form-check-label" for="invalidCheck">
+                      Agree to terms and conditions
+                    </label>
+                    <div class="invalid-feedback">
+                      You must agree before submitting.
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <button class="btn btn-primary" type="submit">Submit form</button>
+                </div>
+              </form>
+        </div>
+    </div>
+    
+
+</div>
+<script>
+    function getLocationByPincode(pincode) {
+        fetch(`https://nominatim.openstreetmap.org/search?postalcode=${pincode}&format=json`)
+.then(response => response.json())
+.then(data => {
+    //console.log("API Response:", data); // Debugging step
+
+    if (data.length > 0) {
+        let addressParts = data[0].display_name.split(", "); // Split into parts
+        let village = addressParts[1] || "Not Found";  
+        let city = addressParts[2] || "Not Found"; 
+        let state = addressParts[3] || "Not Found";
+        // console.log(city,"...",state);
+        document.querySelector('.villagedetails').value = village;
+        document.querySelector(".citydetails").value = city;
+        document.querySelector(".statedetails").value = state;
+    } else {
+        console.log("Invalid Pincode or No Data Found");
+    }
+})
+.catch(error => console.error("Error fetching location:", error));
+}
+function addnewdeliveryaddress(){
+   let toggleform = document.querySelector('#newaddressform');
+   toggleform.style.display='block';
+}
+function closeform(){
+    let toggleform = document.querySelector('#newaddressform');
+    toggleform.style.display='none';
+}
+// document.querySelectorAll('input[name="flexRadioDefault"]').forEach((radio) => {
+//     radio.addEventListener("change", () => {
+//         let selectedLabel = document.querySelector(`label[for="${radio.id}"]`).value;
+        
+//         console.log("Selected Address:", selectedLabel);
+
+//         // Store the selected address for later use (e.g., in session/localStorage)
+//         sessionStorage.setItem("selectedAddress", selectedLabel);
+//     });
+// });
+
+</script>

@@ -1,0 +1,76 @@
+<%layout("/layouts/boilerplate.ejs")%>
+<style>
+  .fa-xmark{
+    font-size: 1rem;
+  }
+  #cancel-btn{
+      background-color: #9AA6B2;
+    border-radius: 0.5rem;
+    margin: 1rem;
+    margin-left: 0;
+    padding: 5px;
+    }
+</style>
+<div id="maindiv">
+  <h1>Your orders</h1>
+    <%let subtotal = 0;
+    let ordersquantity = 0;%>
+    <%if(orders.length==''){%>
+      <h4>No orders</h4>
+    <%}%>
+
+    <%for(let i=0; i<orders.length;i++){%>
+        
+        
+            <div class="card mb-3 " style="max-width: 60%;background-color: #D9EAFD;box-shadow: 0 1rem 1rem 0;border-radius: 1rem;margin-left: 0.5rem;">
+                <h4>Arriving at <%=orders[i].arrivingAt%></h4>
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="<%=products[i].image%>" class="img-fluid rounded-start" alt="Loading image...">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title"><%=products[i].title%></h5>
+                      <p class="card-text"><%=products[i].description%></p>
+                      <p class="card-text"><b>quantity:</b> <%=orders[i].quantity%><%if(orders[i].quantity==''){%>
+                      1<%}%></p>
+                      <%
+                      const date = orders[i].orderedAt;
+                      const day = date.toLocaleString('en-US', { weekday: 'long' });
+                      const datePart = date.toLocaleString('en-US', { day: '2-digit', month: 'long', year: 'numeric' });
+                      const timePart = date.toLocaleString('en-US', { hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: true });
+
+                      %>
+                      <p class="card-text"><b>Ordered At:</b><%=day%>, <%=datePart%>, <%=timePart%></p>
+                      <p class="card-text"><b>Address:</b><%=orders[i].arrivingTo.fullname%>, <%=orders[i].arrivingTo.flat%>, <%=orders[i].arrivingTo.village%>, <%=orders[i].arrivingTo.city%>, <%=orders[i].arrivingTo.state%>, <%=orders[i].arrivingTo.pincode%> , mobile: <%=orders[i].arrivingTo.mobile%></p>
+                      <% let mrp = products[i].price;
+                        let discount = products[i].discount;
+                        let discountprice = mrp*discount/100;
+                        let price = mrp - discountprice;
+                        let roundprice = parseFloat(price.toFixed(2));
+                        let roundprice2 = parseFloat(price.toFixed(2));
+                        if(orders[i].quantity>1){
+                            roundprice = roundprice * orders[i].quantity;
+                        }
+                        subtotal+= roundprice;
+                        ordersquantity = ordersquantity + orders[i].quantity;
+                      %>
+                        <p class="card-text"><b>₹<%=roundprice2%></b>&nbsp;M.R.P :<S><%= products[i].price%></S>&nbsp;(<%= products[i].discount%>% off)</p>
+                        <form action="/E-commerce/user/orders/<%=orders[i]._id%>/delete?_method=DELETE"  method="post">
+                            <button class="col-md-4" id="cancel-btn" type="submit"><i class="fa-solid fa-xmark"></i> Cancel Order</button>
+                        </form>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        
+        
+    <%}%>
+    <hr>
+    <%if(orders.length!=''){%>
+      <h4 id="subtotalamount2"><b>Total amount( <%=ordersquantity%> items): ₹<%=Number(subtotal)%>/-</b></h4>
+    <%}%>
+    
+
+
+</div>

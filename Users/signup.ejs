@@ -1,0 +1,92 @@
+<% layout("/layouts/boilerplate.ejs")%>
+<style>
+  body{
+    color: white;
+    background-image: url('https://wallpapercave.com/wp/wp3537545.jpg');
+    justify-content: center;
+    align-items: center;
+  }
+  #formblock{
+    backdrop-filter: blur(1rem);
+    border-radius: 1rem;
+    padding: 2rem;
+    position: absolute;
+    left: 20%;
+    top: 20%;
+    border: 1px solid white;
+    margin: 0;
+    width: 60%;
+  }
+
+  .form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .inputs{
+    border: 1px solid black;
+    border-radius: 1rem;
+  }
+</style>
+<div id="formblock">
+  
+    <form class="row g-3 needs-validation form" id="signupForm" action="/E-commerce/authentication/signup" method="post" novalidate>
+      <h4 class="col-md-4">SignUp to E-commerce</h4>
+        <div class="col-md-4 ">
+          <label for="validationCustom01" class="form-label">Email</label>
+          <input type="email" class="form-control inputs" id="validationCustom01" name="email" required>
+          <div class="valid-feedback">
+            okay!
+          </div>
+        </div>
+        <div class="col-md-4 ">
+          <label for="validationCustomUsername" class="form-label">Username</label>
+          <div class="input-group has-validation">
+            <span class="input-group-text" id="inputGroupPrepend" style="border-radius: 1rem 0 0 1rem;">@</span>
+            <input type="text" class="form-control inputs" id="validationCustomUsername" name="username" style="border-radius: 0 1rem 1rem 0;" aria-describedby="inputGroupPrepend" required>
+            <div class="invalid-feedback">
+              Please enter username.
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 ">
+          <label for="validationCustom03" class="form-label">password</label>
+          <input type="password" class="form-control inputs" name="password" id="validationCustom03" required>
+          <div class="invalid-feedback">
+            Please enter password
+          </div>
+        </div>
+        <div class="col-12 col-md-4">
+          <button class="btn btn-primary" type="submit">signUp</button>
+        </div>
+      </form>
+</div>
+<script>
+  import axios from "https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js";
+  document.getElementById("signupForm").addEventListener("submit", async (e) => {
+  e.preventDefault();
+  const formData = new FormData(e.target);
+  const email = formData.get("email");
+
+  try {
+    const response = await axios.get(`https://emailvalidation.abstractapi.com/v1/?api_key=dc1af7f5c0da47e4be559b0e345a7706&email=${email}`);
+    const data = response.data;
+
+    if (!data.is_valid_format.value) {
+      alert("Invalid email format!");
+      return;
+    }
+
+    if (data.is_disposable_email.value) {
+      alert("Disposable emails are not allowed!");
+      return;
+    }
+
+    // If email is valid, send signup data to backend
+    await axios.post("/E-commerce/authentication/signup", Object.fromEntries(formData));
+    alert("Signup successful!");
+  } catch (error) {
+    console.error("Error validating email:", error);
+  }
+});
+</script>

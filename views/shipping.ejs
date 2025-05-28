@@ -1,0 +1,62 @@
+<%layout("/layouts/boilerplate.ejs")%>
+<style>
+    #addressdiv,#paymentdiv,#shippingdiv{
+        width: 100%;
+        background-color: rgb(245, 245, 245);
+        margin-bottom: 1rem;
+        padding: 1rem;
+    }
+    #order-btn{
+      background-color: #9AA6B2;
+    border-radius: 0.5rem;
+    margin: 1rem;
+    margin-left: 0;
+    padding: 5px;
+    }
+</style>
+<div id="maindiv">
+    <div id="addressdiv">
+        <h4>Delivery to <%=address.fullname%></h4>
+        <P><%=address.flat%>, <%=address.village%>, <%=address.city%>, <%=address.state%>, <%=address.pincode%>, india</P>
+    </div>
+    <div id="paymentdiv">
+        <h4>Pay on delivery/Cash on delivery</h4>
+    </div>
+    <div id="shippingdiv">
+        <form action="/E-commerce/user/buy/orderplace">
+        <h4>Shipping</h4>
+        <%let subtotal = 0;%>
+        <%for(let products of cart){%>
+                    <div class="card mb-3 " style="max-width: 60%;background: #BCCCDC;border-radius: 1rem;box-shadow: 0 1rem 1rem 0;">
+                        <div class="row g-0">
+                          <div class="col-md-4">
+                            <img src="<%=products.image%>" class="img-fluid rounded-start" alt="Loading image...">
+                          </div>
+                          <div class="col-md-8">
+                            <div class="card-body">
+                              <h5 class="card-title"><%=products.title%></h5>
+                              <p class="card-text"><%=products.description%></p>
+                              <p class="card-text"><b>quantity:</b> <%=quantity%></p>
+                              <% let mrp = products.price;
+                                let discount = products.discount;
+                                let discountprice = mrp*discount/100;
+                                let price = mrp - discountprice;
+                                let roundprice = parseFloat(price.toFixed(2));
+                                if(quantity>1){
+                                    roundprice = roundprice * quantity;
+                                }
+                                subtotal+= roundprice;
+                              %>
+                                <p class="card-text"><b>₹<%=roundprice%></b>&nbsp;M.R.P :<S><%= products.price%></S>&nbsp;(<%= products.discount%>% off)</p>
+                                <P id="subtotalamount2"><b>Subtotal(<%=quantity%> items): ₹<%=Number(roundprice)%>/-</b></P>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+            <%}%>
+            <hr>
+            <h4>Order Total: ₹<%=Number(subtotal)%>/-</h4>
+            <button type="submit" id="order-btn" class="col-md-2">Place your order</button>
+        </form>
+    </div>
+</div>

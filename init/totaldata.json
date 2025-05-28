@@ -1,0 +1,3576 @@
+[
+{
+    "title": "Sony MDR-ZX110",
+    "description": "Wired on-ear headphones with dynamic sound and lightweight design.",
+    "category": "headphones",
+    "brand": "Sony",
+    "image": "https://www.sony.es/content/dam/sony/contents/global/audio/headphones/year-2024/mdr-m1/primary-image/Primary_image_1.png",
+    "price": 500,
+    "discount": 10,
+    "additionalInformation": "Ideal for everyday listening with comfortable ear cushions.",
+    "aboutThisItem": "The Sony MDR-ZX110 features dynamic sound, lightweight design, and a foldable structure for easy portability.",
+    "productDetails": {
+      "connectivity": [
+        "Wired",
+        "3.5mm jack"
+      ],
+      "driverSize": "30mm",
+      "frequencyResponse": "12Hz - 22kHz",
+      "noiseCancellation": "No"
+    }
+  },
+  {
+    "title": "JBL Tune 500",
+    "description": "Wired on-ear headphones with JBL Pure Bass sound and tangle-free cable.",
+    "category": "headphones",
+    "brand": "JBL",
+    "image": "https://www.jbl.com.br/on/demandware.static/-/Sites-masterCatalog_Harman/default/dweb02e2ea/JBL_TUNE500_Product-Image_Folded_Black-1605x1605px.png",
+    "price": 600,
+    "discount": 12,
+    "additionalInformation": "Perfect for bass lovers with powerful sound and lightweight design.",
+    "aboutThisItem": "The JBL Tune 500 features JBL Pure Bass sound, a tangle-free cable, and a lightweight design for comfortable listening.",
+    "productDetails": {
+      "connectivity": [
+        "Wired",
+        "3.5mm jack"
+      ],
+      "driverSize": "32mm",
+      "frequencyResponse": "20Hz - 20kHz",
+      "noiseCancellation": "No"
+    }
+  },
+  {
+    "title": "Sennheiser HD 206",
+    "description": "Wired over-ear headphones with powerful bass and noise isolation.",
+    "category": "headphones",
+    "brand": "Sennheiser",
+    "image": "https://s3n.cashify.in/cashify/product/img/xhdpi/47809.png",
+    "price": 700,
+    "discount": 15,
+    "additionalInformation": "Designed for immersive listening with deep bass and noise isolation.",
+    "aboutThisItem": "The Sennheiser HD 206 features powerful bass, noise isolation, and a lightweight design for extended listening sessions.",
+    "productDetails": {
+      "connectivity": [
+        "Wired",
+        "3.5mm jack"
+      ],
+      "driverSize": "40mm",
+      "frequencyResponse": "21Hz - 18kHz",
+      "noiseCancellation": "No"
+    }
+  },
+  {
+    "title": "Sony WH-CH510",
+    "description": "Wireless on-ear headphones with Bluetooth connectivity and long battery life.",
+    "category": "headphones",
+    "brand": "Sony",
+    "image": "https://cdn.bajajelectronics.com/product/BEProduction-19201.png",
+    "price": 800,
+    "discount": 10,
+    "additionalInformation": "Perfect for wireless listening with up to 35 hours of battery life.",
+    "aboutThisItem": "The Sony WH-CH510 features Bluetooth connectivity, long battery life, and lightweight design for all-day comfort.",
+    "productDetails": {
+      "connectivity": [
+        "Wireless",
+        "Bluetooth"
+      ],
+      "driverSize": "30mm",
+      "frequencyResponse": "20Hz - 20kHz",
+      "noiseCancellation": "No"
+    }
+  },
+  {
+    "title": "JBL Tune 750BTNC",
+    "description": "Wireless over-ear headphones with active noise cancellation and deep bass.",
+    "category": "headphones",
+    "brand": "JBL",
+    "image": "https://www.jblonlinestore.com/cdn/shop/products/jbl-tune-750btnc-headphones-black-fold-singapore-413394_2048x.png?v=1692607528",
+    "price": 1200,
+    "discount": 12,
+    "additionalInformation": "Ideal for immersive listening with active noise cancellation and powerful bass.",
+    "aboutThisItem": "The JBL Tune 750BTNC features active noise cancellation, Bluetooth connectivity, and JBL Pure Bass sound.",
+    "productDetails": {
+      "connectivity": [
+        "Wireless",
+        "Bluetooth"
+      ],
+      "driverSize": "40mm",
+      "frequencyResponse": "20Hz - 20kHz",
+      "noiseCancellation": "Yes"
+    }
+  },
+  {
+    "title": "Bose QuietComfort 45",
+    "description": "Wireless over-ear headphones with active noise cancellation and premium sound quality.",
+    "category": "headphones",
+    "brand": "Bose",
+    "image": "https://thegoodguys.sirv.com/products/50087508/50087508_875700.PNG",
+    "price": 1800,
+    "discount": 10,
+    "additionalInformation": "Ideal for immersive listening with industry-leading noise cancellation.",
+    "aboutThisItem": "The Bose QuietComfort 45 features active noise cancellation, Bluetooth connectivity, and a comfortable design for extended listening.",
+    "productDetails": {
+      "connectivity": [
+        "Wireless",
+        "Bluetooth"
+      ],
+      "driverSize": "40mm",
+      "frequencyResponse": "20Hz - 20kHz",
+      "noiseCancellation": "Yes"
+    }
+  },
+  {
+    "title": "Sony WH-1000XM5",
+    "description": "Premium wireless noise-canceling headphones with adaptive sound control.",
+    "category": "headphones",
+    "brand": "Sony",
+    "image": "https://media.pocketnow.com/styles/xsmall/public/2022-05/PBI%20Sony%20WH1000%20XM5%20Black.png?itok=k1uA0Bg8",
+    "price": 2500,
+    "discount": 12,
+    "additionalInformation": "Perfect for audiophiles who need superior noise cancellation and sound quality.",
+    "aboutThisItem": "The Sony WH-1000XM5 features adaptive noise cancellation, Bluetooth connectivity, and high-resolution audio support.",
+    "productDetails": {
+      "connectivity": [
+        "Wireless",
+        "Bluetooth"
+      ],
+      "driverSize": "40mm",
+      "frequencyResponse": "4Hz - 40kHz",
+      "noiseCancellation": "Yes"
+    }
+  },
+  {
+    "title": "Sennheiser HD 660S",
+    "description": "Wired open-back headphones with audiophile-grade sound quality.",
+    "category": "headphones",
+    "brand": "Sennheiser",
+    "image": "https://www.techpowerup.com/review/sennheiser-hd-660-s/images/small.png",
+    "price": 1500,
+    "discount": 15,
+    "additionalInformation": "Designed for professional and audiophile listening with open-back design.",
+    "aboutThisItem": "The Sennheiser HD 660S features open-back design, high-resolution sound, and a lightweight frame for comfortable listening.",
+    "productDetails": {
+      "connectivity": [
+        "Wired",
+        "6.3mm jack"
+      ],
+      "driverSize": "42mm",
+      "frequencyResponse": "10Hz - 41kHz",
+      "noiseCancellation": "No"
+    }
+  },
+  {
+    "title": "JBL Live 660NC",
+    "description": "Wireless over-ear headphones with adaptive noise cancellation and deep bass.",
+    "category": "headphones",
+    "brand": "JBL",
+    "image": "https://images.samsung.com/kdp/goods/2021/08/03/f2a5cfb4-af25-4766-99f9-4eb41e8f25f3.png?$PD_GALLERY_L_PNG$",
+    "price": 1300,
+    "discount": 10,
+    "additionalInformation": "Ideal for immersive listening with adaptive noise cancellation and powerful bass.",
+    "aboutThisItem": "The JBL Live 660NC features adaptive noise cancellation, Bluetooth connectivity, and JBL Signature Sound.",
+    "productDetails": {
+      "connectivity": [
+        "Wireless",
+        "Bluetooth"
+      ],
+      "driverSize": "40mm",
+      "frequencyResponse": "20Hz - 20kHz",
+      "noiseCancellation": "Yes"
+    }
+  },
+  {
+    "title": "Apple AirPods Max",
+    "description": "Premium wireless over-ear headphones with spatial audio and active noise cancellation.",
+    "category": "headphones",
+    "brand": "Apple",
+    "image": "https://pnghq.com/wp-content/uploads/airpods-max-png-png-transparent-background-download-78911.png",
+    "price": 3500,
+    "discount": 8,
+    "additionalInformation": "Perfect for Apple users who need high-fidelity sound and seamless integration.",
+    "aboutThisItem": "The Apple AirPods Max features spatial audio, active noise cancellation, and a sleek aluminum design.",
+    "productDetails": {
+      "connectivity": [
+        "Wireless",
+        "Bluetooth"
+      ],
+      "driverSize": "40mm",
+      "frequencyResponse": "N/A",
+      "noiseCancellation": "Yes"
+    }
+  },
+  {
+    "title": "Bose Noise Cancelling Headphones 700",
+    "description": "Premium wireless headphones with adaptive noise cancellation and crystal-clear calls.",
+    "category": "headphones",
+    "brand": "Bose",
+    "image": "https://assets.bose.com/content/dam/Bose_DAM/Web/consumer_electronics/global/products/headphones/noise_cancelling_headphones_700/product_silo_images/noise_cancelling_headphones_700_TrippleMidnightBlue_EC_hero_web.png/jcr:content/renditions/cq5dam.web.1920.1920.png",
+    "price": 2200,
+    "discount": 10,
+    "additionalInformation": "Ideal for professionals and travelers who need superior noise cancellation.",
+    "aboutThisItem": "The Bose Noise Cancelling Headphones 700 feature adaptive noise cancellation, Bluetooth connectivity, and a sleek design.",
+    "productDetails": {
+      "connectivity": [
+        "Wireless",
+        "Bluetooth"
+      ],
+      "driverSize": "40mm",
+      "frequencyResponse": "20Hz - 20kHz",
+      "noiseCancellation": "Yes"
+    }
+  },
+  {
+    "title": "Sony WF-1000XM4",
+    "description": "True wireless earbuds with industry-leading noise cancellation and high-resolution audio.",
+    "category": "headphones",
+    "brand": "Sony",
+    "image": "https://sonyimages.blob.core.windows.net/productr/large/wf1000_xm4_b-ce7wf_1000_xm4_ps_02_en_gb.png",
+    "price": 1800,
+    "discount": 12,
+    "additionalInformation": "Perfect for audiophiles who need superior noise cancellation and sound quality.",
+    "aboutThisItem": "The Sony WF-1000XM4 features adaptive noise cancellation, Bluetooth connectivity, and high-resolution audio support.",
+    "productDetails": {
+      "connectivity": [
+        "Wireless",
+        "Bluetooth"
+      ],
+      "driverSize": "6mm",
+      "frequencyResponse": "20Hz - 40kHz",
+      "noiseCancellation": "Yes"
+    }
+  },
+  {
+    "title": "Sennheiser Momentum 4 Wireless",
+    "description": "Wireless over-ear headphones with adaptive noise cancellation and premium sound.",
+    "category": "headphones",
+    "brand": "Sennheiser",
+    "image": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_95894054/fee_786_587_png",
+    "price": 2000,
+    "discount": 15,
+    "additionalInformation": "Designed for immersive listening with deep bass and noise isolation.",
+    "aboutThisItem": "The Sennheiser Momentum 4 Wireless features adaptive noise cancellation, Bluetooth connectivity, and high-fidelity sound.",
+    "productDetails": {
+      "connectivity": [
+        "Wireless",
+        "Bluetooth"
+      ],
+      "driverSize": "42mm",
+      "frequencyResponse": "6Hz - 22kHz",
+      "noiseCancellation": "Yes"
+    }
+  },
+  {
+    "title": "JBL Club One",
+    "description": "Wireless over-ear headphones with True Adaptive Noise Cancellation and Pro Sound.",
+    "category": "headphones",
+    "brand": "JBL",
+    "image": "https://www.jbl.com.my/dw/image/v2/AAUJ_PRD/on/demandware.static/-/Sites-masterCatalog_Harman/default/dw83287c5a/pdp/JBL_CLUBONE_Box_Image.png?sw=590&sfrm=png",
+    "price": 1700,
+    "discount": 10,
+    "additionalInformation": "Ideal for immersive listening with adaptive noise cancellation and powerful bass.",
+    "aboutThisItem": "The JBL Club One features True Adaptive Noise Cancellation, Bluetooth connectivity, and JBL Pro Sound.",
+    "productDetails": {
+      "connectivity": [
+        "Wireless",
+        "Bluetooth"
+      ],
+      "driverSize": "40mm",
+      "frequencyResponse": "10Hz - 22kHz",
+      "noiseCancellation": "Yes"
+    }
+  },
+  {
+    "title": "Apple AirPods Pro (2nd Gen)",
+    "description": "True wireless earbuds with active noise cancellation and spatial audio.",
+    "category": "headphones",
+    "brand": "Apple",
+    "image": "https://www.lifewire.com/thmb/M3S2HkfAZrifNhh8cc6jpDdQw0Q=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Apple-AirPods-Pro-2nd-gen-Memoji-engraving-options-220907-0932d6da99f1423ca1dbb2c1182fb190.png",
+    "price": 2500,
+    "discount": 8,
+    "additionalInformation": "Perfect for Apple users who need high-fidelity sound and seamless integration.",
+    "aboutThisItem": "The Apple AirPods Pro (2nd Gen) features spatial audio, active noise cancellation, and a sleek design.",
+    "productDetails": {
+      "connectivity": [
+        "Wireless",
+        "Bluetooth"
+      ],
+      "driverSize": "N/A",
+      "frequencyResponse": "N/A",
+      "noiseCancellation": "Yes"
+    }
+  },
+  {
+    "title": "Beyerdynamic DT 770 Pro",
+    "description": "Wired over-ear studio headphones with closed-back design and high-fidelity sound.",
+    "category": "headphones",
+    "brand": "Beyerdynamic",
+    "image": "https://th.bing.com/th/id/R.6326bfb835383e89f045b7212c9415d5?rik=klBUh%2bieV%2bcZVg&riu=http%3a%2f%2fdevelectronics.com%2fcdn%2fshop%2fproducts%2fdt-770-pro-headphones-beyerdynamic-perspective_transparent_1.png%3fv%3d1678884441&ehk=UKBcsLsJWr%2bNbTq%2bwmiWAdeGgnBeRLLqOs9425Vbt1A%3d&risl=&pid=ImgRaw&r=0",
+    "price": 1400,
+    "discount": 10,
+    "additionalInformation": "Ideal for professional audio monitoring and studio use.",
+    "aboutThisItem": "The Beyerdynamic DT 770 Pro features a closed-back design, high-resolution sound, and comfortable ear cushions.",
+    "productDetails": {
+      "connectivity": [
+        "Wired",
+        "3.5mm jack"
+      ],
+      "driverSize": "45mm",
+      "frequencyResponse": "5Hz - 35kHz",
+      "noiseCancellation": "No"
+    }
+  },
+  {
+    "title": "Audio-Technica ATH-M50X",
+    "description": "Wired over-ear headphones with professional-grade sound and deep bass.",
+    "category": "headphones",
+    "brand": "Audio-Technica",
+    "image": "https://www.audio-technica.com.tw/images/detailed/14/ATH-M50x_LAB_02.png",
+    "price": 1600,
+    "discount": 12,
+    "additionalInformation": "Perfect for studio monitoring and high-fidelity listening.",
+    "aboutThisItem": "The Audio-Technica ATH-M50X features professional-grade sound, deep bass, and a foldable design for portability.",
+    "productDetails": {
+      "connectivity": [
+        "Wired",
+        "3.5mm jack"
+      ],
+      "driverSize": "45mm",
+      "frequencyResponse": "15Hz - 28kHz",
+      "noiseCancellation": "No"
+    }
+  },
+  {
+    "title": "AKG K702",
+    "description": "Wired open-back headphones with reference-grade sound and comfortable fit.",
+    "category": "headphones",
+    "brand": "AKG",
+    "image": "https://www.soundhouse.co.jp/images/insert/akg/akg_k702.png",
+    "price": 1800,
+    "discount": 15,
+    "additionalInformation": "Designed for professional mixing and mastering with open-back design.",
+    "aboutThisItem": "The AKG K702 features open-back design, reference-grade sound, and a lightweight frame for comfortable listening.",
+    "productDetails": {
+      "connectivity": [
+        "Wired",
+        "6.3mm jack"
+      ],
+      "driverSize": "45mm",
+      "frequencyResponse": "10Hz - 39kHz",
+      "noiseCancellation": "No"
+    }
+  },
+  {
+    "title": "JBL Quantum 910 Wireless",
+    "description": "Wireless gaming headphones with spatial sound and active noise cancellation.",
+    "category": "headphones",
+    "brand": "JBL",
+    "image": "https://www.jbl.es/dw/image/v2/BFND_PRD/on/demandware.static/-/Sites-masterCatalog_Harman/default/dw1e998d87/JBL_QUANTUM_910_Wireless_Product%20Image_Tight_2.png?sw=680&sh=680",
+    "price": 2000,
+    "discount": 10,
+    "additionalInformation": "Ideal for immersive gaming with spatial sound and noise cancellation.",
+    "aboutThisItem": "The JBL Quantum 910 Wireless features active noise cancellation, Bluetooth connectivity, and JBL QuantumSURROUND technology.",
+    "productDetails": {
+      "connectivity": [
+        "Wireless",
+        "Bluetooth"
+      ],
+      "driverSize": "50mm",
+      "frequencyResponse": "20Hz - 20kHz",
+      "noiseCancellation": "Yes"
+    }
+  },
+  {
+    "title": "Apple Beats Studio Pro",
+    "description": "Premium wireless over-ear headphones with spatial audio and active noise cancellation.",
+    "category": "headphones",
+    "brand": "Apple",
+    "image": "https://www.pngkit.com/png/full/165-1659893_monster-beats-by-dr-apple-beats-pro-beats.png",
+    "price": 2800,
+    "discount": 8,
+    "additionalInformation": "Perfect for Apple users who need high-fidelity sound and seamless integration.",
+    "aboutThisItem": "The Apple Beats Studio Pro features spatial audio, active noise cancellation, and a sleek aluminum design.",
+    "productDetails": {
+      "connectivity": [
+        "Wireless",
+        "Bluetooth"
+      ],
+      "driverSize": "40mm",
+      "frequencyResponse": "N/A",
+      "noiseCancellation": "Yes"
+    }
+  },
+  {
+    "title": "Bose QuietComfort Earbuds II",
+    "description": "True wireless earbuds with world-class noise cancellation and immersive sound.",
+    "category": "headphones",
+    "brand": "Bose",
+    "image": "https://assets.bose.com/content/dam/cloudassets/Bose_DAM/Web/consumer_electronics/global/products/headphones/qc_earbuds_ii_bundle/product_silo_images/QCEII_Fabric_Case_1200x1022.png/jcr:content/renditions/cq5dam.web.1280.1280.png",
+    "price": 2200,
+    "discount": 10,
+    "additionalInformation": "Ideal for travelers and professionals who need superior noise cancellation.",
+    "aboutThisItem": "The Bose QuietComfort Earbuds II feature adaptive noise cancellation, Bluetooth connectivity, and a comfortable fit.",
+    "productDetails": {
+      "connectivity": [
+        "Wireless",
+        "Bluetooth"
+      ],
+      "driverSize": "N/A",
+      "frequencyResponse": "N/A",
+      "noiseCancellation": "Yes"
+    }
+  },
+  {
+    "title": "Sony LinkBuds S",
+    "description": "True wireless earbuds with ambient sound mode and lightweight design.",
+    "category": "headphones",
+    "brand": "Sony",
+    "image": "https://gadgetnmusic.com/wp-content/uploads/2022/06/thumbnails_large_AssetHierarchy_ConsumerAssets_Accessories_Headphones_Earbuds_2022_WF-LS900N_ProductImages_B_eComm_01LinkBudsS_KV-for-web_black.png.png",
+    "price": 1800,
+    "discount": 12,
+    "additionalInformation": "Perfect for everyday listening with seamless ambient sound control.",
+    "aboutThisItem": "The Sony LinkBuds S feature ambient sound mode, Bluetooth connectivity, and ultra-lightweight design.",
+    "productDetails": {
+      "connectivity": [
+        "Wireless",
+        "Bluetooth"
+      ],
+      "driverSize": "5mm",
+      "frequencyResponse": "20Hz - 40kHz",
+      "noiseCancellation": "Yes"
+    }
+  },
+  {
+    "title": "Sennheiser CX Plus True Wireless",
+    "description": "True wireless earbuds with active noise cancellation and deep bass.",
+    "category": "headphones",
+    "brand": "Sennheiser",
+    "image": "https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1674050848/Croma%20Assets/Communication/Headphones%20and%20Earphones/Images/256034_3_pbd3vj.png?tr=w-1000",
+    "price": 1600,
+    "discount": 15,
+    "additionalInformation": "Designed for immersive listening with deep bass and noise isolation.",
+    "aboutThisItem": "The Sennheiser CX Plus True Wireless features active noise cancellation, Bluetooth connectivity, and high-fidelity sound.",
+    "productDetails": {
+      "connectivity": [
+        "Wireless",
+        "Bluetooth"
+      ],
+      "driverSize": "7mm",
+      "frequencyResponse": "5Hz - 21kHz",
+      "noiseCancellation": "Yes"
+    }
+  },
+  {
+    "title": "JBL Reflect Aero",
+    "description": "True wireless earbuds with adaptive noise cancellation and sweatproof design.",
+    "category": "headphones",
+    "brand": "JBL",
+    "image": "https://cdn.inet.se/product/688x386/6602796_0.png",
+    "price": 1700,
+    "discount": 10,
+    "additionalInformation": "Ideal for workouts and outdoor activities with sweatproof construction.",
+    "aboutThisItem": "The JBL Reflect Aero features adaptive noise cancellation, Bluetooth connectivity, and JBL Signature Sound.",
+    "productDetails": {
+      "connectivity": [
+        "Wireless",
+        "Bluetooth"
+      ],
+      "driverSize": "6mm",
+      "frequencyResponse": "20Hz - 20kHz",
+      "noiseCancellation": "Yes"
+    }
+  },
+  {
+    "title": "Apple Beats Fit Pro",
+    "description": "True wireless earbuds with spatial audio and secure-fit design.",
+    "category": "headphones",
+    "brand": "Apple",
+    "image": "https://www.beatsbydre.com/content/dam/beats/web/product/earbuds/beats-fit-pro/pdp/fitpro-pdp-p02.png.large.2x.png",
+    "price": 2000,
+    "discount": 8,
+    "additionalInformation": "Perfect for fitness enthusiasts who need high-fidelity sound and secure fit.",
+    "aboutThisItem": "The Apple Beats Fit Pro features spatial audio, active noise cancellation, and a secure-fit wingtip design.",
+    "productDetails": {
+      "connectivity": [
+        "Wireless",
+        "Bluetooth"
+      ],
+      "driverSize": "N/A",
+      "frequencyResponse": "N/A",
+      "noiseCancellation": "Yes"
+    }
+  },
+  {
+    "title": "Beyerdynamic DT 1770 Pro",
+    "description": "Wired over-ear studio headphones with closed-back design and high-fidelity sound.",
+    "category": "headphones",
+    "brand": "Beyerdynamic",
+    "image": "https://d33p2k2w4zpozf.cloudfront.net/media/catalog/product/b/e/beyerdynamic-dt-1770-pro-perspective_transparent.png",
+    "price": 2400,
+    "discount": 10,
+    "additionalInformation": "Ideal for professional audio monitoring and studio use.",
+    "aboutThisItem": "The Beyerdynamic DT 1770 Pro features a closed-back design, high-resolution sound, and comfortable ear cushions.",
+    "productDetails": {
+      "connectivity": [
+        "Wired",
+        "3.5mm jack"
+      ],
+      "driverSize": "45mm",
+      "frequencyResponse": "5Hz - 40kHz",
+      "noiseCancellation": "No"
+    }
+  },
+  {
+    "title": "Audio-Technica ATH-AD700X",
+    "description": "Wired open-back headphones with audiophile-grade sound and lightweight design.",
+    "category": "headphones",
+    "brand": "Audio-Technica",
+    "image": "https://www.audio-technica.com/es-mx/media/catalog/product/a/t/ath-m50xdg_01.png",
+    "price": 1500,
+    "discount": 12,
+    "additionalInformation": "Perfect for high-fidelity listening with open-back design.",
+    "aboutThisItem": "The Audio-Technica ATH-AD700X features open-back design, high-resolution sound, and a lightweight frame.",
+    "productDetails": {
+      "connectivity": [
+        "Wired",
+        "3.5mm jack"
+      ],
+      "driverSize": "53mm",
+      "frequencyResponse": "5Hz - 30kHz",
+      "noiseCancellation": "No"
+    }
+  },
+  {
+    "title": "AKG K371",
+    "description": "Wired closed-back headphones with reference-grade sound and foldable design.",
+    "category": "headphones",
+    "brand": "AKG",
+    "image": "https://sbshop.rs/wp-content/uploads/2020/09/AKG_K371-Hero-shot-02_1605x1605.png",
+    "price": 1700,
+    "discount": 15,
+    "additionalInformation": "Designed for professional mixing and mastering with closed-back design.",
+    "aboutThisItem": "The AKG K371 features closed-back design, reference-grade sound, and a foldable frame for portability.",
+    "productDetails": {
+      "connectivity": [
+        "Wired",
+        "6.3mm jack"
+      ],
+      "driverSize": "50mm",
+      "frequencyResponse": "5Hz - 40kHz",
+      "noiseCancellation": "No"
+    }
+  },
+  {
+    "title": "JBL Tune 230NC TWS",
+    "description": "True wireless earbuds with active noise cancellation and deep bass.",
+    "category": "headphones",
+    "brand": "JBL",
+    "image": "https://www.jbl.com.br/on/demandware.static/-/Sites-masterCatalog_Harman/default/dw03035569/1.JBL_TUNE_230NC_Product%20image_Hero_White.png",
+    "price": 1400,
+    "discount": 10,
+    "additionalInformation": "Ideal for immersive listening with active noise cancellation.",
+    "aboutThisItem": "The JBL Tune 230NC TWS features active noise cancellation, Bluetooth connectivity, and JBL Pure Bass sound.",
+    "productDetails": {
+      "connectivity": [
+        "Wireless",
+        "Bluetooth"
+      ],
+      "driverSize": "6mm",
+      "frequencyResponse": "20Hz - 20kHz",
+      "noiseCancellation": "Yes"
+    }
+  },
+  {
+    "title": "Sony MDR-1AM2",
+    "description": "Wired over-ear headphones with high-resolution audio and lightweight design.",
+    "category": "headphones",
+    "brand": "Sony",
+    "image": "https://cdn1.techbang.com/system/images/426865/original/43d6f7dd0e3751491501c39e13b990cf.png?1515473921",
+    "price": 1600,
+    "discount": 10,
+    "additionalInformation": "Designed for audiophiles who need superior sound quality.",
+    "aboutThisItem": "The Sony MDR-1AM2 features high-resolution audio, lightweight design, and comfortable ear cushions.",
+    "productDetails": {
+      "connectivity": [
+        "Wired",
+        "3.5mm jack"
+      ],
+      "driverSize": "40mm",
+      "frequencyResponse": "3Hz - 100kHz",
+      "noiseCancellation": "No"
+    }
+  },
+    {
+      "title": "Dell UltraSharp U2723QE",
+      "description": "27-inch 4K UHD IPS monitor with stunning color accuracy and USB-C connectivity.",
+      "category": "monitors",
+      "brand": "Dell",
+      "image": "https://www.pngarts.com/files/10/Dell-Ultrasharp-Monitor-Widescreen-Transparent-Image.png",
+      "price": 599.99,
+      "discount": 10,
+      "additionalInformation": "Ideal for professionals who require accurate colors and crisp resolution for creative work.",
+      "aboutThisItem": "Equipped with IPS technology, the Dell UltraSharp U2723QE offers exceptional color fidelity and wide viewing angles. USB-C connectivity ensures easy device integration.",
+      "productDetails": {
+        "screenSize": "27 inches",
+        "resolution": "4K UHD (3840 x 2160)",
+        "panelType": "IPS",
+        "refreshRate": "60Hz",
+        "connectivity": [
+          "USB-C",
+          "HDMI",
+          "DisplayPort"
+        ]
+      }
+    },
+    {
+      "title": "LG 32UN500-W",
+      "description": "32-inch 4K UHD HDR10 monitor with FreeSync, perfect for gaming and multimedia.",
+      "category": "monitors",
+      "brand": "LG",
+      "image": "https://abzarjo.com/wp-content/uploads/2023/02/231424.png",
+      "price": 349.99,
+      "discount": 5,
+      "additionalInformation": "Great for gamers and content creators, providing enhanced contrast and fluid visuals.",
+      "aboutThisItem": "The LG 32UN500-W combines stunning 4K resolution with HDR10 support for vibrant colors and lifelike details. AMD FreeSync minimizes screen tearing for a smooth gaming experience.",
+      "productDetails": {
+        "screenSize": "32 inches",
+        "resolution": "4K UHD (3840 x 2160)",
+        "panelType": "VA",
+        "refreshRate": "60Hz",
+        "connectivity": [
+          "HDMI",
+          "DisplayPort",
+          "Headphone jack"
+        ]
+      }
+    },
+    {
+      "title": "ASUS ROG Swift PG32UQX",
+      "description": "32-inch 4K HDR gaming monitor with 144Hz refresh rate and G-Sync support.",
+      "category": "monitors",
+      "brand": "Asus",
+      "image": "https://dlcdnwebimgs.asus.com/gain/A00C8F15-E127-4AB4-A5F3-B22FF0CB6BC9/w717/h525",
+      "price": 1999.99,
+      "discount": 15,
+      "additionalInformation": "Designed for competitive gaming with ultra-fast refresh rates and HDR visuals.",
+      "aboutThisItem": "With 144Hz refresh rate and NVIDIA G-Sync support, the ASUS ROG Swift PG32UQX delivers ultra-smooth, immersive gameplay. HDR technology enhances contrast and color performance.",
+      "productDetails": {
+        "screenSize": "32 inches",
+        "resolution": "4K UHD (3840 x 2160)",
+        "panelType": "IPS",
+        "refreshRate": "144Hz",
+        "connectivity": [
+          "HDMI",
+          "DisplayPort",
+          "USB ports"
+        ]
+      }
+    },
+    {
+      "title": "BenQ EX3501R",
+      "description": "35-inch ultrawide curved monitor with HDR and 100Hz refresh rate, ideal for productivity and gaming.",
+      "category": "monitors",
+      "brand": "BenQ",
+      "image": "https://tweakers.net/i/nUw0sFonExqPPRUxzBdQcP0tQd0=/i/2003553614.png",
+      "price": 599.99,
+      "discount": 12,
+      "additionalInformation": "Perfect for multitasking and immersive gaming with its ultrawide screen.",
+      "aboutThisItem": "The BenQ EX3501R features an ultrawide curved screen for an enhanced viewing experience, HDR support for vibrant visuals, and a 100Hz refresh rate for smooth performance.",
+      "productDetails": {
+        "screenSize": "35 inches",
+        "resolution": "3440 x 1440 UWQHD",
+        "panelType": "VA",
+        "refreshRate": "100Hz",
+        "connectivity": [
+          "USB-C",
+          "HDMI",
+          "DisplayPort"
+        ]
+      }
+    },
+    {
+      "title": "Samsung Odyssey G7",
+      "description": "32-inch QHD curved gaming monitor with 240Hz refresh rate and Quantum Dot technology.",
+      "category": "monitors",
+      "brand": "Samsung",
+      "image": "https://images.samsung.com/is/image/samsung/latin-odyssey-g7-g75t-lc32g75tqslxzp-frontlightoffblack-310957544?$650_519_PNG$",
+      "price": 799.99,
+      "discount": 20,
+      "additionalInformation": "Built for hardcore gamers who demand speed and precision in their visuals.",
+      "aboutThisItem": "The Samsung Odyssey G7 offers a blazing-fast 240Hz refresh rate and a 1000R curved screen for immersive gaming. Quantum Dot technology enhances color accuracy and brightness.",
+      "productDetails": {
+        "screenSize": "32 inches",
+        "resolution": "QHD (2560 x 1440)",
+        "panelType": "VA",
+        "refreshRate": "240Hz",
+        "connectivity": [
+          "HDMI",
+          "DisplayPort",
+          "USB ports"
+        ]
+      }
+    },
+    {
+      "title": "Acer Predator X27",
+      "description": "27-inch 4K UHD gaming monitor with HDR and 144Hz refresh rate.",
+      "category": "monitors",
+      "brand": "Acer",
+      "image": "https://www.gaincity.com/media/catalog/product/cache/6c6c50d4c233a553cee4f0d7353c6a74/p/r/predator-monitor-x-x27u-logo-wallpaper-01.png",
+      "price": 1299.99,
+      "discount": 10,
+      "additionalInformation": "Designed for high-performance gaming with stunning visuals.",
+      "aboutThisItem": "The Acer Predator X27 features HDR support, a high refresh rate, and G-Sync compatibility for smooth gameplay.",
+      "productDetails": {
+        "screenSize": "27 inches",
+        "resolution": "4K UHD (3840 x 2160)",
+        "panelType": "IPS",
+        "refreshRate": "144Hz",
+        "connectivity": [
+          "HDMI",
+          "DisplayPort",
+          "USB ports"
+        ]
+      }
+    },
+    {
+      "title": "ViewSonic Elite XG270",
+      "description": "27-inch Full HD gaming monitor with 240Hz refresh rate and IPS panel.",
+      "category": "monitors",
+      "brand": "ViewSonic",
+      "image": "https://www.touchpoint.com.au/wp-content/uploads/2021/01/xg270q-510x425.png",
+      "price": 499.99,
+      "discount": 15,
+      "additionalInformation": "Perfect for esports players who need ultra-fast response times.",
+      "aboutThisItem": "The ViewSonic Elite XG270 offers a blazing-fast 240Hz refresh rate and IPS technology for vibrant colors.",
+      "productDetails": {
+        "screenSize": "27 inches",
+        "resolution": "Full HD (1920 x 1080)",
+        "panelType": "IPS",
+        "refreshRate": "240Hz",
+        "connectivity": [
+          "HDMI",
+          "DisplayPort",
+          "USB ports"
+        ]
+      }
+    },
+    {
+      "title": "Gigabyte M32U",
+      "description": "32-inch 4K UHD gaming monitor with 144Hz refresh rate and FreeSync Premium.",
+      "category": "monitors",
+      "brand": "Gigabyte",
+      "image": "https://www.tecmau.com/wp-content/uploads/2023/04/ASCD-1.png",
+      "price": 799.99,
+      "discount": 12,
+      "additionalInformation": "Ideal for gamers and professionals who need high resolution and speed.",
+      "aboutThisItem": "The Gigabyte M32U delivers stunning 4K visuals with a high refresh rate and FreeSync Premium for smooth performance.",
+      "productDetails": {
+        "screenSize": "32 inches",
+        "resolution": "4K UHD (3840 x 2160)",
+        "panelType": "IPS",
+        "refreshRate": "144Hz",
+        "connectivity": [
+          "HDMI",
+          "DisplayPort",
+          "USB-C"
+        ]
+      }
+    },
+    {
+      "title": "MSI Optix MAG342CQR",
+      "description": "34-inch ultrawide curved gaming monitor with 144Hz refresh rate and HDR.",
+      "category": "monitors",
+      "brand": "MSI",
+      "image": "https://storage-asset.msi.com/global/picture/image/feature/monitor/MAG342CQRV/342cqrv-pip-pbp.png",
+      "price": 599.99,
+      "discount": 10,
+      "additionalInformation": "Designed for immersive gaming with an ultrawide curved display.",
+      "aboutThisItem": "The MSI Optix MAG342CQR features a 144Hz refresh rate, HDR support, and a curved screen for an enhanced gaming experience.",
+      "productDetails": {
+        "screenSize": "34 inches",
+        "resolution": "3440 x 1440 UWQHD",
+        "panelType": "VA",
+        "refreshRate": "144Hz",
+        "connectivity": [
+          "HDMI",
+          "DisplayPort",
+          "USB ports"
+        ]
+      }
+    },
+    {
+      "title": "Samsung Smart Monitor M8",
+      "description": "32-inch 4K UHD smart monitor with built-in apps and wireless connectivity.",
+      "category": "monitors",
+      "brand": "Samsung",
+      "image": "https://images.samsung.com/is/image/samsung/p6pim/ch/ls32cm80guuxen/gallery/ch-smart-m8-32m801c32m80bc32m80gc32m80pc-ls32cm80guuxen-thumb-536028561",
+      "price": 699.99,
+      "discount": 8,
+      "additionalInformation": "Perfect for productivity and entertainment with built-in apps.",
+      "aboutThisItem": "The Samsung Smart Monitor M8 offers a 4K UHD resolution, built-in apps, and wireless connectivity for a seamless experience.",
+      "productDetails": {
+        "screenSize": "32 inches",
+        "resolution": "4K UHD (3840 x 2160)",
+        "panelType": "VA",
+        "refreshRate": "60Hz",
+        "connectivity": [
+          "HDMI",
+          "USB-C",
+          "Wi-Fi"
+        ]
+      }
+    },
+    {
+      "title": "HP Omen X 27",
+      "description": "27-inch QHD gaming monitor with 240Hz refresh rate and 1ms response time.",
+      "category": "monitors",
+      "brand": "HP",
+      "image": "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c05447860.png",
+      "price": 799.99,
+      "discount": 10,
+      "additionalInformation": "Designed for competitive gaming with ultra-fast response times.",
+      "aboutThisItem": "The HP Omen X 27 offers a high refresh rate and low response time for smooth, lag-free gaming.",
+      "productDetails": {
+        "screenSize": "27 inches",
+        "resolution": "QHD (2560 x 1440)",
+        "panelType": "TN",
+        "refreshRate": "240Hz",
+        "connectivity": [
+          "HDMI",
+          "DisplayPort",
+          "USB ports"
+        ]
+      }
+    },
+    {
+      "title": "LG UltraGear 34GN850-B",
+      "description": "34-inch ultrawide gaming monitor with 144Hz refresh rate and Nano IPS technology.",
+      "category": "monitors",
+      "brand": "LG",
+      "image": "https://cdn.digitalpuls.de/media/image/fc/fa/4c/2041689-01.png",
+      "price": 1299.99,
+      "discount": 12,
+      "additionalInformation": "Perfect for immersive gaming with ultrawide screen and fast refresh rate.",
+      "aboutThisItem": "The LG UltraGear 34GN850-B features Nano IPS technology for vibrant colors and a 144Hz refresh rate for smooth gameplay.",
+      "productDetails": {
+        "screenSize": "34 inches",
+        "resolution": "3440 x 1440 UWQHD",
+        "panelType": "IPS",
+        "refreshRate": "144Hz",
+        "connectivity": [
+          "HDMI",
+          "DisplayPort",
+          "USB ports"
+        ]
+      }
+    },
+    {
+      "title": "BenQ PD3220U",
+      "description": "32-inch 4K UHD designer monitor with HDR10 and 95% DCI-P3 color accuracy.",
+      "category": "monitors",
+      "brand": "BenQ",
+      "image": "https://tweakers.net/i/bMCHgLuoAHU0Q1XUbdxUycHZyCM=/i/2003565852.png",
+      "price": 999.99,
+      "discount": 8,
+      "additionalInformation": "Ideal for creative professionals who need precise color accuracy.",
+      "aboutThisItem": "The BenQ PD3220U offers HDR10 support and high color accuracy for professional design work.",
+      "productDetails": {
+        "screenSize": "32 inches",
+        "resolution": "4K UHD (3840 x 2160)",
+        "panelType": "IPS",
+        "refreshRate": "60Hz",
+        "connectivity": [
+          "HDMI",
+          "DisplayPort",
+          "USB-C"
+        ]
+      }
+    },
+    {
+      "title": "ASUS TUF Gaming VG27AQ",
+      "description": "27-inch QHD gaming monitor with 165Hz refresh rate and Adaptive Sync.",
+      "category": "monitors",
+      "brand": "ASUS",
+      "image": "https://shop.imel.ba/wp-content/uploads/2023/04/90LM0500-B03370_230324030354073-1.png",
+      "price": 549.99,
+      "discount": 10,
+      "additionalInformation": "Built for gamers who need high refresh rates and smooth visuals.",
+      "aboutThisItem": "The ASUS TUF Gaming VG27AQ features Adaptive Sync technology and a 165Hz refresh rate for fluid gameplay.",
+      "productDetails": {
+        "screenSize": "27 inches",
+        "resolution": "QHD (2560 x 1440)",
+        "panelType": "IPS",
+        "refreshRate": "165Hz",
+        "connectivity": [
+          "HDMI",
+          "DisplayPort",
+          "USB ports"
+        ]
+      }
+    },
+    {
+      "title": "Samsung Odyssey Neo G9",
+      "description": "49-inch ultrawide curved gaming monitor with Quantum Mini LED and 240Hz refresh rate.",
+      "category": "monitors",
+      "brand": "Samsung",
+      "image": "https://images.samsung.com/is/image/samsung/p6pim/uk/ls49cg934suxxu/gallery/uk-odyssey-oled-g9-g93sc-ls49cg934suxxu-537664491?$650_519_PNG$",
+      "price": 2499.99,
+      "discount": 15,
+      "additionalInformation": "Designed for immersive gaming with ultrawide curved display and high refresh rate.",
+      "aboutThisItem": "The Samsung Odyssey Neo G9 features Quantum Mini LED technology and a 240Hz refresh rate for stunning visuals.",
+      "productDetails": {
+        "screenSize": "49 inches",
+        "resolution": "5120 x 1440 DQHD",
+        "panelType": "VA",
+        "refreshRate": "240Hz",
+        "connectivity": [
+          "HDMI",
+          "DisplayPort",
+          "USB ports"
+        ]
+      }
+    },
+    {
+      "title": "Acer Predator X38",
+      "description": "37.5-inch ultrawide curved gaming monitor with 175Hz refresh rate and G-Sync Ultimate.",
+      "category": "monitors",
+      "brand": "Acer",
+      "image": "https://images.tech.co/wp-content/uploads/2020/01/06104928/acer-Predator-X38-640x533.png",
+      "price": 1799.99,
+      "discount": 10,
+      "additionalInformation": "Designed for immersive gaming with ultrawide curved display and high refresh rate.",
+      "aboutThisItem": "The Acer Predator X38 features a 175Hz refresh rate, G-Sync Ultimate, and a curved screen for an enhanced gaming experience.",
+      "productDetails": {
+        "screenSize": "37.5 inches",
+        "resolution": "UWQHD+ (3840 x 1600)",
+        "panelType": "IPS",
+        "refreshRate": "175Hz",
+        "connectivity": [
+          "HDMI",
+          "DisplayPort",
+          "USB ports"
+        ]
+      }
+    },
+    {
+      "title": "ViewSonic Elite XG321UG",
+      "description": "32-inch 4K UHD gaming monitor with 144Hz refresh rate and Mini LED technology.",
+      "category": "monitors",
+      "brand": "ViewSonic",
+      "image": "https://www.viewsonic.com/vsAssetFile/bd/img/lcd/elite-rgb.png",
+      "price": 1499.99,
+      "discount": 12,
+      "additionalInformation": "Perfect for high-end gaming with Mini LED technology and ultra-fast refresh rate.",
+      "aboutThisItem": "The ViewSonic Elite XG321UG features Mini LED backlighting, a 144Hz refresh rate, and G-Sync Ultimate for smooth gameplay.",
+      "productDetails": {
+        "screenSize": "32 inches",
+        "resolution": "4K UHD (3840 x 2160)",
+        "panelType": "IPS",
+        "refreshRate": "144Hz",
+        "connectivity": [
+          "HDMI",
+          "DisplayPort",
+          "USB ports"
+        ]
+      }
+    },
+    {
+      "title": "Gigabyte AORUS FI32U",
+      "description": "32-inch 4K UHD gaming monitor with 144Hz refresh rate and FreeSync Premium Pro.",
+      "category": "monitors",
+      "brand": "Gigabyte",
+      "image": "https://www.gigabyte.com/FileUpload/Global/KeyFeature/1065/img/animation/15.png",
+      "price": 1299.99,
+      "discount": 15,
+      "additionalInformation": "Ideal for gamers who need high resolution and speed.",
+      "aboutThisItem": "The Gigabyte AORUS FI32U delivers stunning 4K visuals with a high refresh rate and FreeSync Premium Pro for smooth performance.",
+      "productDetails": {
+        "screenSize": "32 inches",
+        "resolution": "4K UHD (3840 x 2160)",
+        "panelType": "IPS",
+        "refreshRate": "144Hz",
+        "connectivity": [
+          "HDMI",
+          "DisplayPort",
+          "USB-C"
+        ]
+      }
+    },
+    {
+      "title": "MSI MEG 342C QD-OLED",
+      "description": "34-inch ultrawide curved gaming monitor with QD-OLED technology and 175Hz refresh rate.",
+      "category": "monitors",
+      "brand": "MSI",
+      "image": "https://storage-asset.msi.com/event/2023/CND/diablo_4/images/kv-pd.png",
+      "price": 1599.99,
+      "discount": 10,
+      "additionalInformation": "Designed for immersive gaming with ultrawide curved display and QD-OLED technology.",
+      "aboutThisItem": "The MSI MEG 342C QD-OLED features a 175Hz refresh rate, QD-OLED panel, and a curved screen for an enhanced gaming experience.",
+      "productDetails": {
+        "screenSize": "34 inches",
+        "resolution": "UWQHD (3440 x 1440)",
+        "panelType": "QD-OLED",
+        "refreshRate": "175Hz",
+        "connectivity": [
+          "HDMI",
+          "DisplayPort",
+          "USB ports"
+        ]
+      }
+    },
+    {
+      "title": "Samsung Smart Monitor M80B",
+      "description": "32-inch 4K UHD smart monitor with built-in apps and wireless connectivity.",
+      "category": "monitors",
+      "brand": "Samsung",
+      "image": "https://th.bing.com/th/id/OIP.ZEvQbGo4IxbagBxCZkPu6wHaHa?rs=1&pid=ImgDetMain",
+      "price": 899.99,
+      "discount": 8,
+      "additionalInformation": "Perfect for productivity and entertainment with built-in apps.",
+      "aboutThisItem": "The Samsung Smart Monitor M80B offers a 4K UHD resolution, built-in apps, and wireless connectivity for a seamless experience.",
+      "productDetails": {
+        "screenSize": "32 inches",
+        "resolution": "4K UHD (3840 x 2160)",
+        "panelType": "VA",
+        "refreshRate": "60Hz",
+        "connectivity": [
+          "HDMI",
+          "USB-C",
+          "Wi-Fi"
+        ]
+      }
+    },
+    {
+      "title": "LG 32UN880-B UltraFine Ergo",
+      "description": "32-inch 4K UHD IPS monitor with ergonomic stand and HDR10 support.",
+      "category": "monitors",
+      "brand": "LG",
+      "image": "https://www.unison.com.ph/wp-content/uploads/2023/02/27-UltraFine-UHD-IPS-USB-C-HDR-Monitor-with-Ergo-Stand-2048x1288.png",
+      "price": 799.99,
+      "discount": 10,
+      "additionalInformation": "Ideal for professionals who need an adjustable ergonomic stand and high-resolution display.",
+      "aboutThisItem": "The LG UltraFine Ergo features a 4K UHD resolution, HDR10 support, and an ergonomic stand for flexible positioning.",
+      "productDetails": {
+        "screenSize": "32 inches",
+        "resolution": "4K UHD (3840 x 2160)",
+        "panelType": "IPS",
+        "refreshRate": "60Hz",
+        "connectivity": [
+          "USB-C",
+          "HDMI",
+          "DisplayPort"
+        ]
+      }
+    },
+    {
+      "title": "Dell Alienware AW3423DW",
+      "description": "34-inch QD-OLED ultrawide gaming monitor with 175Hz refresh rate and G-Sync Ultimate.",
+      "category": "monitors",
+      "brand": "Dell",
+      "image": "https://gadgetguy-assets.s3.ap-southeast-2.amazonaws.com/wordpress/wp-content/uploads/2022/05/26175957/Alienware-34-Curved-QD-OLED-Monitor-AW3423DW_duo-lf-back-1136x744.png",
+      "price": 1299.99,
+      "discount": 12,
+      "additionalInformation": "Perfect for immersive gaming with QD-OLED technology and ultra-fast refresh rate.",
+      "aboutThisItem": "The Alienware AW3423DW features QD-OLED technology for vibrant colors, a 175Hz refresh rate, and G-Sync Ultimate for smooth gameplay.",
+      "productDetails": {
+        "screenSize": "34 inches",
+        "resolution": "3440 x 1440 UWQHD",
+        "panelType": "QD-OLED",
+        "refreshRate": "175Hz",
+        "connectivity": [
+          "HDMI",
+          "DisplayPort",
+          "USB ports"
+        ]
+      }
+    },
+    {
+      "title": "ASUS ROG Swift PG42UQ",
+      "description": "42-inch 4K OLED gaming monitor with 138Hz refresh rate and HDR support.",
+      "category": "monitors",
+      "brand": "ASUS",
+      "image": "https://cdn.inet.se/product/688x386/2221909_9.png",
+      "price": 1499.99,
+      "discount": 15,
+      "additionalInformation": "Designed for high-end gaming with OLED technology and ultra-fast refresh rate.",
+      "aboutThisItem": "The ASUS ROG Swift PG42UQ features OLED technology for deep blacks, a 138Hz refresh rate, and HDR support for stunning visuals.",
+      "productDetails": {
+        "screenSize": "42 inches",
+        "resolution": "4K UHD (3840 x 2160)",
+        "panelType": "OLED",
+        "refreshRate": "138Hz",
+        "connectivity": [
+          "HDMI",
+          "DisplayPort",
+          "USB ports"
+        ]
+      }
+    },
+    {
+      "title": "BenQ EX240N",
+      "description": "24-inch Full HD gaming monitor with 165Hz refresh rate and Adaptive Sync.",
+      "category": "monitors",
+      "brand": "BenQ",
+      "image": "https://cdn.shopify.com/s/files/1/0637/0407/2436/files/ex2710q-2product_89afcd09-15a6-46dc-94d1-2362e9767d6a.png?v=1697446234",
+      "price": 299.99,
+      "discount": 12,
+      "additionalInformation": "Perfect for fast-paced gaming with high refresh rate and Adaptive Sync technology.",
+      "aboutThisItem": "The BenQ EX240N features a 165Hz refresh rate, Adaptive Sync technology, and Full HD resolution for smooth gameplay.",
+      "productDetails": {
+        "screenSize": "24 inches",
+        "resolution": "Full HD (1920 x 1080)",
+        "panelType": "VA",
+        "refreshRate": "165Hz",
+        "connectivity": [
+          "HDMI",
+          "DisplayPort",
+          "USB ports"
+        ]
+      }
+    },
+    {
+      "title": "Samsung Smart Monitor M70B",
+      "description": "32-inch 4K UHD smart monitor with built-in apps and wireless connectivity.",
+      "category": "monitors",
+      "brand": "Samsung",
+      "image": "https://thegoodguys.sirv.com/products/50081233/50081233_816783.PNG",
+      "price": 899.99,
+      "discount": 8,
+      "additionalInformation": "Perfect for productivity and entertainment with built-in apps.",
+      "aboutThisItem": "The Samsung Smart Monitor M70B offers a 4K UHD resolution, built-in apps, and wireless connectivity for a seamless experience.",
+      "productDetails": {
+        "screenSize": "32 inches",
+        "resolution": "4K UHD (3840 x 2160)",
+        "panelType": "VA",
+        "refreshRate": "60Hz",
+        "connectivity": [
+          "HDMI",
+          "USB-C",
+          "Wi-Fi"
+        ]
+      }
+    },
+    {
+      "title": "HP Z32",
+      "description": "32-inch 4K UHD professional monitor with factory-calibrated color accuracy.",
+      "category": "monitors",
+      "brand": "HP",
+      "image": "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c05874254.png",
+      "price": 999.99,
+      "discount": 10,
+      "additionalInformation": "Ideal for professionals who need precise color accuracy for design and editing.",
+      "aboutThisItem": "The HP Z32 features a 4K UHD resolution, factory-calibrated color accuracy, and ergonomic adjustments for comfortable viewing.",
+      "productDetails": {
+        "screenSize": "32 inches",
+        "resolution": "4K UHD (3840 x 2160)",
+        "panelType": "IPS",
+        "refreshRate": "60Hz",
+        "connectivity": [
+          "USB-C",
+          "HDMI",
+          "DisplayPort"
+        ]
+      }
+    },
+    {
+      "title": "LG 38WN95C-W",
+      "description": "38-inch ultrawide curved monitor with Nano IPS technology and 144Hz refresh rate.",
+      "category": "monitors",
+      "brand": "LG",
+      "image": "https://tanthanhdanh.vn/wp-content/uploads/2024/04/38WN95C-product-1.png",
+      "price": 1599.99,
+      "discount": 12,
+      "additionalInformation": "Perfect for immersive gaming and multitasking with ultrawide screen and high refresh rate.",
+      "aboutThisItem": "The LG 38WN95C-W features Nano IPS technology for vibrant colors, a 144Hz refresh rate, and a curved screen for an enhanced viewing experience.",
+      "productDetails": {
+        "screenSize": "38 inches",
+        "resolution": "3840 x 1600",
+        "panelType": "IPS",
+        "refreshRate": "144Hz",
+        "connectivity": [
+          "USB-C",
+          "HDMI",
+          "DisplayPort"
+        ]
+      }
+    },
+    {
+      "title": "ASUS ProArt Display PA32DC",
+      "description": "32-inch 4K OLED professional monitor with HDR support and ultra-high color accuracy.",
+      "category": "monitors",
+      "brand": "ASUS",
+      "image": "https://dlcdnwebimgs.asus.com/gain/079e0f31-1e15-4007-9a4a-bc8cf313f72c/w800",
+      "price": 2499.99,
+      "discount": 15,
+      "additionalInformation": "Designed for professional video editing and color grading with industry-leading OLED technology.",
+      "aboutThisItem": "The ASUS ProArt Display PA32DC features OLED technology for deep blacks, HDR support, and ultra-high color accuracy for professional workflows.",
+      "productDetails": {
+        "screenSize": "32 inches",
+        "resolution": "4K UHD (3840 x 2160)",
+        "panelType": "OLED",
+        "refreshRate": "60Hz",
+        "connectivity": [
+          "HDMI",
+          "DisplayPort",
+          "USB-C"
+        ]
+      }
+    },
+    {
+      "title": "BenQ EW3880R",
+      "description": "37.5-inch ultrawide curved monitor with HDRi and built-in speakers.",
+      "category": "monitors",
+      "brand": "BenQ",
+      "image": "https://image.benq.com/is/image/benqco/10-ew3880r?$ResponsivePreset$&fmt=png-alpha",
+      "price": 1299.99,
+      "discount": 12,
+      "additionalInformation": "Perfect for entertainment and productivity with ultrawide screen and built-in speakers.",
+      "aboutThisItem": "The BenQ EW3880R features an ultrawide curved screen for an enhanced viewing experience, HDRi support for vibrant visuals, and built-in speakers for immersive sound.",
+      "productDetails": {
+        "screenSize": "37.5 inches",
+        "resolution": "3840 x 1600",
+        "panelType": "IPS",
+        "refreshRate": "60Hz",
+        "connectivity": [
+          "USB-C",
+          "HDMI",
+          "DisplayPort"
+        ]
+      }
+    },
+    {
+      "title": "Samsung Smart Monitor M80B",
+      "description": "32-inch 4K UHD smart monitor with built-in apps and wireless connectivity.",
+      "category": "monitors",
+      "brand": "Samsung",
+      "image": "https://images.samsung.com/is/image/samsung/p6pim/mx/ls32bm80pulxzx/gallery/mx-smart-m8-32m80b-ls32bm80pulxzx-532554058?$650_519_PNG$",
+      "price": 999.99,
+      "discount": 8,
+      "additionalInformation": "Perfect for productivity and entertainment with built-in apps.",
+      "aboutThisItem": "The Samsung Smart Monitor M90B offers a 4K UHD resolution, built-in apps, and wireless connectivity for a seamless experience.",
+      "productDetails": {
+        "screenSize": "32 inches",
+        "resolution": "4K UHD (3840 x 2160)",
+        "panelType": "VA",
+        "refreshRate": "60Hz",
+        "connectivity": [
+          "HDMI",
+          "USB-C",
+          "Wi-Fi"
+        ]
+      }
+    },
+        {
+          "title": "Logitech MX Master 3S",
+          "description": "Advanced wireless mouse with ultra-fast scrolling and ergonomic design.",
+          "category": "mouse",
+          "brand": "Logitech",
+          "image": "https://media.croma.com/image/upload/v1681404219/Croma%20Assets/Computers%20Peripherals/Computer%20Accessories%20and%20Tablets%20Accessories/Images/258454_0_rmm57f.png",
+          "price": 349.99,
+          "discount": 10,
+          "additionalInformation": "Ideal for professionals who need precision and comfort for extended use.",
+          "aboutThisItem": "The Logitech MX Master 3S features ultra-fast scrolling, ergonomic design, and customizable buttons for enhanced productivity.",
+          "productDetails": {
+            "connectivity": [
+              "Bluetooth",
+              "USB-C"
+            ],
+            "dpi": "8000 DPI",
+            "batteryLife": "Up to 70 days",
+            "buttons": "7 programmable buttons"
+          }
+        },
+        {
+          "title": "Razer DeathAdder V3 Pro",
+          "description": "Ultra-lightweight wireless gaming mouse with 30K DPI optical sensor.",
+          "category": "mouse",
+          "brand": "Razer",
+          "image": "https://cdn.ut.in.th/media/catalog/product/cache/df78d4eb0ea5a9daa94c769f81472413/r/a/razer-gaming-mouse-deathadder-v3-pro.png",
+          "price": 499.99,
+          "discount": 12,
+          "additionalInformation": "Perfect for competitive gaming with ultra-lightweight design and high DPI sensor.",
+          "aboutThisItem": "The Razer DeathAdder V3 Pro features a 30K DPI optical sensor, ultra-lightweight design, and HyperSpeed wireless technology for lag-free gaming.",
+          "productDetails": {
+            "connectivity": [
+              "Wireless",
+              "USB-C"
+            ],
+            "dpi": "30,000 DPI",
+            "batteryLife": "Up to 90 hours",
+            "buttons": "6 programmable buttons"
+          }
+        },
+        {
+          "title": "SteelSeries Aerox 5 Wireless",
+          "description": "Ultra-lightweight wireless gaming mouse with customizable RGB lighting.",
+          "category": "mouse",
+          "brand": "SteelSeries",
+          "image": "https://tweakers.net/i/xZCOe9YmEX05MadxhZ403l0ILK0=/i/2005045428.png",
+          "price": 399.99,
+          "discount": 15,
+          "additionalInformation": "Designed for gamers who need speed and precision with customizable RGB lighting.",
+          "aboutThisItem": "The SteelSeries Aerox 5 Wireless features an ultra-lightweight design, customizable RGB lighting, and Quantum 2.0 wireless technology for seamless connectivity.",
+          "productDetails": {
+            "connectivity": [
+              "Wireless",
+              "USB-C"
+            ],
+            "dpi": "18,000 DPI",
+            "batteryLife": "Up to 180 hours",
+            "buttons": "9 programmable buttons"
+          }
+        },
+        {
+          "title": "Corsair Dark Core RGB Pro",
+          "description": "High-performance wireless gaming mouse with customizable side grips.",
+          "category": "mouse",
+          "brand": "Corsair",
+          "image": "https://cwsmgmt.corsair.com/pdp/darkcore-rgb-pro/images/dark_core_pro_slipstream.png",
+          "price": 329.99,
+          "discount": 10,
+          "additionalInformation": "Perfect for gamers who need precision and comfort with customizable side grips.",
+          "aboutThisItem": "The Corsair Dark Core RGB Pro features a high-performance optical sensor, customizable side grips, and Slipstream wireless technology for ultra-fast response times.",
+          "productDetails": {
+            "connectivity": [
+              "Wireless",
+              "USB-C"
+            ],
+            "dpi": "16,000 DPI",
+            "batteryLife": "Up to 50 hours",
+            "buttons": "8 programmable buttons"
+          }
+        },
+        {
+          "title": "Microsoft Surface Precision Mouse",
+          "description": "Ergonomic wireless mouse with smooth scrolling and customizable buttons.",
+          "category": "mouse",
+          "brand": "Microsoft",
+          "image": "https://allegro.stati.pl/AllegroIMG/PRODUCENCI/MICROSOFT/FTW-00006/microsoft_precision_mouse/assets/mouse-kv-precision/mouse.png",
+          "price": 319.99,
+          "discount": 8,
+          "additionalInformation": "Ideal for professionals who need precision and comfort for extended use.",
+          "aboutThisItem": "The Microsoft Surface Precision Mouse features smooth scrolling, ergonomic design, and customizable buttons for enhanced productivity.",
+          "productDetails": {
+            "connectivity": [
+              "Bluetooth",
+              "USB-C"
+            ],
+            "dpi": "3200 DPI",
+            "batteryLife": "Up to 3 months",
+            "buttons": "6 programmable buttons"
+          }
+        },
+        {
+          "title": "Logitech G Pro X Superlight",
+          "description": "Ultra-lightweight wireless gaming mouse with HERO 25K sensor.",
+          "category": "mouse",
+          "brand": "Logitech",
+          "image": "https://resource.logitechg.com/d_transparent.gif/content/dam/gaming/en/products/pro-x-superlight-2/gallery-1-pro-x-superlight-2-gaming-mouse-white.png",
+          "price": 699.99,
+          "discount": 15,
+          "additionalInformation": "Designed for esports professionals who need the fastest response times and precision.",
+          "aboutThisItem": "The Logitech G Pro X Superlight features a HERO 25K sensor, ultra-lightweight design, and ultra-low latency wireless technology.",
+          "productDetails": {
+            "connectivity": [
+              "Wireless",
+              "USB-C"
+            ],
+            "dpi": "25,600 DPI",
+            "batteryLife": "Up to 70 hours",
+            "buttons": "5 programmable buttons"
+          }
+        },
+        {
+          "title": "Razer Viper V2 Pro",
+          "description": "High-performance wireless gaming mouse with 30K DPI optical sensor.",
+          "category": "mouse",
+          "brand": "Razer",
+          "image": "https://dl.razerzone.com/src/6407/6047-1-en-v2.png",
+          "price": 749.99,
+          "discount": 10,
+          "additionalInformation": "Engineered for professional gamers with an ultra-lightweight frame and ultra-fast response times.",
+          "aboutThisItem": "The Razer Viper V2 Pro features a 30K DPI optical sensor, lightweight frame, and HyperPolling technology for the fastest gaming performance.",
+          "productDetails": {
+            "connectivity": [
+              "Wireless",
+              "USB-C"
+            ],
+            "dpi": "30,000 DPI",
+            "batteryLife": "Up to 80 hours",
+            "buttons": "6 programmable buttons"
+          }
+        },
+        {
+          "title": "Mad Catz R.A.T. 8+",
+          "description": "Customizable modular gaming mouse with adjustable palm and side grips.",
+          "category": "mouse",
+          "brand": "Mad Catz",
+          "image": "https://th.bing.com/th/id/OIP.Y065cBbnMgsnkU_1iBQPegHaKE?rs=1&pid=ImgDetMain",
+          "price": 329.99,
+          "discount": 12,
+          "additionalInformation": "Perfect for gamers who want a customizable design for maximum comfort.",
+          "aboutThisItem": "The Mad Catz R.A.T. 8+ features adjustable palm and side grips, 16K DPI optical sensor, and customizable weight.",
+          "productDetails": {
+            "connectivity": [
+              "Wired",
+              "USB"
+            ],
+            "dpi": "16,000 DPI",
+            "buttons": "11 programmable buttons"
+          }
+        },
+        {
+          "title": "Apple Magic Mouse 3",
+          "description": "Sleek and minimalistic wireless mouse with multi-touch gestures.",
+          "category": "mouse",
+          "brand": "Apple",
+          "image": "https://clipground.com/images/apple-mouse-png-2.png",
+          "price": 329.99,
+          "discount": 5,
+          "additionalInformation": "Designed for Mac users who prefer a seamless, gesture-based experience.",
+          "aboutThisItem": "The Apple Magic Mouse 3 features an ultra-smooth multi-touch surface, rechargeable battery, and a sleek aluminum design.",
+          "productDetails": {
+            "connectivity": [
+              "Bluetooth",
+              "Lightning"
+            ],
+            "batteryLife": "Up to 1 month",
+            "buttons": "Touch gestures"
+          }
+        },
+        {
+          "title": "Razer Basilisk Ultimate",
+          "description": "Wireless gaming mouse with 20K DPI optical sensor and customizable scroll wheel resistance.",
+          "category": "mouse",
+          "brand": "Razer",
+          "image": "https://assets2.razerzone.com/pages/basilisk-v3-4D578898E8144Le8da21dde32b7a9f5f/basilisk.png",
+          "price": 799.99,
+          "discount": 10,
+          "additionalInformation": "Ideal for FPS and RPG gamers who need precise control and extra features.",
+          "aboutThisItem": "The Razer Basilisk Ultimate features a 20K DPI sensor, adjustable scroll wheel resistance, and Razer Chroma RGB lighting.",
+          "productDetails": {
+            "connectivity": [
+              "Wireless",
+              "USB-C"
+            ],
+            "dpi": "20,000 DPI",
+            "batteryLife": "Up to 100 hours",
+            "buttons": "11 programmable buttons"
+          }
+        },
+        {
+          "title": "HP Omen Photon",
+          "description": "Wireless gaming mouse with 16,000 DPI optical sensor and customizable buttons.",
+          "category": "mouse",
+          "brand": "HP",
+          "image": "https://www.omen.com/content/dam/sites/omen/worldwide/accessories/photon-wireless-mouse/T900-PHOTON-C22-IMAGE1-SMALL.png",
+          "price": 399.99,
+          "discount": 10,
+          "additionalInformation": "Ideal for gamers who need precision and speed with customizable features.",
+          "aboutThisItem": "The HP Omen Photon features a 16,000 DPI optical sensor, customizable buttons, and wireless charging support.",
+          "productDetails": {
+            "connectivity": [
+              "Wireless",
+              "USB-C"
+            ],
+            "dpi": "16,000 DPI",
+            "batteryLife": "Up to 50 hours",
+            "buttons": "11 programmable buttons"
+          }
+        },
+        {
+          "title": "Logitech G903 Lightspeed",
+          "description": "High-performance wireless gaming mouse with HERO 25K sensor and PowerPlay compatibility.",
+          "category": "mouse",
+          "brand": "Logitech",
+          "image": "https://resource.logitechg.com/content/dam/gaming/en/products/g903/g903-herofeature-1-desktop.png",
+          "price": 499.99,
+          "discount": 12,
+          "additionalInformation": "Perfect for competitive gaming with ultra-fast response times and wireless charging support.",
+          "aboutThisItem": "The Logitech G903 Lightspeed features a HERO 25K sensor, ultra-low latency wireless technology, and PowerPlay compatibility for continuous charging.",
+          "productDetails": {
+            "connectivity": [
+              "Wireless",
+              "USB-C"
+            ],
+            "dpi": "25,600 DPI",
+            "batteryLife": "Up to 140 hours",
+            "buttons": "11 programmable buttons"
+          }
+        },
+        {
+          "title": "Razer Naga Pro",
+          "description": "Modular wireless gaming mouse with interchangeable side plates and 20K DPI sensor.",
+          "category": "mouse",
+          "brand": "Razer",
+          "image": "https://www.pcmgames.com/wp-content/uploads/2020/10/Razer-Naga-Pro-Analisis-Producto-11.png",
+          "price": 599.99,
+          "discount": 15,
+          "additionalInformation": "Designed for MMO and FPS gamers who need customizable controls.",
+          "aboutThisItem": "The Razer Naga Pro features interchangeable side plates, a 20K DPI optical sensor, and HyperSpeed wireless technology for seamless connectivity.",
+          "productDetails": {
+            "connectivity": [
+              "Wireless",
+              "USB-C"
+            ],
+            "dpi": "20,000 DPI",
+            "batteryLife": "Up to 150 hours",
+            "buttons": "19 programmable buttons"
+          }
+        },
+        {
+          "title": "Corsair M65 RGB Ultra Wireless",
+          "description": "High-performance wireless gaming mouse with tunable weight system and 26K DPI sensor.",
+          "category": "mouse",
+          "brand": "Corsair",
+          "image": "https://assets.corsair.com/image/upload/akamai/pdp/m65-ultra/wireless/icon_reborn_wireless_3.png",
+          "price": 449.99,
+          "discount": 10,
+          "additionalInformation": "Perfect for FPS gamers who need precision and adjustable weight.",
+          "aboutThisItem": "The Corsair M65 RGB Ultra Wireless features a tunable weight system, 26K DPI optical sensor, and Slipstream wireless technology for ultra-fast response times.",
+          "productDetails": {
+            "connectivity": [
+              "Wireless",
+              "USB-C"
+            ],
+            "dpi": "26,000 DPI",
+            "batteryLife": "Up to 120 hours",
+            "buttons": "8 programmable buttons"
+          }
+        },
+        {
+          "title": "Microsoft Arc Mouse",
+          "description": "Slim and portable wireless mouse with touch-sensitive scrolling.",
+          "category": "mouse",
+          "brand": "Microsoft",
+          "image": "https://www.pikpng.com/pngl/b/289-2892673_microsofts-arc-touch-mouse-gets-bluetooth-upgrade-arc.png",
+          "price": 319.99,
+          "discount": 8,
+          "additionalInformation": "Ideal for professionals who need a sleek and portable design.",
+          "aboutThisItem": "The Microsoft Arc Mouse features a slim and foldable design, touch-sensitive scrolling, and Bluetooth connectivity.",
+          "productDetails": {
+            "connectivity": [
+              "Bluetooth"
+            ],
+            "batteryLife": "Up to 6 months",
+            "buttons": "Touch gestures"
+          }
+        },
+        {
+          "title": "Logitech G600 MMO Gaming Mouse",
+          "description": "Wired gaming mouse with 20 programmable buttons and RGB lighting.",
+          "category": "mouse",
+          "brand": "Logitech",
+          "image": "https://th.bing.com/th/id/R.b6c6765c3c638d2a74743a821b35df81?rik=ADJc%2boDCJgphfg&riu=http%3a%2f%2fgaming.logitech.com%2fassets%2f47823%2fg600-gaming-mouse-images.png&ehk=wBuVNNauT0qMV%2bnnrux50%2fcpRvcIuAexW%2f716mWI6FM%3d&risl=&pid=ImgRaw&r=0",
+          "price": 349.99,
+          "discount": 15,
+          "additionalInformation": "Designed for MMO gamers who need extensive customization options.",
+          "aboutThisItem": "The Logitech G600 MMO Gaming Mouse features 20 programmable buttons, RGB lighting, and a high-precision laser sensor.",
+          "productDetails": {
+            "connectivity": [
+              "Wired",
+              "USB"
+            ],
+            "dpi": "8,200 DPI",
+            "buttons": "20 programmable buttons"
+          }
+        },
+        {
+          "title": "Razer Viper Ultimate",
+          "description": "Ultra-lightweight wireless gaming mouse with 20K DPI optical sensor.",
+          "category": "mouse",
+          "brand": "Razer",
+          "image": "https://www.ahui3c.com/wp-content/uploads/2019/11/Viper_Ultimate_V03a.png",
+          "price": 699.99,
+          "discount": 10,
+          "additionalInformation": "Engineered for professional gamers with an ultra-lightweight frame and ultra-fast response times.",
+          "aboutThisItem": "The Razer Viper Ultimate features a 20K DPI optical sensor, lightweight frame, and HyperPolling technology for the fastest gaming performance.",
+          "productDetails": {
+            "connectivity": [
+              "Wireless",
+              "USB-C"
+            ],
+            "dpi": "20,000 DPI",
+            "batteryLife": "Up to 80 hours",
+            "buttons": "6 programmable buttons"
+          }
+        },
+        {
+          "title": "Mad Catz R.A.T. 9",
+          "description": "Customizable modular gaming mouse with adjustable palm and side grips.",
+          "category": "mouse",
+          "brand": "Mad Catz",
+          "image": "https://product.hstatic.net/200000478869/product/e3a595e8-2ef7-4a1d-9405-dd168e0c3958_e7cd35335b474bc197f0493d28a94ee0.png",
+          "price": 329.99,
+          "discount": 12,
+          "additionalInformation": "Perfect for gamers who want a customizable design for maximum comfort.",
+          "aboutThisItem": "The Mad Catz R.A.T. 9 features adjustable palm and side grips, 16K DPI optical sensor, and customizable weight.",
+          "productDetails": {
+            "connectivity": [
+              "Wireless",
+              "USB"
+            ],
+            "dpi": "16,000 DPI",
+            "buttons": "11 programmable buttons"
+          }
+        },
+        {
+          "title": "Apple Magic Trackpad 2",
+          "description": "Multi-touch trackpad with force touch technology and sleek aluminum design.",
+          "category": "mouse",
+          "brand": "Apple",
+          "image": "https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1673525436/Croma%20Assets/Computers%20Peripherals/Computer%20Accessories%20and%20Tablets%20Accessories/Images/267817_svbbxv.png",
+          "price": 399.99,
+          "discount": 5,
+          "additionalInformation": "Designed for Mac users who prefer a seamless, gesture-based experience.",
+          "aboutThisItem": "The Apple Magic Trackpad 2 features an ultra-smooth multi-touch surface, force touch technology, and a sleek aluminum design.",
+          "productDetails": {
+            "connectivity": [
+              "Bluetooth",
+              "Lightning"
+            ],
+            "batteryLife": "Up to 1 month",
+            "buttons": "Touch gestures"
+          }
+        },
+        {
+          "title": "Razer Basilisk V3 Pro",
+          "description": "Wireless gaming mouse with 30K DPI optical sensor and customizable scroll wheel resistance.",
+          "category": "mouse",
+          "brand": "Razer",
+          "image": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_101245144/fee_786_587_png/RAZER-Basilisk-V3-Pro-Kablosuz-Mouse-Siyah.webp",
+          "price": 799.99,
+          "discount": 10,
+          "additionalInformation": "Ideal for FPS and RPG gamers who need precise control and extra features.",
+          "aboutThisItem": "The Razer Basilisk V3 Pro features a 30K DPI sensor, adjustable scroll wheel resistance, and Razer Chroma RGB lighting.",
+          "productDetails": {
+            "connectivity": [
+              "Wireless",
+              "USB-C"
+            ],
+            "dpi": "30,000 DPI",
+            "batteryLife": "Up to 100 hours",
+            "buttons": "11 programmable buttons"
+          }
+        },
+        {
+          "title": "HP Spectre Rechargeable Mouse 700",
+          "description": "Premium wireless mouse with ergonomic design and customizable buttons.",
+          "category": "mouse",
+          "brand": "HP",
+          "image": "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c06073169.png",
+          "price": 349.99,
+          "discount": 10,
+          "additionalInformation": "Ideal for professionals who need a sleek and rechargeable mouse.",
+          "aboutThisItem": "The HP Spectre Rechargeable Mouse 700 features an ergonomic design, customizable buttons, and a rechargeable battery for long-lasting use.",
+          "productDetails": {
+            "connectivity": [
+              "Bluetooth",
+              "USB-C"
+            ],
+            "dpi": "4000 DPI",
+            "batteryLife": "Up to 3 months",
+            "buttons": "6 programmable buttons"
+          }
+        },
+        {
+          "title": "Logitech MX Anywhere 3",
+          "description": "Compact wireless mouse with ultra-fast scrolling and ergonomic design.",
+          "category": "mouse",
+          "brand": "Logitech",
+          "image": "https://resource.logitech.com/w_900,h_900,c_limit,q_auto,f_auto,dpr_1.0/d_transparent.gif/content/dam/logitech/en/products/mice/mx-anywhere-3-for-business/gallery/mx-anywhere-3-portable-business-mouse-gallery-pale-gray-4.png?v=1",
+          "price": 319.99,
+          "discount": 12,
+          "additionalInformation": "Perfect for professionals who need a portable and high-performance mouse.",
+          "aboutThisItem": "The Logitech MX Anywhere 3 features ultra-fast scrolling, ergonomic design, and customizable buttons for enhanced productivity.",
+          "productDetails": {
+            "connectivity": [
+              "Bluetooth",
+              "USB-C"
+            ],
+            "dpi": "4000 DPI",
+            "batteryLife": "Up to 70 days",
+            "buttons": "6 programmable buttons"
+          }
+        },
+        {
+          "title": "Razer Orochi V2",
+          "description": "Ultra-lightweight wireless gaming mouse with long battery life.",
+          "category": "mouse",
+          "brand": "Razer",
+          "image": "https://assets2.razerzone.com/images/pnx.assets/ca2f7dabb8b54e111b4272884d4663e1/custom-design-8.png",
+          "price": 399.99,
+          "discount": 15,
+          "additionalInformation": "Designed for gamers who need speed and precision with long battery life.",
+          "aboutThisItem": "The Razer Orochi V2 features an ultra-lightweight design, long battery life, and HyperSpeed wireless technology for seamless connectivity.",
+          "productDetails": {
+            "connectivity": [
+              "Wireless",
+              "USB-C"
+            ],
+            "dpi": "18,000 DPI",
+            "batteryLife": "Up to 950 hours",
+            "buttons": "6 programmable buttons"
+          }
+        },
+        {
+          "title": "Corsair Sabre RGB Pro Wireless",
+          "description": "High-performance wireless gaming mouse with ultra-fast response times.",
+          "category": "mouse",
+          "brand": "Corsair",
+          "image": "https://assets.corsair.com/image/upload/f_auto,q_auto/content/CH-9000112-EU-CG-Sabre-01.png",
+          "price": 429.99,
+          "discount": 10,
+          "additionalInformation": "Perfect for esports players who need ultra-fast response times.",
+          "aboutThisItem": "The Corsair Sabre RGB Pro Wireless features a high-performance optical sensor, ultra-fast response times, and Slipstream wireless technology.",
+          "productDetails": {
+            "connectivity": [
+              "Wireless",
+              "USB-C"
+            ],
+            "dpi": "26,000 DPI",
+            "batteryLife": "Up to 90 hours",
+            "buttons": "7 programmable buttons"
+          }
+        },
+        {
+          "title": "Microsoft Bluetooth Ergonomic Mouse",
+          "description": "Ergonomic wireless mouse with smooth scrolling and customizable buttons.",
+          "category": "mouse",
+          "brand": "Microsoft",
+          "image": "https://media.flixcar.com/f360cdn/Microsoft-1319754768-SCM_AFront_FY13-zoom.png",
+          "price": 319.99,
+          "discount": 8,
+          "additionalInformation": "Ideal for professionals who need precision and comfort for extended use.",
+          "aboutThisItem": "The Microsoft Bluetooth Ergonomic Mouse features smooth scrolling, ergonomic design, and customizable buttons for enhanced productivity.",
+          "productDetails": {
+            "connectivity": [
+              "Bluetooth",
+              "USB-C"
+            ],
+            "dpi": "3200 DPI",
+            "batteryLife": "Up to 3 months",
+            "buttons": "6 programmable buttons"
+          }
+        },
+        {
+          "title": "Logitech G502 X Plus",
+          "description": "High-performance wireless gaming mouse with LIGHTSPEED technology.",
+          "category": "mouse",
+          "brand": "Logitech",
+          "image": "https://resource.logitechg.com/d_transparent.gif/content/dam/gaming/en/products/g502x-plus/gallery/g502x-plus-gallery-1-black.png",
+          "price": 599.99,
+          "discount": 15,
+          "additionalInformation": "Designed for gamers who need precision and speed with customizable features.",
+          "aboutThisItem": "The Logitech G502 X Plus features LIGHTSPEED wireless technology, HERO 25K sensor, and customizable RGB lighting.",
+          "productDetails": {
+            "connectivity": [
+              "Wireless",
+              "USB-C"
+            ],
+            "dpi": "25,600 DPI",
+            "batteryLife": "Up to 140 hours",
+            "buttons": "11 programmable buttons"
+          }
+        },
+        {
+          "title": "Razer Atheris",
+          "description": "Compact wireless gaming mouse with long battery life and high DPI sensor.",
+          "category": "mouse",
+          "brand": "Razer",
+          "image": "https://delta-game.ru/wp-content/uploads/2018/05/Razer-Atheris2.png",
+          "price": 349.99,
+          "discount": 10,
+          "additionalInformation": "Perfect for gamers who need a compact and high-performance mouse.",
+          "aboutThisItem": "The Razer Atheris features a high DPI optical sensor, long battery life, and dual wireless connectivity for seamless performance.",
+          "productDetails": {
+            "connectivity": [
+              "Wireless",
+              "USB-C"
+            ],
+            "dpi": "7,200 DPI",
+            "batteryLife": "Up to 350 hours",
+            "buttons": "5 programmable buttons"
+          }
+        },
+        {
+          "title": "Mad Catz R.A.T. 4+",
+          "description": "Customizable modular gaming mouse with adjustable palm and side grips.",
+          "category": "mouse",
+          "brand": "Mad Catz",
+          "image": "https://product.hstatic.net/200000478869/product/fb03abc1-2cff-4e52-845a-613f8f995f7b_8fb4812a91d7463fa5b78db24a673e6b_1024x1024.png",
+          "price": 329.99,
+          "discount": 12,
+          "additionalInformation": "Perfect for gamers who want a customizable design for maximum comfort.",
+          "aboutThisItem": "The Mad Catz R.A.T. 4+ features adjustable palm and side grips, 16K DPI optical sensor, and customizable weight.",
+          "productDetails": {
+            "connectivity": [
+              "Wired",
+              "USB"
+            ],
+            "dpi": "16,000 DPI",
+            "buttons": "11 programmable buttons"
+          }
+        },
+        {
+          "title": "Apple Magic Mouse 3",
+          "description": "Sleek and minimalistic wireless mouse with multi-touch gestures.",
+          "category": "mouse",
+          "brand": "Apple",
+          "image": "https://th.bing.com/th/id/R.f4673060bf2f6dc6ea60da05013cc382?rik=%2fg%2bTGyBKvIFYvQ&riu=http%3a%2f%2fimg.roomeon.com%2fimg%2fobject%2fapple-magic-mouse-appliances_7df91089ab_xxl.png&ehk=oUprbhNqhQHNMyUts%2flcx%2fJXKSpHOhZyRBMLzPkIXzU%3d&risl=&pid=ImgRaw&r=0",
+          "price": 329.99,
+          "discount": 5,
+          "additionalInformation": "Designed for Mac users who prefer a seamless, gesture-based experience.",
+          "aboutThisItem": "The Apple Magic Mouse 3 features an ultra-smooth multi-touch surface, rechargeable battery, and a sleek aluminum design.",
+          "productDetails": {
+            "connectivity": [
+              "Bluetooth",
+              "Lightning"
+            ],
+            "batteryLife": "Up to 1 month",
+            "buttons": "Touch gestures"
+          }
+        },
+        {
+          "title": "Razer Basilisk V3 Pro",
+          "description": "Wireless gaming mouse with 30K DPI optical sensor and customizable scroll wheel resistance.",
+          "category": "mouse",
+          "brand": "Razer",
+          "image": "https://lmt-web.mstatic.lv/eshop/8148/Razer-Basilisk-V3.png",
+          "price": 799.99,
+          "discount": 10,
+          "additionalInformation": "Ideal for FPS and RPG gamers who need precise control and extra features.",
+          "aboutThisItem": "The Razer Basilisk V3 Pro features a 30K DPI sensor, adjustable scroll wheel resistance, and Razer Chroma RGB lighting.",
+          "productDetails": {
+            "connectivity": [
+              "Wireless",
+              "USB-C"
+            ],
+            "dpi": "30,000 DPI",
+            "batteryLife": "Up to 100 hours",
+            "buttons": "11 programmable buttons"
+          }
+        },
+            {
+              "title": "Logitech MX Keys",
+              "description": "Advanced wireless keyboard with backlit keys and ergonomic design.",
+              "category": "keyboards",
+              "brand": "Logitech",
+              "image": "https://resource.logitech.com/w_692,c_lpad,ar_4:3,q_auto,f_auto,dpr_1.0/d_transparent.gif/content/dam/logitech/en/products/combos/mx-keys-s-combo/product-gallery/graphite/mx-keys-s-combo-keyboard-front-view-graphite-us.png?v=1",
+              "price": 349.99,
+              "discount": 10,
+              "additionalInformation": "Ideal for professionals who need precision and comfort for extended use.",
+              "aboutThisItem": "The Logitech MX Keys features backlit keys, ergonomic design, and customizable shortcuts for enhanced productivity.",
+              "productDetails": {
+                "connectivity": [
+                  "Bluetooth",
+                  "USB-C"
+                ],
+                "keySwitchType": "Scissor",
+                "batteryLife": "Up to 10 days",
+                "backlighting": "Yes"
+              }
+            },
+            {
+              "title": "Razer Huntsman V2",
+              "description": "High-performance gaming keyboard with optical switches and RGB lighting.",
+              "category": "keyboards",
+              "brand": "Razer",
+              "image": "https://www.pcmgames.com/wp-content/uploads/2021/02/Razer-Huntsman-V2-Analog-Analisis-Producto-8.png",
+              "price": 499.99,
+              "discount": 12,
+              "additionalInformation": "Perfect for competitive gaming with ultra-fast optical switches and customizable RGB lighting.",
+              "aboutThisItem": "The Razer Huntsman V2 features optical switches, customizable RGB lighting, and a detachable wrist rest for comfort.",
+              "productDetails": {
+                "connectivity": [
+                  "Wired",
+                  "USB"
+                ],
+                "keySwitchType": "Optical",
+                "batteryLife": "N/A",
+                "backlighting": "RGB"
+              }
+            },
+            {
+              "title": "SteelSeries Apex Pro",
+              "description": "Mechanical gaming keyboard with adjustable actuation switches and OLED display.",
+              "category": "keyboards",
+              "brand": "SteelSeries",
+              "image": "https://media.steelseriescdn.com/thumbs/catalog/items/64865/2e6a305c2d184e37901724681b50552d.png.1400x1120_q100_crop-fit_optimize.png",
+              "price": 399.99,
+              "discount": 15,
+              "additionalInformation": "Designed for gamers who need speed and precision with adjustable actuation switches.",
+              "aboutThisItem": "The SteelSeries Apex Pro features adjustable actuation switches, an OLED display, and customizable RGB lighting.",
+              "productDetails": {
+                "connectivity": [
+                  "Wired",
+                  "USB"
+                ],
+                "keySwitchType": "Mechanical",
+                "batteryLife": "N/A",
+                "backlighting": "RGB"
+              }
+            },
+            {
+              "title": "Corsair K100 RGB",
+              "description": "Premium mechanical gaming keyboard with customizable macro keys and RGB lighting.",
+              "category": "keyboards",
+              "brand": "Corsair",
+              "image": "https://res.cloudinary.com/dvv9fvblr/image/upload/v1601565165/ak9wb1dxdola9bzra8r8.png",
+              "price": 599.99,
+              "discount": 10,
+              "additionalInformation": "Perfect for gamers who need precision and comfort with customizable macro keys.",
+              "aboutThisItem": "The Corsair K100 RGB features mechanical switches, customizable macro keys, and Slipstream wireless technology for ultra-fast response times.",
+              "productDetails": {
+                "connectivity": [
+                  "Wired",
+                  "USB"
+                ],
+                "keySwitchType": "Mechanical",
+                "batteryLife": "N/A",
+                "backlighting": "RGB"
+              }
+            },
+            {
+              "title": "Microsoft Surface Keyboard",
+              "description": "Slim and ergonomic wireless keyboard with quiet keys and Bluetooth connectivity.",
+              "category": "keyboards",
+              "brand": "Microsoft",
+              "image": "https://www.seekpng.com/png/full/751-7519178_microsoft-surface-hub-keyboard.png",
+              "price": 319.99,
+              "discount": 8,
+              "additionalInformation": "Ideal for professionals who need precision and comfort for extended use.",
+              "aboutThisItem": "The Microsoft Surface Keyboard features quiet keys, ergonomic design, and Bluetooth connectivity for seamless performance.",
+              "productDetails": {
+                "connectivity": [
+                  "Bluetooth"
+                ],
+                "keySwitchType": "Membrane",
+                "batteryLife": "Up to 12 months",
+                "backlighting": "No"
+              }
+            },
+            {
+              "title": "HP Omen Sequencer",
+              "description": "Mechanical gaming keyboard with optical switches and customizable RGB lighting.",
+              "category": "keyboards",
+              "brand": "HP",
+              "image": "https://www.omen.com/content/dam/sites/omen/worldwide/accessories/keyboard/T900-C22-IMAGE2-SMALL.png",
+              "price": 399.99,
+              "discount": 10,
+              "additionalInformation": "Ideal for gamers who need ultra-fast optical switches and customizable lighting.",
+              "aboutThisItem": "The HP Omen Sequencer features optical-mechanical switches, customizable RGB lighting, and dedicated macro keys.",
+              "productDetails": {
+                "connectivity": [
+                  "Wired",
+                  "USB"
+                ],
+                "keySwitchType": "Optical",
+                "batteryLife": "N/A",
+                "backlighting": "RGB"
+              }
+            },
+            {
+              "title": "Logitech G915 TKL",
+              "description": "Wireless mechanical gaming keyboard with low-profile switches and LIGHTSPEED technology.",
+              "category": "keyboards",
+              "brand": "Logitech",
+              "image": "https://resource.logitechg.com/d_transparent.gif/content/dam/gaming/en/products/g915-tkl/g915-tkl-gallery/deu-g915-tkl-carbon-gallery-topdown.png",
+              "price": 499.99,
+              "discount": 12,
+              "additionalInformation": "Perfect for gamers who need a compact and high-performance wireless keyboard.",
+              "aboutThisItem": "The Logitech G915 TKL features low-profile mechanical switches, LIGHTSPEED wireless technology, and customizable RGB lighting.",
+              "productDetails": {
+                "connectivity": [
+                  "Wireless",
+                  "USB-C"
+                ],
+                "keySwitchType": "Mechanical",
+                "batteryLife": "Up to 40 hours",
+                "backlighting": "RGB"
+              }
+            },
+            {
+              "title": "Razer BlackWidow V4 Pro",
+              "description": "High-performance mechanical gaming keyboard with dedicated macro keys and RGB lighting.",
+              "category": "keyboards",
+              "brand": "Razer",
+              "image": "https://static-geektopia.com/storage/geek/products/razer/blackwidow/blackwidow__2019__render_01_.png",
+              "price": 599.99,
+              "discount": 15,
+              "additionalInformation": "Designed for gamers who need speed and precision with dedicated macro keys.",
+              "aboutThisItem": "The Razer BlackWidow V4 Pro features mechanical switches, customizable RGB lighting, and dedicated macro keys for enhanced gameplay.",
+              "productDetails": {
+                "connectivity": [
+                  "Wired",
+                  "USB"
+                ],
+                "keySwitchType": "Mechanical",
+                "batteryLife": "N/A",
+                "backlighting": "RGB"
+              }
+            },
+            {
+              "title": "Corsair K70 RGB Pro",
+              "description": "Premium mechanical gaming keyboard with customizable macro keys and RGB lighting.",
+              "category": "keyboards",
+              "brand": "Corsair",
+              "image": "https://res.cloudinary.com/corsair-pwa/image/upload/f_auto,q_auto/v1/akamai/pdp/k70-mini-wireless/K70_PRO_MINI_WIRELESS_PBT_03.png",
+              "price": 449.99,
+              "discount": 10,
+              "additionalInformation": "Perfect for gamers who need precision and comfort with customizable macro keys.",
+              "aboutThisItem": "The Corsair K70 RGB Pro features mechanical switches, customizable macro keys, and Slipstream wireless technology for ultra-fast response times.",
+              "productDetails": {
+                "connectivity": [
+                  "Wired",
+                  "USB"
+                ],
+                "keySwitchType": "Mechanical",
+                "batteryLife": "N/A",
+                "backlighting": "RGB"
+              }
+            },
+            {
+              "title": "Microsoft Ergonomic Keyboard",
+              "description": "Ergonomic wired keyboard with split key layout and cushioned palm rest.",
+              "category": "keyboards",
+              "brand": "Microsoft",
+              "image": "https://wallpapers.com/images/hd/microsoft-ergonomic-keyboard-cis9r1o655asf8qa.png",
+              "price": 319.99,
+              "discount": 8,
+              "additionalInformation": "Ideal for professionals who need precision and comfort for extended use.",
+              "aboutThisItem": "The Microsoft Ergonomic Keyboard features a split key layout, cushioned palm rest, and wired connectivity for seamless performance.",
+              "productDetails": {
+                "connectivity": [
+                  "Wired",
+                  "USB"
+                ],
+                "keySwitchType": "Membrane",
+                "batteryLife": "N/A",
+                "backlighting": "No"
+              }
+            },
+            {
+              "title": "HP Omen Encoder",
+              "description": "Mechanical gaming keyboard with Cherry MX switches and customizable RGB lighting.",
+              "category": "keyboards",
+              "brand": "HP",
+              "image": "https://ssr.col.movistar.es/api/v3/get-pic/content/dam/movistar/estaticos/imagenes/terminales-moviles/ficha-445/hp-omen-teclado-encoder-03.png?oe=png&hash=lyj5shi2",
+              "price": 399.99,
+              "discount": 10,
+              "additionalInformation": "Ideal for gamers who need ultra-fast Cherry MX switches and customizable lighting.",
+              "aboutThisItem": "The HP Omen Encoder features Cherry MX mechanical switches, customizable RGB lighting, and dedicated macro keys.",
+              "productDetails": {
+                "connectivity": [
+                  "Wired",
+                  "USB"
+                ],
+                "keySwitchType": "Cherry MX",
+                "batteryLife": "N/A",
+                "backlighting": "RGB"
+              }
+            },
+            {
+              "title": "Logitech G915 Lightspeed",
+              "description": "Wireless mechanical gaming keyboard with low-profile switches and LIGHTSPEED technology.",
+              "category": "keyboards",
+              "brand": "Logitech",
+              "image": "https://resource.logitechg.com/w_1800,c_limit,f_auto,q_auto:best,f_auto,dpr_auto/content/dam/gaming/en/products/g915-tkl/g915-white-update/g915-tkl-intro-desktop-w.png?v=1",
+              "price": 499.99,
+              "discount": 12,
+              "additionalInformation": "Perfect for gamers who need a compact and high-performance wireless keyboard.",
+              "aboutThisItem": "The Logitech G915 Lightspeed features low-profile mechanical switches, LIGHTSPEED wireless technology, and customizable RGB lighting.",
+              "productDetails": {
+                "connectivity": [
+                  "Wireless",
+                  "USB-C"
+                ],
+                "keySwitchType": "Mechanical",
+                "batteryLife": "Up to 40 hours",
+                "backlighting": "RGB"
+              }
+            },
+            {
+              "title": "Razer Cynosa V2",
+              "description": "High-performance membrane gaming keyboard with customizable RGB lighting.",
+              "category": "keyboards",
+              "brand": "Razer",
+              "image": "https://www.nemesisec.gg/wp-content/uploads/2021/09/TECLADO-CYNOSA-V2-v2.png",
+              "price": 299.99,
+              "discount": 15,
+              "additionalInformation": "Designed for gamers who need speed and precision with customizable RGB lighting.",
+              "aboutThisItem": "The Razer Cynosa V2 features membrane switches, customizable RGB lighting, and dedicated media controls.",
+              "productDetails": {
+                "connectivity": [
+                  "Wired",
+                  "USB"
+                ],
+                "keySwitchType": "Membrane",
+                "batteryLife": "N/A",
+                "backlighting": "RGB"
+              }
+            },
+            {
+              "title": "Corsair K95 RGB Platinum",
+              "description": "Premium mechanical gaming keyboard with customizable macro keys and RGB lighting.",
+              "category": "keyboards",
+              "brand": "Corsair",
+              "image": "https://assets.corsair.com/image/upload/f_auto,q_auto/content/CH-9127014-NA-K95-Platinum-001.png",
+              "price": 599.99,
+              "discount": 10,
+              "additionalInformation": "Perfect for gamers who need precision and comfort with customizable macro keys.",
+              "aboutThisItem": "The Corsair K95 RGB Platinum features mechanical switches, customizable macro keys, and Slipstream wireless technology for ultra-fast response times.",
+              "productDetails": {
+                "connectivity": [
+                  "Wired",
+                  "USB"
+                ],
+                "keySwitchType": "Mechanical",
+                "batteryLife": "N/A",
+                "backlighting": "RGB"
+              }
+            },
+            {
+              "title": "Microsoft Sculpt Ergonomic Keyboard",
+              "description": "Ergonomic wireless keyboard with split key layout and cushioned palm rest.",
+              "category": "keyboards",
+              "brand": "Microsoft",
+              "image": "https://media.jacob.services/images/87/b0/ba/27/87b0ba2781c2e5faa4aa96ba7656a445.png",
+              "price": 319.99,
+              "discount": 8,
+              "additionalInformation": "Ideal for professionals who need precision and comfort for extended use.",
+              "aboutThisItem": "The Microsoft Sculpt Ergonomic Keyboard features a split key layout, cushioned palm rest, and wireless connectivity for seamless performance.",
+              "productDetails": {
+                "connectivity": [
+                  "Wireless",
+                  "USB"
+                ],
+                "keySwitchType": "Membrane",
+                "batteryLife": "Up to 12 months",
+                "backlighting": "No"
+              }
+            },
+            {
+              "title": "Dell Alienware AW510K",
+              "description": "Mechanical gaming keyboard with Cherry MX switches and customizable RGB lighting.",
+              "category": "keyboards",
+              "brand": "Dell",
+              "image": "https://media.spdigital.cl/thumbnails/products/77mes1_k_42052d50_thumbnail_4096.png",
+              "price": 399.99,
+              "discount": 10,
+              "additionalInformation": "Ideal for gamers who need ultra-fast Cherry MX switches and customizable lighting.",
+              "aboutThisItem": "The Dell Alienware AW510K features Cherry MX mechanical switches, customizable RGB lighting, and dedicated macro keys.",
+              "productDetails": {
+                "connectivity": [
+                  "Wired",
+                  "USB"
+                ],
+                "keySwitchType": "Cherry MX",
+                "batteryLife": "N/A",
+                "backlighting": "RGB"
+              }
+            },
+            {
+              "title": "Logitech K780 Multi-Device",
+              "description": "Wireless keyboard with multi-device connectivity and ergonomic design.",
+              "category": "keyboards",
+              "brand": "Logitech",
+              "image": "https://resource.logitech.com/c_fill,q_auto,f_auto,dpr_1.0/d_transparent.gif/content/dam/logitech/en/products/keyboards/k780/gallery/k780-gallery-speckled-uk-wide-1.png",
+              "price": 349.99,
+              "discount": 12,
+              "additionalInformation": "Perfect for professionals who need a compact and high-performance wireless keyboard.",
+              "aboutThisItem": "The Logitech K780 Multi-Device features ergonomic design, multi-device connectivity, and quiet keys for enhanced productivity.",
+              "productDetails": {
+                "connectivity": [
+                  "Bluetooth",
+                  "USB"
+                ],
+                "keySwitchType": "Membrane",
+                "batteryLife": "Up to 24 months",
+                "backlighting": "No"
+              }
+            },
+            {
+              "title": "Razer Turret for Xbox",
+              "description": "Wireless gaming keyboard and mouse combo designed for Xbox gaming.",
+              "category": "keyboards",
+              "brand": "Razer",
+              "image": "https://www.pngkit.com/png/full/786-7860451_the-turret-today-is-just-as-what-we.png",
+              "price": 499.99,
+              "discount": 15,
+              "additionalInformation": "Designed for console gamers who need speed and precision with customizable RGB lighting.",
+              "aboutThisItem": "The Razer Turret for Xbox features mechanical switches, customizable RGB lighting, and a built-in mouse pad for seamless gaming.",
+              "productDetails": {
+                "connectivity": [
+                  "Wireless",
+                  "USB-C"
+                ],
+                "keySwitchType": "Mechanical",
+                "batteryLife": "Up to 40 hours",
+                "backlighting": "RGB"
+              }
+            },
+            {
+              "title": "Corsair K60 RGB Pro",
+              "description": "Mechanical gaming keyboard with customizable macro keys and RGB lighting.",
+              "category": "keyboards",
+              "brand": "Corsair",
+              "image": "https://cwsmgmt.corsair.com/pdp/keyboards/k60-pro-tkl-rgb/k60-icue.png",
+              "price": 299.99,
+              "discount": 10,
+              "additionalInformation": "Perfect for gamers who need precision and comfort with customizable macro keys.",
+              "aboutThisItem": "The Corsair K60 RGB Pro features mechanical switches, customizable macro keys, and Slipstream wireless technology for ultra-fast response times.",
+              "productDetails": {
+                "connectivity": [
+                  "Wired",
+                  "USB"
+                ],
+                "keySwitchType": "Mechanical",
+                "batteryLife": "N/A",
+                "backlighting": "RGB"
+              }
+            },
+            {
+              "title": "Microsoft Designer Compact Keyboard",
+              "description": "Slim and ergonomic wireless keyboard with quiet keys and Bluetooth connectivity.",
+              "category": "keyboards",
+              "brand": "Microsoft",
+              "image": "https://purepng.com/public/uploads/large/purepng.com-keyboard-and-mouseelectronicskeyboardmouse-9415246721386yb6q.png",
+              "price": 319.99,
+              "discount": 8,
+              "additionalInformation": "Ideal for professionals who need precision and comfort for extended use.",
+              "aboutThisItem": "The Microsoft Designer Compact Keyboard features quiet keys, ergonomic design, and Bluetooth connectivity for seamless performance.",
+              "productDetails": {
+                "connectivity": [
+                  "Bluetooth"
+                ],
+                "keySwitchType": "Membrane",
+                "batteryLife": "Up to 12 months",
+                "backlighting": "No"
+              }
+            },
+            {
+              "title": "Keychron K8 Wireless",
+              "description": "Wireless mechanical keyboard with hot-swappable switches and RGB backlighting.",
+              "category": "keyboards",
+              "brand": "Keychron",
+              "image": "https://cdn.shopify.com/s/files/1/0328/6034/0364/t/4/assets/k8pro-1658204658259.png?v=1658204663",
+              "price": 349.99,
+              "discount": 10,
+              "additionalInformation": "Ideal for professionals and gamers who need a compact and versatile keyboard.",
+              "aboutThisItem": "The Keychron K8 features hot-swappable mechanical switches, wireless connectivity, and customizable RGB backlighting.",
+              "productDetails": {
+                "connectivity": [
+                  "Bluetooth",
+                  "USB-C"
+                ],
+                "keySwitchType": "Mechanical",
+                "batteryLife": "Up to 240 hours",
+                "backlighting": "RGB"
+              }
+            },
+            {
+              "title": "Logitech K380 Multi-Device",
+              "description": "Compact wireless keyboard with multi-device connectivity and quiet keys.",
+              "category": "keyboards",
+              "brand": "Logitech",
+              "image": "https://resource.logitech.com/c_fill,q_auto,f_auto,dpr_1.0/d_transparent.gif/content/dam/logitech/en/products/keyboards/multi-keyboard-k380/gallery/k380-sand-gallery-1-us.png",
+              "price": 319.99,
+              "discount": 12,
+              "additionalInformation": "Perfect for professionals who need a portable and high-performance wireless keyboard.",
+              "aboutThisItem": "The Logitech K380 Multi-Device features ergonomic design, multi-device connectivity, and quiet keys for enhanced productivity.",
+              "productDetails": {
+                "connectivity": [
+                  "Bluetooth"
+                ],
+                "keySwitchType": "Membrane",
+                "batteryLife": "Up to 24 months",
+                "backlighting": "No"
+              }
+            },
+            {
+              "title": "Razer Pro Type Ultra",
+              "description": "Wireless mechanical keyboard with silent switches and ergonomic wrist rest.",
+              "category": "keyboards",
+              "brand": "Razer",
+              "image": "https://img.terabyteshop.com.br/archive/1264690020/HTML%20Teclado%20Mec%C3%A2nico%20Gamer%20Razer%20Pro%20Type%20Ultra%20-%201.png",
+              "price": 499.99,
+              "discount": 15,
+              "additionalInformation": "Designed for professionals who need speed and precision with silent mechanical switches.",
+              "aboutThisItem": "The Razer Pro Type Ultra features silent mechanical switches, ergonomic wrist rest, and wireless connectivity for seamless performance.",
+              "productDetails": {
+                "connectivity": [
+                  "Wireless",
+                  "USB-C"
+                ],
+                "keySwitchType": "Mechanical",
+                "batteryLife": "Up to 40 hours",
+                "backlighting": "White LED"
+              }
+            },
+            {
+              "title": "Corsair K65 RGB Mini",
+              "description": "Compact mechanical gaming keyboard with customizable macro keys and RGB lighting.",
+              "category": "keyboards",
+              "brand": "Corsair",
+              "image": "https://cwsmgmt.corsair.com/pdp/k65-rgb-mini/assets/images/Keyboard-Layout.png",
+              "price": 299.99,
+              "discount": 10,
+              "additionalInformation": "Perfect for gamers who need precision and comfort with customizable macro keys.",
+              "aboutThisItem": "The Corsair K65 RGB Mini features mechanical switches, customizable macro keys, and Slipstream wireless technology for ultra-fast response times.",
+              "productDetails": {
+                "connectivity": [
+                  "Wired",
+                  "USB"
+                ],
+                "keySwitchType": "Mechanical",
+                "batteryLife": "N/A",
+                "backlighting": "RGB"
+              }
+            },
+            {
+              "title": "Microsoft Modern Keyboard",
+              "description": "Slim and ergonomic wireless keyboard with fingerprint reader and Bluetooth connectivity.",
+              "category": "keyboards",
+              "brand": "Microsoft",
+              "image": "https://assets.mmsrg.com/isr/166325/c1/-/pixelboxx-mss-76993107/fee_786_587_png",
+              "price": 319.99,
+              "discount": 8,
+              "additionalInformation": "Ideal for professionals who need precision and security with a built-in fingerprint reader.",
+              "aboutThisItem": "The Microsoft Modern Keyboard features quiet keys, ergonomic design, and Bluetooth connectivity for seamless performance.",
+              "productDetails": {
+                "connectivity": [
+                  "Bluetooth"
+                ],
+                "keySwitchType": "Membrane",
+                "batteryLife": "Up to 12 months",
+                "backlighting": "No"
+              }
+            },
+            {
+              "title": "Asus ROG Strix Scope RX",
+              "description": "Mechanical gaming keyboard with optical switches and customizable RGB lighting.",
+              "category": "keyboards",
+              "brand": "Asus",
+              "image": "https://dlcdnwebimgs.asus.com/gain/6FF3C6FB-B36D-4920-8172-83909ED8CFA7/w1000/h732",
+              "price": 399.99,
+              "discount": 10,
+              "additionalInformation": "Ideal for gamers who need ultra-fast optical switches and customizable lighting.",
+              "aboutThisItem": "The Asus ROG Strix Scope RX features optical-mechanical switches, customizable RGB lighting, and dedicated macro keys.",
+              "productDetails": {
+                "connectivity": [
+                  "Wired",
+                  "USB"
+                ],
+                "keySwitchType": "Optical",
+                "batteryLife": "N/A",
+                "backlighting": "RGB"
+              }
+            },
+            {
+              "title": "Dell KM717 Premier Wireless",
+              "description": "Wireless keyboard and mouse combo with multi-device connectivity.",
+              "category": "keyboards",
+              "brand": "Dell",
+              "image": "https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/peripherals/input-devices/dell/keyboards/kb740/global-spi/ng/keyboard-kb740-gray-campaign-hero-504x350-ng.psd?hei=402&qtl=90,0&op_usm=1.75,0.3,2,0&resMode=sharp&pscan=auto",
+              "price": 349.99,
+              "discount": 12,
+              "additionalInformation": "Perfect for professionals who need a sleek and high-performance wireless keyboard and mouse combo.",
+              "aboutThisItem": "The Dell KM717 features ergonomic design, multi-device connectivity, and quiet keys for enhanced productivity.",
+              "productDetails": {
+                "connectivity": [
+                  "Bluetooth",
+                  "USB"
+                ],
+                "keySwitchType": "Membrane",
+                "batteryLife": "Up to 24 months",
+                "backlighting": "No"
+              }
+            },
+            {
+              "title": "HyperX Alloy Origins 60",
+              "description": "Compact mechanical gaming keyboard with customizable RGB lighting.",
+              "category": "keyboards",
+              "brand": "HyperX",
+              "image": "https://scglobal.cl/1824-large_default/teclado-mecanico-hyperx-alloy-switch-aqua-rgb-56r64aa.jpg",
+              "price": 299.99,
+              "discount": 15,
+              "additionalInformation": "Designed for gamers who need speed and precision with customizable RGB lighting.",
+              "aboutThisItem": "The HyperX Alloy Origins 60 features mechanical switches, customizable RGB lighting, and a compact design for portability.",
+              "productDetails": {
+                "connectivity": [
+                  "Wired",
+                  "USB"
+                ],
+                "keySwitchType": "Mechanical",
+                "batteryLife": "N/A",
+                "backlighting": "RGB"
+              }
+            },
+            {
+              "title": "Redragon K552 Kumara",
+              "description": "Budget-friendly mechanical gaming keyboard with anti-ghosting and RGB lighting.",
+              "category": "keyboards",
+              "brand": "Redragon",
+              "image": "https://th.bing.com/th/id/R.8048635fa2891ccbe0141dc3e5356af7?rik=RwLcVzfui539CQ&riu=http%3a%2f%2fcdn.shopify.com%2fs%2ffiles%2f1%2f0012%2f4957%2f4961%2fproducts%2fredragonkumarak552rgb_1200x1200.png%3fv%3d1620466118&ehk=YQqaftfnVQeWoPEAGwPuM1HXgKJpXlIC7AdfySp2vEU%3d&risl=&pid=ImgRaw&r=0",
+              "price": 299.99,
+              "discount": 10,
+              "additionalInformation": "Perfect for gamers who need precision and durability at an affordable price.",
+              "aboutThisItem": "The Redragon K552 Kumara features mechanical switches, anti-ghosting technology, and customizable RGB lighting.",
+              "productDetails": {
+                "connectivity": [
+                  "Wired",
+                  "USB"
+                ],
+                "keySwitchType": "Mechanical",
+                "batteryLife": "N/A",
+                "backlighting": "RGB"
+              }
+            },
+            {
+              "title": "Apple Magic Keyboard with Touch ID",
+              "description": "Wireless keyboard with Touch ID and sleek aluminum design.",
+              "category": "keyboards",
+              "brand": "Apple",
+              "image": "https://support.apple.com/library/content/dam/edam/applecare/images/en_US/accessories/2023-magic-trackpad-magic-mouse-magic-keyboard-with-touch-id-accessories-hero.png",
+              "price": 399.99,
+              "discount": 5,
+              "additionalInformation": "Designed for Mac users who prefer a seamless, gesture-based experience.",
+              "aboutThisItem": "The Apple Magic Keyboard with Touch ID features an ultra-smooth multi-touch surface, rechargeable battery, and a sleek aluminum design.",
+              "productDetails": {
+                "connectivity": [
+                  "Bluetooth",
+                  "Lightning"
+                ],
+                "batteryLife": "Up to 1 month",
+                "backlighting": "No"
+              }
+            },
+                {
+                  "title": "NVIDIA GeForce RTX 4060",
+                  "description": "Mid-range graphics card with ray tracing and DLSS support.",
+                  "category": "graphics cards",
+                  "brand": "NVIDIA",
+                  "image": "https://www.gigabyte.com/FileUpload/Global/KeyFeature/2414/innergigabyteimages/kf-card.png",
+                  "price": 6000,
+                  "discount": 10,
+                  "additionalInformation": "Ideal for gamers looking for a balance between performance and affordability.",
+                  "aboutThisItem": "The NVIDIA GeForce RTX 4060 features ray tracing, DLSS support, and a compact design for efficient cooling.",
+                  "productDetails": {
+                    "memory": "8GB GDDR6",
+                    "coreClock": "1830 MHz",
+                    "boostClock": "2460 MHz",
+                    "powerConsumption": "115W"
+                  }
+                },
+                {
+                  "title": "AMD Radeon RX 7600",
+                  "description": "Affordable graphics card with RDNA 3 architecture and high efficiency.",
+                  "category": "graphics cards",
+                  "brand": "AMD",
+                  "image": "https://th.bing.com/th/id/R.aa520425ec711993f44608b0dac5c906?rik=kt%2fd8o0YQoadUw&riu=http%3a%2f%2fwww.vastarmor.com%2fstatic%2fupload%2fimage%2f20230609%2f1686284294261468.png&ehk=Xbk5BtrRhRXhh6DQFLjE9OHwrrcZ2%2bcCfBVECFJsnIs%3d&risl=&pid=ImgRaw&r=0",
+                  "price": 6500,
+                  "discount": 12,
+                  "additionalInformation": "Perfect for budget-conscious gamers who need solid performance.",
+                  "aboutThisItem": "The AMD Radeon RX 7600 features RDNA 3 architecture, high efficiency, and support for FidelityFX Super Resolution.",
+                  "productDetails": {
+                    "memory": "8GB GDDR6",
+                    "coreClock": "1725 MHz",
+                    "boostClock": "2655 MHz",
+                    "powerConsumption": "165W"
+                  }
+                },
+                {
+                  "title": "Intel Arc A750",
+                  "description": "Mid-range graphics card with AI-enhanced upscaling and DirectX 12 support.",
+                  "category": "graphics cards",
+                  "brand": "Intel",
+                  "image": "https://game.intel.com/wp-content/uploads/2024/01/a750-double-shroud-1080.png?x88134",
+                  "price": 7000,
+                  "discount": 15,
+                  "additionalInformation": "Designed for gamers and creators looking for AI-enhanced performance.",
+                  "aboutThisItem": "The Intel Arc A750 features AI-enhanced upscaling, DirectX 12 support, and XeSS technology for improved visuals.",
+                  "productDetails": {
+                    "memory": "8GB GDDR6",
+                    "coreClock": "2050 MHz",
+                    "boostClock": "2400 MHz",
+                    "powerConsumption": "225W"
+                  }
+                },
+                {
+                  "title": "NVIDIA GeForce RTX 4070",
+                  "description": "High-performance graphics card with advanced ray tracing and DLSS 3.",
+                  "category": "graphics cards",
+                  "brand": "NVIDIA",
+                  "image": "https://www.gigabyte.com/FileUpload/Global/KeyFeature/2305/innergigabyteimages/kf-card.png",
+                  "price": 8000,
+                  "discount": 10,
+                  "additionalInformation": "Perfect for gamers who need high frame rates and stunning visuals.",
+                  "aboutThisItem": "The NVIDIA GeForce RTX 4070 features advanced ray tracing, DLSS 3, and a powerful cooling system.",
+                  "productDetails": {
+                    "memory": "12GB GDDR6X",
+                    "coreClock": "1920 MHz",
+                    "boostClock": "2475 MHz",
+                    "powerConsumption": "200W"
+                  }
+                },
+                {
+                  "title": "AMD Radeon RX 7700 XT",
+                  "description": "Powerful graphics card with RDNA 3 architecture and high-speed memory.",
+                  "category": "graphics cards",
+                  "brand": "AMD",
+                  "image": "https://compday.ru/files/reg/5970357.png",
+                  "price": 8500,
+                  "discount": 12,
+                  "additionalInformation": "Ideal for gamers who need high-speed memory and smooth performance.",
+                  "aboutThisItem": "The AMD Radeon RX 7700 XT features RDNA 3 architecture, high-speed memory, and support for FidelityFX Super Resolution.",
+                  "productDetails": {
+                    "memory": "12GB GDDR6",
+                    "coreClock": "1800 MHz",
+                    "boostClock": "2600 MHz",
+                    "powerConsumption": "230W"
+                  }
+                },
+                {
+                  "title": "NVIDIA GeForce RTX 4080",
+                  "description": "High-end graphics card with advanced ray tracing and DLSS 3.",
+                  "category": "graphics cards",
+                  "brand": "NVIDIA",
+                  "image": "https://asset.msi.com/resize/image/global/product/product_1668065962e813592bad41c40f99193415735dafc0.png62405b38c58fe0f07fcef2367d8a9ba1/1024.png",
+                  "price": 9000,
+                  "discount": 10,
+                  "additionalInformation": "Ideal for gamers who need ultra-high frame rates and stunning visuals.",
+                  "aboutThisItem": "The NVIDIA GeForce RTX 4080 features advanced ray tracing, DLSS 3, and a powerful cooling system.",
+                  "productDetails": {
+                    "memory": "16GB GDDR6X",
+                    "coreClock": "2205 MHz",
+                    "boostClock": "2505 MHz",
+                    "powerConsumption": "320W"
+                  }
+                },
+                {
+                  "title": "AMD Radeon RX 7800 XT",
+                  "description": "Powerful graphics card with RDNA 3 architecture and high-speed memory.",
+                  "category": "graphics cards",
+                  "brand": "AMD",
+                  "image": "https://pg.asrock.com/Graphics-Card/photo/Radeon%20RX%207800%20XT%20Phantom%20Gaming%2016GB%20OC(L4).png",
+                  "price": 9500,
+                  "discount": 12,
+                  "additionalInformation": "Perfect for gamers who need high-speed memory and smooth performance.",
+                  "aboutThisItem": "The AMD Radeon RX 7800 XT features RDNA 3 architecture, high-speed memory, and support for FidelityFX Super Resolution.",
+                  "productDetails": {
+                    "memory": "16GB GDDR6",
+                    "coreClock": "1900 MHz",
+                    "boostClock": "2600 MHz",
+                    "powerConsumption": "300W"
+                  }
+                },
+                {
+                  "title": "Intel Arc A770",
+                  "description": "High-performance graphics card with AI-enhanced upscaling and DirectX 12 support.",
+                  "category": "graphics cards",
+                  "brand": "Intel",
+                  "image": "https://pg.asrock.com/Graphics-Card/photo/Intel%20Arc%20A770%20Phantom%20Gaming%2016GB%20OC(L3).png",
+                  "price": 10000,
+                  "discount": 15,
+                  "additionalInformation": "Designed for gamers and creators looking for AI-enhanced performance.",
+                  "aboutThisItem": "The Intel Arc A770 features AI-enhanced upscaling, DirectX 12 support, and XeSS technology for improved visuals.",
+                  "productDetails": {
+                    "memory": "16GB GDDR6",
+                    "coreClock": "2100 MHz",
+                    "boostClock": "2500 MHz",
+                    "powerConsumption": "225W"
+                  }
+                },
+                {
+                  "title": "NVIDIA GeForce RTX 4090",
+                  "description": "Ultra-high-end graphics card with extreme performance and AI-powered rendering.",
+                  "category": "graphics cards",
+                  "brand": "NVIDIA",
+                  "image": "https://images.frandroid.com/wp-content/uploads/2022/09/nvidia-geforce-rtx-4090-frandroid-2022.png",
+                  "price": 12000,
+                  "discount": 10,
+                  "additionalInformation": "Perfect for gamers and creators who need the best performance available.",
+                  "aboutThisItem": "The NVIDIA GeForce RTX 4090 features extreme performance, AI-powered rendering, and a powerful cooling system.",
+                  "productDetails": {
+                    "memory": "24GB GDDR6X",
+                    "coreClock": "2235 MHz",
+                    "boostClock": "2520 MHz",
+                    "powerConsumption": "450W"
+                  }
+                },
+                {
+                  "title": "AMD Radeon RX 7900 XTX",
+                  "description": "Flagship graphics card with RDNA 3 architecture and high-speed memory.",
+                  "category": "graphics cards",
+                  "brand": "AMD",
+                  "image": "https://static.gigabyte.com/StaticFile/Image/Global/ffebdb331cdc6e8eecf7f2b4b42b8232/Product/32793/Png",
+                  "price": 13000,
+                  "discount": 12,
+                  "additionalInformation": "Ideal for gamers who need high-speed memory and smooth performance.",
+                  "aboutThisItem": "The AMD Radeon RX 7900 XTX features RDNA 3 architecture, high-speed memory, and support for FidelityFX Super Resolution.",
+                  "productDetails": {
+                    "memory": "24GB GDDR6",
+                    "coreClock": "2000 MHz",
+                    "boostClock": "2500 MHz",
+                    "powerConsumption": "355W"
+                  }
+                },
+                {
+                  "title": "NVIDIA GeForce RTX 4060 Ti",
+                  "description": "Mid-range graphics card with ray tracing and DLSS 3 support.",
+                  "category": "graphics cards",
+                  "brand": "NVIDIA",
+                  "image": "https://dlcdnwebimgs.asus.com/files/media/3A0B48C1-82EB-4716-84E7-9C343E5A28FE/v1/img/kv/pd.png",
+                  "price": 7000,
+                  "discount": 10,
+                  "additionalInformation": "Ideal for gamers looking for a balance between performance and affordability.",
+                  "aboutThisItem": "The NVIDIA GeForce RTX 4060 Ti features ray tracing, DLSS 3 support, and a compact design for efficient cooling.",
+                  "productDetails": {
+                    "memory": "8GB GDDR6",
+                    "coreClock": "2310 MHz",
+                    "boostClock": "2535 MHz",
+                    "powerConsumption": "160W"
+                  }
+                },
+                {
+                  "title": "AMD Radeon RX 7600 XT",
+                  "description": "Affordable graphics card with RDNA 3 architecture and high efficiency.",
+                  "category": "graphics cards",
+                  "brand": "AMD",
+                  "image": "https://www.asrock.com/Graphics-Card/photo/Radeon%20RX%207600%20XT%20Challenger%2016GB%20OC(M1).png",
+                  "price": 7500,
+                  "discount": 12,
+                  "additionalInformation": "Perfect for budget-conscious gamers who need solid performance.",
+                  "aboutThisItem": "The AMD Radeon RX 7600 XT features RDNA 3 architecture, high efficiency, and support for FidelityFX Super Resolution.",
+                  "productDetails": {
+                    "memory": "8GB GDDR6",
+                    "coreClock": "1755 MHz",
+                    "boostClock": "2700 MHz",
+                    "powerConsumption": "170W"
+                  }
+                },
+                {
+                  "title": "Intel Arc A580",
+                  "description": "Mid-range graphics card with AI-enhanced upscaling and DirectX 12 support.",
+                  "category": "graphics cards",
+                  "brand": "Intel",
+                  "image": "https://www.sparkle.com.tw/files/20240202122913170.png",
+                  "price": 8000,
+                  "discount": 15,
+                  "additionalInformation": "Designed for gamers and creators looking for AI-enhanced performance.",
+                  "aboutThisItem": "The Intel Arc A580 features AI-enhanced upscaling, DirectX 12 support, and XeSS technology for improved visuals.",
+                  "productDetails": {
+                    "memory": "8GB GDDR6",
+                    "coreClock": "2050 MHz",
+                    "boostClock": "2400 MHz",
+                    "powerConsumption": "225W"
+                  }
+                },
+                {
+                  "title": "NVIDIA GeForce RTX 4070 Super",
+                  "description": "High-performance graphics card with advanced ray tracing and DLSS 3.",
+                  "category": "graphics cards",
+                  "brand": "NVIDIA",
+                  "image": "https://store.teslards.pe/wp-content/uploads/2024/02/GeForce-RTX%E2%84%A2-4070-SUPER-GAMING-OC-12G-01.png",
+                  "price": 8500,
+                  "discount": 10,
+                  "additionalInformation": "Perfect for gamers who need high frame rates and stunning visuals.",
+                  "aboutThisItem": "The NVIDIA GeForce RTX 4070 Super features advanced ray tracing, DLSS 3, and a powerful cooling system.",
+                  "productDetails": {
+                    "memory": "12GB GDDR6X",
+                    "coreClock": "1920 MHz",
+                    "boostClock": "2475 MHz",
+                    "powerConsumption": "200W"
+                  }
+                },
+                {
+                  "title": "AMD Radeon RX 7700 XT",
+                  "description": "Powerful graphics card with RDNA 3 architecture and high-speed memory.",
+                  "category": "graphics cards",
+                  "brand": "AMD",
+                  "image": "https://c1.neweggimages.com/BizIntell/item/VGA/Video%20Cards%20-%20AMD%20ATI/14-202-435/28.png",
+                  "price": 9000,
+                  "discount": 12,
+                  "additionalInformation": "Ideal for gamers who need high-speed memory and smooth performance.",
+                  "aboutThisItem": "The AMD Radeon RX 7700 XT features RDNA 3 architecture, high-speed memory, and support for FidelityFX Super Resolution.",
+                  "productDetails": {
+                    "memory": "12GB GDDR6",
+                    "coreClock": "1800 MHz",
+                    "boostClock": "2600 MHz",
+                    "powerConsumption": "230W"
+                  }
+                },
+                {
+                  "title": "NVIDIA GeForce RTX 4080 Super",
+                  "description": "High-end graphics card with advanced ray tracing and DLSS 3.",
+                  "category": "graphics cards",
+                  "brand": "NVIDIA",
+                  "image": "https://dlcdnwebimgs.asus.com/gain/69455A9D-B47A-48C5-A684-95A170DC738A/w1000/h732",
+                  "price": 11000,
+                  "discount": 10,
+                  "additionalInformation": "Ideal for gamers who need ultra-high frame rates and stunning visuals.",
+                  "aboutThisItem": "The NVIDIA GeForce RTX 4080 Super features advanced ray tracing, DLSS 3, and a powerful cooling system.",
+                  "productDetails": {
+                    "memory": "16GB GDDR6X",
+                    "coreClock": "2205 MHz",
+                    "boostClock": "2505 MHz",
+                    "powerConsumption": "320W"
+                  }
+                },
+                {
+                  "title": "AMD Radeon RX 7800 XT Super",
+                  "description": "Powerful graphics card with RDNA 3 architecture and high-speed memory.",
+                  "category": "graphics cards",
+                  "brand": "AMD",
+                  "image": "https://static.chiphell.com/portal/202309/06/185343mrgdz5yhj94uv64v.png",
+                  "price": 11500,
+                  "discount": 12,
+                  "additionalInformation": "Perfect for gamers who need high-speed memory and smooth performance.",
+                  "aboutThisItem": "The AMD Radeon RX 7800 XT Super features RDNA 3 architecture, high-speed memory, and support for FidelityFX Super Resolution.",
+                  "productDetails": {
+                    "memory": "16GB GDDR6",
+                    "coreClock": "1900 MHz",
+                    "boostClock": "2700 MHz",
+                    "powerConsumption": "300W"
+                  }
+                },
+                {
+                  "title": "Intel Arc A770 Super",
+                  "description": "High-performance graphics card with AI-enhanced upscaling and DirectX 12 support.",
+                  "category": "graphics cards",
+                  "brand": "Intel",
+                  "image": "https://plecom.imgix.net/bo-782987-DG2_ARC_LED_00023_Edit.png?auto=format",
+                  "price": 12000,
+                  "discount": 15,
+                  "additionalInformation": "Designed for gamers and creators looking for AI-enhanced performance.",
+                  "aboutThisItem": "The Intel Arc A770 Super features AI-enhanced upscaling, DirectX 12 support, and XeSS technology for improved visuals.",
+                  "productDetails": {
+                    "memory": "16GB GDDR6",
+                    "coreClock": "2100 MHz",
+                    "boostClock": "2600 MHz",
+                    "powerConsumption": "225W"
+                  }
+                },
+                {
+                  "title": "NVIDIA GeForce RTX 4090 Ti",
+                  "description": "Ultra-high-end graphics card with extreme performance and AI-powered rendering.",
+                  "category": "graphics cards",
+                  "brand": "NVIDIA",
+                  "image": "https://asset.msi.com/resize/image/global/product/product_16655531780ae76e91e577ad9719f1f135824e1a15.png62405b38c58fe0f07fcef2367d8a9ba1/1024.png",
+                  "price": 14000,
+                  "discount": 10,
+                  "additionalInformation": "Perfect for gamers and creators who need the best performance available.",
+                  "aboutThisItem": "The NVIDIA GeForce RTX 4090 Ti features extreme performance, AI-powered rendering, and a powerful cooling system.",
+                  "productDetails": {
+                    "memory": "24GB GDDR6X",
+                    "coreClock": "2235 MHz",
+                    "boostClock": "2520 MHz",
+                    "powerConsumption": "450W"
+                  }
+                },
+                {
+                  "title": "AMD Radeon RX 7900 XTX Super",
+                  "description": "Flagship graphics card with RDNA 3 architecture and high-speed memory.",
+                  "category": "graphics cards",
+                  "brand": "AMD",
+                  "image": "https://www.asrock.com/Graphics-Card/photo/Radeon%20RX%207900%20XTX%20Creator%2024GB(L1).png",
+                  "price": 15000,
+                  "discount": 12,
+                  "additionalInformation": "Ideal for gamers who need high-speed memory and smooth performance.",
+                  "aboutThisItem": "The AMD Radeon RX 7900 XTX Super features RDNA 3 architecture, high-speed memory, and support for FidelityFX Super Resolution.",
+                  "productDetails": {
+                    "memory": "24GB GDDR6",
+                    "coreClock": "2000 MHz",
+                    "boostClock": "2600 MHz",
+                    "powerConsumption": "355W"
+                  }
+                },
+                {
+                  "title": "NVIDIA GeForce RTX 4060 Super",
+                  "description": "Mid-range graphics card with ray tracing and DLSS 3 support.",
+                  "category": "graphics cards",
+                  "brand": "NVIDIA",
+                  "image": "https://media.spdigital.cl/thumbnails/products/rifuj5lu_8b83c02c_thumbnail_4096.png",
+                  "price": 6500,
+                  "discount": 10,
+                  "additionalInformation": "Ideal for gamers looking for a balance between performance and affordability.",
+                  "aboutThisItem": "The NVIDIA GeForce RTX 4060 Super features ray tracing, DLSS 3 support, and a compact design for efficient cooling.",
+                  "productDetails": {
+                    "memory": "8GB GDDR6",
+                    "coreClock": "2310 MHz",
+                    "boostClock": "2535 MHz",
+                    "powerConsumption": "160W"
+                  }
+                },
+                {
+                  "title": "AMD Radeon RX 7600 XT Super",
+                  "description": "Affordable graphics card with RDNA 3 architecture and high efficiency.",
+                  "category": "graphics cards",
+                  "brand": "AMD",
+                  "image": "https://asset.msi.com/resize/image/global/product/product_1684986580ff77e1e64e55885666abf19ec64cedbb.png62405b38c58fe0f07fcef2367d8a9ba1/600.png",
+                  "price": 7000,
+                  "discount": 12,
+                  "additionalInformation": "Perfect for budget-conscious gamers who need solid performance.",
+                  "aboutThisItem": "The AMD Radeon RX 7600 XT Super features RDNA 3 architecture, high efficiency, and support for FidelityFX Super Resolution.",
+                  "productDetails": {
+                    "memory": "8GB GDDR6",
+                    "coreClock": "1755 MHz",
+                    "boostClock": "2700 MHz",
+                    "powerConsumption": "170W"
+                  }
+                },
+                {
+                  "title": "Intel Arc A580 Super",
+                  "description": "Mid-range graphics card with AI-enhanced upscaling and DirectX 12 support.",
+                  "category": "graphics cards",
+                  "brand": "Intel",
+                  "image": "https://www.fsi-embedded.jp/contents/uploads/2023/10/IntelArcA580OCEdition_03.png",
+                  "price": 7500,
+                  "discount": 15,
+                  "additionalInformation": "Designed for gamers and creators looking for AI-enhanced performance.",
+                  "aboutThisItem": "The Intel Arc A580 Super features AI-enhanced upscaling, DirectX 12 support, and XeSS technology for improved visuals.",
+                  "productDetails": {
+                    "memory": "8GB GDDR6",
+                    "coreClock": "2050 MHz",
+                    "boostClock": "2400 MHz",
+                    "powerConsumption": "225W"
+                  }
+                },
+                {
+                  "title": "NVIDIA GeForce RTX 4070 Ti Super",
+                  "description": "High-performance graphics card with advanced ray tracing and DLSS 3.",
+                  "category": "graphics cards",
+                  "brand": "NVIDIA",
+                  "image": "https://hardwaretimes.com/wp-content/uploads/2023/01/4070Ti_X3_OC_set.png",
+                  "price": 8500,
+                  "discount": 10,
+                  "additionalInformation": "Perfect for gamers who need high frame rates and stunning visuals.",
+                  "aboutThisItem": "The NVIDIA GeForce RTX 4070 Ti Super features advanced ray tracing, DLSS 3, and a powerful cooling system.",
+                  "productDetails": {
+                    "memory": "12GB GDDR6X",
+                    "coreClock": "1920 MHz",
+                    "boostClock": "2475 MHz",
+                    "powerConsumption": "200W"
+                  }
+                },
+                {
+                  "title": "AMD Radeon RX 7700 XT Super",
+                  "description": "Powerful graphics card with RDNA 3 architecture and high-speed memory.",
+                  "category": "graphics cards",
+                  "brand": "AMD",
+                  "image": "https://tweakers.net/i/MWsR3kBw8sLH1-VQlicUyP1Qg-U=/i/2006076436.png",
+                  "price": 9000,
+                  "discount": 12,
+                  "additionalInformation": "Ideal for gamers who need high-speed memory and smooth performance.",
+                  "aboutThisItem": "The AMD Radeon RX 7700 XT Super features RDNA 3 architecture, high-speed memory, and support for FidelityFX Super Resolution.",
+                  "productDetails": {
+                    "memory": "12GB GDDR6",
+                    "coreClock": "1800 MHz",
+                    "boostClock": "2600 MHz",
+                    "powerConsumption": "230W"
+                  }
+                },
+                    {
+                      "title": "Xbox Elite Wireless Controller Series 2",
+                      "description": "High-performance wireless controller with adjustable tension thumbsticks and interchangeable paddles.",
+                      "category": "controllers",
+                      "brand": "Microsoft",
+                      "image": "https://api.spectrumcustomizer.com/api/assets/generated/recipeset/readable/7XRHXCP3/view/north",
+                      "price": 5999,
+                      "discount": 10,
+                      "additionalInformation": "Ideal for competitive gamers who need precision and customization.",
+                      "aboutThisItem": "The Xbox Elite Wireless Controller Series 2 features adjustable tension thumbsticks, interchangeable paddles, and a rechargeable battery for extended gaming sessions.",
+                      "productDetails": {
+                        "connectivity": [
+                          "Wireless",
+                          "Bluetooth",
+                          "USB-C"
+                        ],
+                        "compatibility": [
+                          "Xbox",
+                          "PC"
+                        ],
+                        "batteryLife": "Up to 40 hours",
+                        "buttons": "Customizable"
+                      }
+                    },
+                    {
+                      "title": "Sony DualSense Wireless Controller",
+                      "description": "Next-gen PlayStation controller with haptic feedback and adaptive triggers.",
+                      "category": "controllers",
+                      "brand": "Sony",
+                      "image": "https://pngpix.com/images/hd/dualsense-wireless-controller-png-aia-44z88j1pm21thdw0.jpg",
+                      "price": 4999,
+                      "discount": 12,
+                      "additionalInformation": "Perfect for immersive gaming with advanced haptic feedback and adaptive triggers.",
+                      "aboutThisItem": "The Sony DualSense Wireless Controller features haptic feedback, adaptive triggers, and a built-in microphone for enhanced gaming experiences.",
+                      "productDetails": {
+                        "connectivity": [
+                          "Wireless",
+                          "Bluetooth",
+                          "USB-C"
+                        ],
+                        "compatibility": [
+                          "PlayStation 5",
+                          "PC"
+                        ],
+                        "batteryLife": "Up to 12 hours",
+                        "buttons": "Standard PlayStation layout"
+                      }
+                    },
+                    {
+                      "title": "Nintendo Switch Pro Controller",
+                      "description": "Ergonomic wireless controller with motion controls and HD rumble.",
+                      "category": "controllers",
+                      "brand": "Nintendo",
+                      "image": "https://www.pinclipart.com/picdir/big/531-5311392_nintendo-switch-pro-controller-game-controller-clipart.png",
+                      "price": 2999,
+                      "discount": 15,
+                      "additionalInformation": "Designed for comfortable gaming with motion controls and HD rumble.",
+                      "aboutThisItem": "The Nintendo Switch Pro Controller features ergonomic design, motion controls, and HD rumble for immersive gameplay.",
+                      "productDetails": {
+                        "connectivity": [
+                          "Wireless",
+                          "Bluetooth",
+                          "USB-C"
+                        ],
+                        "compatibility": [
+                          "Nintendo Switch"
+                        ],
+                        "batteryLife": "Up to 40 hours",
+                        "buttons": "Standard Nintendo layout"
+                      }
+                    },
+                    {
+                      "title": "Razer Wolverine V2",
+                      "description": "Wired gaming controller with extra programmable buttons and ergonomic grip.",
+                      "category": "controllers",
+                      "brand": "Razer",
+                      "image": "https://cdn.inet.se/product/688x386/6610509_10.png",
+                      "price": 3999,
+                      "discount": 10,
+                      "additionalInformation": "Perfect for competitive gaming with extra programmable buttons and ergonomic grip.",
+                      "aboutThisItem": "The Razer Wolverine V2 features extra programmable buttons, ergonomic grip, and mecha-tactile action buttons for precise control.",
+                      "productDetails": {
+                        "connectivity": [
+                          "Wired",
+                          "USB"
+                        ],
+                        "compatibility": [
+                          "Xbox",
+                          "PC"
+                        ],
+                        "batteryLife": "N/A",
+                        "buttons": "Extra programmable buttons"
+                      }
+                    },
+                    {
+                      "title": "Logitech F310 Gamepad",
+                      "description": "Affordable wired gamepad with customizable controls and ergonomic design.",
+                      "category": "controllers",
+                      "brand": "Logitech",
+                      "image": "https://img.evetech.co.za/repository/components/logitech-f310-gamepad-600px-v1.png",
+                      "price": 1999,
+                      "discount": 8,
+                      "additionalInformation": "Ideal for budget-conscious gamers who need a reliable wired controller.",
+                      "aboutThisItem": "The Logitech F310 Gamepad features customizable controls, ergonomic design, and plug-and-play compatibility.",
+                      "productDetails": {
+                        "connectivity": [
+                          "Wired",
+                          "USB"
+                        ],
+                        "compatibility": [
+                          "PC"
+                        ],
+                        "batteryLife": "N/A",
+                        "buttons": "Standard layout"
+                      }
+                    },
+                    {
+                      "title": "Scuf Instinct Pro",
+                      "description": "High-performance wireless controller with customizable paddles and instant triggers.",
+                      "category": "controllers",
+                      "brand": "Scuf",
+                      "image": "https://scufgaming.com/media/catalog/product/cache/62b9f9c45840069c7c0d99900fb142d1/i/n/instinct_pro_losangelesthieves_cdl_threequarters_xbox_series_x_controller_750x750.png",
+                      "price": 6499,
+                      "discount": 10,
+                      "additionalInformation": "Ideal for competitive gamers who need precision and customization.",
+                      "aboutThisItem": "The Scuf Instinct Pro features customizable paddles, instant triggers, and ergonomic grip for enhanced gameplay.",
+                      "productDetails": {
+                        "connectivity": [
+                          "Wireless",
+                          "Bluetooth",
+                          "USB-C"
+                        ],
+                        "compatibility": [
+                          "Xbox",
+                          "PC"
+                        ],
+                        "batteryLife": "Up to 30 hours",
+                        "buttons": "Customizable paddles"
+                      }
+                    },
+                    {
+                      "title": "Sony DualShock 4 Wireless Controller",
+                      "description": "Classic PlayStation controller with precise controls and built-in touchpad.",
+                      "category": "controllers",
+                      "brand": "Sony",
+                      "image": "https://www.seekpng.com/png/full/167-1670070_playstation-4-controller-png.png",
+                      "price": 2999,
+                      "discount": 12,
+                      "additionalInformation": "Perfect for PlayStation gamers who need a reliable and responsive controller.",
+                      "aboutThisItem": "The Sony DualShock 4 Wireless Controller features precise controls, a built-in touchpad, and motion sensors for immersive gameplay.",
+                      "productDetails": {
+                        "connectivity": [
+                          "Wireless",
+                          "Bluetooth",
+                          "USB"
+                        ],
+                        "compatibility": [
+                          "PlayStation 4",
+                          "PC"
+                        ],
+                        "batteryLife": "Up to 8 hours",
+                        "buttons": "Standard PlayStation layout"
+                      }
+                    },
+                    {
+                      "title": "Nintendo Joy-Con Pair",
+                      "description": "Versatile controllers with motion controls and HD rumble for Nintendo Switch.",
+                      "category": "controllers",
+                      "brand": "Nintendo",
+                      "image": "https://s1.thcdn.com/design-assets/products/11396094/pic1.png",
+                      "price": 4999,
+                      "discount": 15,
+                      "additionalInformation": "Designed for flexible gaming with detachable controllers and motion controls.",
+                      "aboutThisItem": "The Nintendo Joy-Con Pair features motion controls, HD rumble, and detachable design for multiplayer gaming.",
+                      "productDetails": {
+                        "connectivity": [
+                          "Wireless",
+                          "Bluetooth"
+                        ],
+                        "compatibility": [
+                          "Nintendo Switch"
+                        ],
+                        "batteryLife": "Up to 20 hours",
+                        "buttons": "Standard Nintendo layout"
+                      }
+                    },
+                    {
+                      "title": "Razer Raiju Ultimate",
+                      "description": "Premium wireless gaming controller with extra programmable buttons and RGB lighting.",
+                      "category": "controllers",
+                      "brand": "Razer",
+                      "image": "https://joystickterrivel.com.br/wp-content/uploads/2018/08/Razer-Raiju-Ultimate-05-1024x816.png",
+                      "price": 5999,
+                      "discount": 10,
+                      "additionalInformation": "Perfect for competitive gaming with extra programmable buttons and ergonomic grip.",
+                      "aboutThisItem": "The Razer Raiju Ultimate features extra programmable buttons, ergonomic grip, and customizable RGB lighting.",
+                      "productDetails": {
+                        "connectivity": [
+                          "Wireless",
+                          "Bluetooth",
+                          "USB-C"
+                        ],
+                        "compatibility": [
+                          "PlayStation 4",
+                          "PC"
+                        ],
+                        "batteryLife": "Up to 12 hours",
+                        "buttons": "Extra programmable buttons"
+                      }
+                    },
+                    {
+                      "title": "Logitech G923 Racing Wheel",
+                      "description": "Advanced racing wheel with force feedback and responsive pedals.",
+                      "category": "controllers",
+                      "brand": "Logitech",
+                      "image": "https://resource.logitech.com/content/dam/gaming/en/products/drivingforce/g920-gallery-1-2.png",
+                      "price": 7999,
+                      "discount": 8,
+                      "additionalInformation": "Ideal for racing enthusiasts who need realistic force feedback and precision control.",
+                      "aboutThisItem": "The Logitech G923 Racing Wheel features force feedback, responsive pedals, and a premium build for immersive racing experiences.",
+                      "productDetails": {
+                        "connectivity": [
+                          "Wired",
+                          "USB"
+                        ],
+                        "compatibility": [
+                          "Xbox",
+                          "PlayStation",
+                          "PC"
+                        ],
+                        "batteryLife": "N/A",
+                        "buttons": "Standard racing layout"
+                      }
+                    },
+                    {
+                      "title": "Scuf Reflex Pro",
+                      "description": "High-performance wireless controller with customizable paddles and instant triggers.",
+                      "category": "controllers",
+                      "brand": "Scuf",
+                      "image": "https://scufgaming.com/media/catalog/product/cache/62b9f9c45840069c7c0d99900fb142d1/r/e/reflex_pro_cdl24_league_front_playstation_con_anonymous.png",
+                      "price": 6499,
+                      "discount": 10,
+                      "additionalInformation": "Ideal for competitive gamers who need precision and customization.",
+                      "aboutThisItem": "The Scuf Reflex Pro features customizable paddles, instant triggers, and ergonomic grip for enhanced gameplay.",
+                      "productDetails": {
+                        "connectivity": [
+                          "Wireless",
+                          "Bluetooth",
+                          "USB-C"
+                        ],
+                        "compatibility": [
+                          "PlayStation 5",
+                          "PC"
+                        ],
+                        "batteryLife": "Up to 30 hours",
+                        "buttons": "Customizable paddles"
+                      }
+                    },
+                    {
+                      "title": "Sony DualShock 4 Wireless Controller",
+                      "description": "Classic PlayStation controller with precise controls and built-in touchpad.",
+                      "category": "controllers",
+                      "brand": "Sony",
+                      "image": "https://www.freeiconspng.com/thumbs/ps4-controller-png/playstation4-controller-png-17.png",
+                      "price": 2999,
+                      "discount": 12,
+                      "additionalInformation": "Perfect for PlayStation gamers who need a reliable and responsive controller.",
+                      "aboutThisItem": "The Sony DualShock 4 Wireless Controller features precise controls, a built-in touchpad, and motion sensors for immersive gameplay.",
+                      "productDetails": {
+                        "connectivity": [
+                          "Wireless",
+                          "Bluetooth",
+                          "USB"
+                        ],
+                        "compatibility": [
+                          "PlayStation 4",
+                          "PC"
+                        ],
+                        "batteryLife": "Up to 8 hours",
+                        "buttons": "Standard PlayStation layout"
+                      }
+                    },
+                    {
+                      "title": "Nintendo Joy-Con Pair",
+                      "description": "Versatile controllers with motion controls and HD rumble for Nintendo Switch.",
+                      "category": "controllers",
+                      "brand": "Nintendo",
+                      "image": "https://www.pngkit.com/png/full/23-231071_joycon01-nintendo-switch-joy-con.png",
+                      "price": 4999,
+                      "discount": 15,
+                      "additionalInformation": "Designed for flexible gaming with detachable controllers and motion controls.",
+                      "aboutThisItem": "The Nintendo Joy-Con Pair features motion controls, HD rumble, and detachable design for multiplayer gaming.",
+                      "productDetails": {
+                        "connectivity": [
+                          "Wireless",
+                          "Bluetooth"
+                        ],
+                        "compatibility": [
+                          "Nintendo Switch"
+                        ],
+                        "batteryLife": "Up to 20 hours",
+                        "buttons": "Standard Nintendo layout"
+                      }
+                    },
+                    {
+                      "title": "Razer Raiju Ultimate",
+                      "description": "Premium wireless gaming controller with extra programmable buttons and RGB lighting.",
+                      "category": "controllers",
+                      "brand": "Razer",
+                      "image": "https://th.bing.com/th/id/R.cda82b121f5f51adac7d03cd32549167?rik=pp2%2fXHjNsInpyg&riu=http%3a%2f%2fjoystickterrivel.com.br%2fwp-content%2fuploads%2f2018%2f08%2fRazer-Raiju-Ultimate-02.png&ehk=SAVfR6Lqv568VlEsyOtFiIuIw9QjlPnPtwHIYkB7BRQ%3d&risl=&pid=ImgRaw&r=0",
+                      "price": 5999,
+                      "discount": 10,
+                      "additionalInformation": "Perfect for competitive gaming with extra programmable buttons and ergonomic grip.",
+                      "aboutThisItem": "The Razer Raiju Ultimate features extra programmable buttons, ergonomic grip, and customizable RGB lighting.",
+                      "productDetails": {
+                        "connectivity": [
+                          "Wireless",
+                          "Bluetooth",
+                          "USB-C"
+                        ],
+                        "compatibility": [
+                          "PlayStation 4",
+                          "PC"
+                        ],
+                        "batteryLife": "Up to 12 hours",
+                        "buttons": "Extra programmable buttons"
+                      }
+                    },
+                    {
+                      "title": "Logitech G923 Racing Wheel",
+                      "description": "Advanced racing wheel with force feedback and responsive pedals.",
+                      "category": "controllers",
+                      "brand": "Logitech",
+                      "image": "https://nabbi.it/wp-content/uploads/2022/09/Logitech-G-PRO-Racing-Wheel-.png",
+                      "price": 7999,
+                      "discount": 8,
+                      "additionalInformation": "Ideal for racing enthusiasts who need realistic force feedback and precision control.",
+                      "aboutThisItem": "The Logitech G923 Racing Wheel features force feedback, responsive pedals, and a premium build for immersive racing experiences.",
+                      "productDetails": {
+                        "connectivity": [
+                          "Wired",
+                          "USB"
+                        ],
+                        "compatibility": [
+                          "Xbox",
+                          "PlayStation",
+                          "PC"
+                        ],
+                        "batteryLife": "N/A",
+                        "buttons": "Standard racing layout"
+                      }
+                    },
+                    {
+                      "title": "PowerA Fusion Pro 2",
+                      "description": "Advanced wired gaming controller with customizable paddles and ergonomic grip.",
+                      "category": "controllers",
+                      "brand": "PowerA",
+                      "image": "https://www.nintendoswitch.pl/wp-content/uploads/2021/04/1515672-01_NSW_FUSION-Pro_WL-Controller_4_ANLV_P.png",
+                      "price": 3999,
+                      "discount": 10,
+                      "additionalInformation": "Ideal for competitive gamers who need precision and customization.",
+                      "aboutThisItem": "The PowerA Fusion Pro 2 features customizable paddles, ergonomic grip, and responsive triggers for enhanced gameplay.",
+                      "productDetails": {
+                        "connectivity": [
+                          "Wired",
+                          "USB"
+                        ],
+                        "compatibility": [
+                          "Xbox",
+                          "PC"
+                        ],
+                        "batteryLife": "N/A",
+                        "buttons": "Customizable paddles"
+                      }
+                    },
+                    {
+                      "title": "Sony DualSense Edge",
+                      "description": "Premium PlayStation controller with ultra-customizable controls and adaptive triggers.",
+                      "category": "controllers",
+                      "brand": "Sony",
+                      "image": "https://www.pricerunner.com/product/3197611744/Sony-PlayStation-5-DualSense-Edge-Wireless-Controller-Midnight-Black.jpg",
+                      "price": 6999,
+                      "discount": 12,
+                      "additionalInformation": "Perfect for PlayStation gamers who need a high-performance customizable controller.",
+                      "aboutThisItem": "The Sony DualSense Edge features adaptive triggers, customizable controls, and a built-in microphone for immersive gameplay.",
+                      "productDetails": {
+                        "connectivity": [
+                          "Wireless",
+                          "Bluetooth",
+                          "USB-C"
+                        ],
+                        "compatibility": [
+                          "PlayStation 5",
+                          "PC"
+                        ],
+                        "batteryLife": "Up to 12 hours",
+                        "buttons": "Customizable layout"
+                      }
+                    },
+                    {
+                      "title": "Nintendo GameCube Controller",
+                      "description": "Classic wired controller with ergonomic design and responsive buttons.",
+                      "category": "controllers",
+                      "brand": "Nintendo",
+                      "image": "https://www.pikpng.com/pngl/b/74-746645_nintendo-gamecube-controller-gamecube-controller-png-clipart.png",
+                      "price": 2999,
+                      "discount": 15,
+                      "additionalInformation": "Designed for nostalgic gaming with a comfortable grip and responsive buttons.",
+                      "aboutThisItem": "The Nintendo GameCube Controller features an ergonomic design, responsive buttons, and a sturdy build for long-lasting use.",
+                      "productDetails": {
+                        "connectivity": [
+                          "Wired",
+                          "USB"
+                        ],
+                        "compatibility": [
+                          "Nintendo Switch",
+                          "GameCube"
+                        ],
+                        "batteryLife": "N/A",
+                        "buttons": "Standard GameCube layout"
+                      }
+                    },
+                    {
+                      "title": "Razer Kishi V2",
+                      "description": "Mobile gaming controller with ergonomic grip and ultra-low latency connection.",
+                      "category": "controllers",
+                      "brand": "Razer",
+                      "image": "https://thafd.bing.com/th/id/OIP.JaewNRr1lywCF4oUtsiFLgHaFj?rs=1&pid=ImgDetMain",
+                      "price": 4999,
+                      "discount": 10,
+                      "additionalInformation": "Perfect for mobile gamers who need precision and comfort.",
+                      "aboutThisItem": "The Razer Kishi V2 features ergonomic grip, ultra-low latency connection, and customizable buttons for enhanced mobile gaming.",
+                      "productDetails": {
+                        "connectivity": [
+                          "Wired",
+                          "USB-C"
+                        ],
+                        "compatibility": [
+                          "Android",
+                          "iOS"
+                        ],
+                        "batteryLife": "N/A",
+                        "buttons": "Customizable layout"
+                      }
+                    },
+                    {
+                      "title": "Logitech G Pro Wireless Controller",
+                      "description": "High-performance wireless gaming controller with ultra-responsive buttons.",
+                      "category": "controllers",
+                      "brand": "Logitech",
+                      "image": "https://th.bing.com/th/id/R.e8ba5467322f3a753f36820bbe2a349a?rik=8wtKc5HnnFiUCQ&riu=http%3a%2f%2fgaming.logitech.com%2fassets%2f53582%2ff710.png&ehk=MZGgrfgXZ5HX%2ftfcyQ2t%2b0GzWKAYxVFbhtKwk1cRHR0%3d&risl=&pid=ImgRaw&r=0",
+                      "price": 5999,
+                      "discount": 8,
+                      "additionalInformation": "Ideal for esports players who need ultra-responsive controls and precision.",
+                      "aboutThisItem": "The Logitech G Pro Wireless Controller features ultra-responsive buttons, ergonomic grip, and customizable triggers.",
+                      "productDetails": {
+                        "connectivity": [
+                          "Wireless",
+                          "Bluetooth",
+                          "USB-C"
+                        ],
+                        "compatibility": [
+                          "PC",
+                          "Xbox"
+                        ],
+                        "batteryLife": "Up to 30 hours",
+                        "buttons": "Customizable layout"
+                      }
+                    },
+                    {
+                      "title": "8BitDo Ultimate Wireless Controller",
+                      "description": "Retro-style wireless controller with customizable buttons and ergonomic design.",
+                      "category": "controllers",
+                      "brand": "8BitDo",
+                      "image": "https://static.swappa.com/media/product/8bitdo-ultimate-bluetooth-controller/8bitdo-ultimate-bluetooth-controller-01.png",
+                      "price": 3999,
+                      "discount": 10,
+                      "additionalInformation": "Ideal for retro gaming enthusiasts who need modern functionality.",
+                      "aboutThisItem": "The 8BitDo Ultimate Wireless Controller features customizable buttons, ergonomic grip, and Bluetooth connectivity.",
+                      "productDetails": {
+                        "connectivity": [
+                          "Wireless",
+                          "Bluetooth",
+                          "USB-C"
+                        ],
+                        "compatibility": [
+                          "PC",
+                          "Nintendo Switch"
+                        ],
+                        "batteryLife": "Up to 20 hours",
+                        "buttons": "Customizable layout"
+                      }
+                    },
+                    {
+                      "title": "SteelSeries Stratus Duo",
+                      "description": "High-performance wireless controller with ultra-low latency and ergonomic grip.",
+                      "category": "controllers",
+                      "brand": "SteelSeries",
+                      "image": "https://www.pikpng.com/pngl/b/409-4093744_steelseries-doubles-down-on-mobile-gaming-steelseries-stratus.png",
+                      "price": 4999,
+                      "discount": 12,
+                      "additionalInformation": "Perfect for PC and mobile gamers who need precision and comfort.",
+                      "aboutThisItem": "The SteelSeries Stratus Duo features ultra-low latency connection, ergonomic grip, and customizable buttons.",
+                      "productDetails": {
+                        "connectivity": [
+                          "Wireless",
+                          "Bluetooth",
+                          "USB-C"
+                        ],
+                        "compatibility": [
+                          "PC",
+                          "Android"
+                        ],
+                        "batteryLife": "Up to 20 hours",
+                        "buttons": "Customizable layout"
+                      }
+                    },
+                    {
+                      "title": "Hori Fighting Commander",
+                      "description": "Wired fighting game controller with six-button layout and ergonomic grip.",
+                      "category": "controllers",
+                      "brand": "Hori",
+                      "image": "https://th.bing.com/th/id/R.c6a623586785acf9d75b60056dcfc985?rik=GD9WozyUYiiK6w&riu=http%3a%2f%2fjuanminidiy.com%2fwp-content%2fuploads%2f2024%2f08%2fHORI-Fighting-Commander-OCTA-Street-Fighter-6-Juri-Edition-1024x576.png&ehk=P%2bt4mBc%2feeRxgXSy9EQrKRsBib5C6PjPXgEB1eOa%2bVw%3d&risl=&pid=ImgRaw&r=0",
+                      "price": 2999,
+                      "discount": 15,
+                      "additionalInformation": "Designed for fighting game enthusiasts who need precise controls.",
+                      "aboutThisItem": "The Hori Fighting Commander features a six-button layout, ergonomic grip, and responsive triggers.",
+                      "productDetails": {
+                        "connectivity": [
+                          "Wired",
+                          "USB"
+                        ],
+                        "compatibility": [
+                          "PlayStation",
+                          "PC"
+                        ],
+                        "batteryLife": "N/A",
+                        "buttons": "Six-button layout"
+                      }
+                    },
+                    {
+                      "title": "Razer Junglecat",
+                      "description": "Mobile gaming controller with ergonomic grip and ultra-low latency connection.",
+                      "category": "controllers",
+                      "brand": "Razer",
+                      "image": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MP_139464600/fee_786_587_png",
+                      "price": 4999,
+                      "discount": 10,
+                      "additionalInformation": "Perfect for mobile gamers who need precision and comfort.",
+                      "aboutThisItem": "The Razer Junglecat features ergonomic grip, ultra-low latency connection, and customizable buttons for enhanced mobile gaming.",
+                      "productDetails": {
+                        "connectivity": [
+                          "Wireless",
+                          "Bluetooth"
+                        ],
+                        "compatibility": [
+                          "Android"
+                        ],
+                        "batteryLife": "Up to 20 hours",
+                        "buttons": "Customizable layout"
+                      }
+                    },
+                    {
+                      "title": "Logitech G F710 Wireless Gamepad",
+                      "description": "Wireless gamepad with dual vibration feedback and ergonomic design.",
+                      "category": "controllers",
+                      "brand": "Logitech",
+                      "image": "https://resource.logitechg.com/w_692,c_limit,q_auto,f_auto,dpr_1.0/d_transparent.gif/content/dam/gaming/en/products/f710/f710-gallery-3.png?v=1",
+                      "price": 3999,
+                      "discount": 8,
+                      "additionalInformation": "Ideal for PC gamers who need a reliable wireless controller.",
+                      "aboutThisItem": "The Logitech G F710 Wireless Gamepad features dual vibration feedback, ergonomic grip, and plug-and-play compatibility.",
+                      "productDetails": {
+                        "connectivity": [
+                          "Wireless",
+                          "USB"
+                        ],
+                        "compatibility": [
+                          "PC"
+                        ],
+                        "batteryLife": "Up to 15 hours",
+                        "buttons": "Standard layout"
+                      }
+                    },
+                    {
+                      "title": "Thrustmaster T.16000M FCS",
+                      "description": "Advanced flight stick controller with precision sensors and ergonomic grip.",
+                      "category": "controllers",
+                      "brand": "Thrustmaster",
+                      "image": "https://cdn.shopify.com/s/files/1/0506/7184/5560/products/Hardware-T.16000M-FCS-SPACE-SIM-DUO_1200x1010.png?v=1618939403",
+                      "price": 5999,
+                      "discount": 10,
+                      "additionalInformation": "Perfect for flight simulation enthusiasts who need precision controls.",
+                      "aboutThisItem": "The Thrustmaster T.16000M FCS features precision sensors, ergonomic grip, and customizable buttons.",
+                      "productDetails": {
+                        "connectivity": [
+                          "Wired",
+                          "USB"
+                        ],
+                        "compatibility": [
+                          "PC"
+                        ],
+                        "batteryLife": "N/A",
+                        "buttons": "Customizable layout"
+                      }
+                    },
+                    {
+                      "title": "Hori Split Pad Pro",
+                      "description": "Ergonomic controller for Nintendo Switch with full-size buttons and responsive triggers.",
+                      "category": "controllers",
+                      "brand": "Hori",
+                      "image": "https://www.m4g.com.my/image/m4g/image/cache/data/all_product_images/product-3673/8beam3EW1668487639-1280x1280.png",
+                      "price": 3999,
+                      "discount": 12,
+                      "additionalInformation": "Designed for comfortable handheld gaming with full-size controls.",
+                      "aboutThisItem": "The Hori Split Pad Pro features full-size buttons, ergonomic grip, and responsive triggers.",
+                      "productDetails": {
+                        "connectivity": [
+                          "Wired",
+                          "USB"
+                        ],
+                        "compatibility": [
+                          "Nintendo Switch"
+                        ],
+                        "batteryLife": "N/A",
+                        "buttons": "Standard Nintendo layout"
+                      }
+                    },
+                    {
+                      "title": "GameSir X2 Pro",
+                      "description": "Mobile gaming controller with ultra-low latency and customizable buttons.",
+                      "category": "controllers",
+                      "brand": "GameSir",
+                      "image": "https://th.bing.com/th/id/R.241c4c0971ead9f4a17967e4f0d6b3f4?rik=hGVKTdkXX6T%2bKA&riu=http%3a%2f%2fcdn.shopify.com%2fs%2ffiles%2f1%2f2241%2f8433%2fproducts%2fX2Pro-XboxforAndroid__3__111_grande.png%3fv%3d1665475484&ehk=SGm%2biqUE6MU2kqvIYEcOL%2ftNA1UFVtcAl6zQ5SA2HGw%3d&risl=&pid=ImgRaw&r=0",
+                      "price": 4999,
+                      "discount": 10,
+                      "additionalInformation": "Perfect for mobile gamers who need precision and comfort.",
+                      "aboutThisItem": "The GameSir X2 Pro features ultra-low latency connection, ergonomic grip, and customizable buttons.",
+                      "productDetails": {
+                        "connectivity": [
+                          "Wired",
+                          "USB-C"
+                        ],
+                        "compatibility": [
+                          "Android",
+                          "iOS"
+                        ],
+                        "batteryLife": "N/A",
+                        "buttons": "Customizable layout"
+                      }
+                    },
+                    {
+                      "title": "PowerA Spectra Enhanced Wired Controller",
+                      "description": "Wired gaming controller with customizable RGB lighting and ergonomic grip.",
+                      "category": "controllers",
+                      "brand": "PowerA",
+                      "image": "https://www.accobrands.in/wp-content/uploads/2023/03/1510925206.png",
+                      "price": 2999,
+                      "discount": 15,
+                      "additionalInformation": "Designed for gamers who need customizable lighting and precision controls.",
+                      "aboutThisItem": "The PowerA Spectra Enhanced Wired Controller features customizable RGB lighting, ergonomic grip, and responsive triggers.",
+                      "productDetails": {
+                        "connectivity": [
+                          "Wired",
+                          "USB"
+                        ],
+                        "compatibility": [
+                          "Xbox",
+                          "PC"
+                        ],
+                        "batteryLife": "N/A",
+                        "buttons": "Standard layout"
+                      }
+                    },
+                    {
+                      "title": "8BitDo SN30 Pro+",
+                      "description": "Retro-style wireless controller with customizable buttons and ergonomic design.",
+                      "category": "controllers",
+                      "brand": "8BitDo",
+                      "image": "https://cdn-reichelt.de/bilder/web/xxl_ws/E910/8BIT_SN30PROSW_02.png",
+                      "price": 3999,
+                      "discount": 10,
+                      "additionalInformation": "Ideal for retro gaming enthusiasts who need modern functionality.",
+                      "aboutThisItem": "The 8BitDo SN30 Pro+ features customizable buttons, ergonomic grip, and Bluetooth connectivity.",
+                      "productDetails": {
+                        "connectivity": [
+                          "Wireless",
+                          "Bluetooth",
+                          "USB-C"
+                        ],
+                        "compatibility": [
+                          "PC",
+                          "Nintendo Switch"
+                        ],
+                        "batteryLife": "Up to 20 hours",
+                        "buttons": "Customizable layout"
+                      }
+                    }
+                  
+
+              
+          
+      
+]

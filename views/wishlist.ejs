@@ -1,0 +1,53 @@
+<% layout("layouts/boilerplate.ejs")%>
+<style>
+  .fa-trash{
+    font-size: 1rem;
+}
+#add-to-cart-btn,#Remove-btn{
+        background-color: #9AA6B2;
+        border-radius: 0.5rem;
+        margin-right: 1rem;
+        padding: 10px;
+}
+#button-div{
+  display: flex;
+  flex-wrap: wrap;
+}
+</style>
+<h1>Your Lists</h1>
+<hr>
+<% if(data==''){%>
+    <p>No wishlist items</p>
+<%}%>
+<%for(let list of data){%>
+    <div class="card mb-3 col-md-8" style="max-width: 80%;border: 0.5px solid black;border-radius: 1.5rem;box-shadow: 0 0.5rem 0.5rem 0;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="<%=list.image%>" class="img-fluid rounded-start" alt="Loading image...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title"><%=list.title%></h5>
+              <p class="card-text"><%=list.description%></p>
+              <% let mrp = list.price;
+                let discount = list.discount;
+                let discountprice = mrp*discount/100;
+                let price = mrp - discountprice;
+                let roundprice = price.toFixed(2);
+              %>
+                <p class="card-text"><b>₹<%=roundprice%></b>&nbsp;M.R.P :<S><%= list.price%></S>&nbsp;(<%= list.discount%>% off)</p>
+                <div id="button-div">
+                  <form action="/<%=list.category%>/wishlist/<%=list._id%>/delete?_method=DELETE" method="post">
+                    <button id="Remove-btn"><i class="fa-solid fa-trash"></i>  Remove from wish list</button>
+                </form>
+                <form action="/<%=list.category%>/cart/<%=list._id%>" method="post">
+                    <button id="add-to-cart-btn"><i style="font-size: 1rem;" class="fa-solid fa-cart-shopping"></i>
+                        Add to cart
+                    </button>
+                </form>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+<%}%>

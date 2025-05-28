@@ -1,0 +1,36 @@
+<% if(success && success.length){ %>
+    <div class="alert alert-success alert-dismissible fade show col-6 offset-3" id="alert" role="alert">
+        <%= success %>
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+      </div>
+<% } %>
+<% if(error && error.length){ %>
+    <div class="alert alert-danger alert-dismissible fade show col-6 offset-3" id="alert" role="alert">
+        <%= error %>
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+      </div>
+<% } %>
+
+<style>
+  @keyframes fadeOut {
+    0% { opacity: 1; }
+    100% { opacity: 0; }
+}
+
+#alert {
+    animation: fadeOut 3s ease-in-out forwards;
+}
+
+#alert {
+    position: absolute;
+    top: 1rem;
+    left: 5%;
+    z-index: 5;
+    
+}
+</style>
+<script>
+    setTimeout(function() {
+    $("#alert").attr("aria-label", "close");
+}, 3000); // 3 seconds
+</script>

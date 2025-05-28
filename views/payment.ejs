@@ -1,0 +1,64 @@
+<%layout("/layouts/boilerplate.ejs")%>
+<style>
+    #addressdiv,#paymentdiv,#shippingdiv{
+        width: 100%;
+        background-color: rgb(245, 245, 245);
+        margin-bottom: 1rem;
+        padding: 1rem;
+    }
+    .cards{
+        font-size: 2rem;
+    }
+    .paymentmethods{
+        margin-bottom: 1rem;
+    }
+    #payment-btn{
+        background-color: #9AA6B2;
+    border-radius: 0.5rem;
+    margin: 1rem;
+    margin-left: 0;
+    padding: 5px;
+    }
+</style>
+<div id="mainDiv">
+    <div id="addressdiv">
+        <h4>Delivery to <%= data.fullname %></h4>
+        <P><%=data.flat%>, <%=data.village%>, <%=data.city%>, <%=data.state%>, <%=data.pincode%>, india</P>
+    </div>
+    <div id="paymentdiv">
+        <form action="/E-commerce/user/buy/step-3/shippingdetails" method="get">
+            <h4>Payment Method</h4>
+            <div class="form-check paymentmethods">
+                <input class="form-check-input" type="radio" name="flexRadioDisabled" id="flexRadioDisabled" disabled>
+                <label class="form-check-label" for="flexRadioDisabled">
+                    Credit or Debit card<br>
+                    <i class="fa-brands fa-cc-visa cards">&nbsp;</i><i class="fa-solid fa-credit-card cards">&nbsp;</i><i class="fa-brands fa-cc-mastercard cards"></i>
+
+                </label>
+          </div>
+          <div class="form-check paymentmethods">
+                <input class="form-check-input" type="radio" name="flexRadioDisabled" id="flexRadioCheckedDisabled" disabled>
+                <label class="form-check-label" for="flexRadioCheckedDisabled">
+                    Net banking
+                </label>
+          </div>
+          <div class="form-check paymentmethods">
+                <input class="form-check-input" type="radio" name="flexRadioDisabled" id="flexRadioDisabled" disabled>
+                <label class="form-check-label" for="flexRadioDisabled">
+                    other UPI Apps
+                </label>
+          </div>
+          <div class="form-check paymentmethods">
+                <input class="form-check-input" type="radio" name="flexRadioDisabled" id="flexRadioCheckedDisabled" checked >
+                <label class="form-check-label" for="flexRadioCheckedDisabled">
+                    Cash on Delivery/Pay on delivery
+                </label>
+          </div>
+          <button type="submit" id="payment-btn">Use this payment method</button>
+        </form>
+    </div>
+    <div id="shippingdiv">
+        <h4>Review items and shipping</h4>
+    </div>
+
+</div>
