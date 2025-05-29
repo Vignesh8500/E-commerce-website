@@ -1,4 +1,7 @@
 {
+  "engines": {
+    "node": "20.17.0"
+  },
   "name": "major-e-commerce",
   "version": "1.0.0",
   "description": "\"E-commerce for pc components\"",

@@ -75,7 +75,7 @@ app.listen(8080,function(){
 //     console.log("request recevied");
 // });
 //home page
-app.get("/E-commerce/homepage/allcategories/monitors/keyboards/controllers/mouse/graphiccards",wrapAsync(async(req,res)=>{
+app.get("/",wrapAsync(async(req,res)=>{
 
     try{res.render("home.ejs");}catch(err){console.log(err)}
     
