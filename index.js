@@ -281,17 +281,17 @@ app.post("/E-commerce/authentication/signup", wrapAsync(async (req, res) => {
                     return next(err);
                 }
                 req.flash("success", "Welcome to E-commerce!");
-                res.redirect("/E-commerce/homepage/allcategories/monitors/keyboards/controllers/mouse/graphiccards"); 
+                res.redirect("/"); 
             });
         } catch (err) {
             console.error("Email Validation API Error:", err.message);
             req.flash("error", "Email validation failed. Please try again.");
-            res.redirect("/E-commerce/homepage/allcategories/monitors/keyboards/controllers/mouse/graphiccards");
+            res.redirect("/");
         }
     } catch (e) {
         console.error("Signup Error:", e.message);
         req.flash("error", e.message);
-        res.redirect("/E-commerce/homepage/allcategories/monitors/keyboards/controllers/mouse/graphiccards");
+        res.redirect("/");
     }
 }));
 //login
@@ -301,7 +301,7 @@ app.get("/E-commerce/authentication/login",wrapAsync(async(req,res)=>{
 app.post("/E-commerce/authentication/login",sessionUrl,passport.authenticate("local",{failureRedirect : "/E-commerce/authentication/login", failureFlash : true}),async(req,res)=>{
     req.flash("success","Welcome back");
     req.session.username = req.body.username;
-    let redirectUrl = res.locals.redirectUrl || "/E-commerce/homepage/allcategories/monitors/keyboards/controllers/mouse/graphiccards";
+    let redirectUrl = res.locals.redirectUrl || "/";
     res.redirect(redirectUrl);
     
 });
@@ -313,7 +313,7 @@ app.get("/E-commerce/authentication/logout",wrapAsync(async(req,res,next)=>{
             return next(err);
         }
         req.flash("success","successfully logged out");
-        res.redirect("/E-commerce/homepage/allcategories/monitors/keyboards/controllers/mouse/graphiccards");
+        res.redirect("/");
     });
 }));
 //wishlist
